@@ -1,3 +1,9 @@
+background-color:#C0C0C0;
+
+.mainbody {
+	border:medium, black, solid;
+}
+
 .heading h1 {
 	font-family: 'Source Sans Pro', Comic Sans;
 	font-size: 64px;
@@ -10,7 +16,7 @@
 
 .heading p {
 	font-family: 'Source Sans Pro', Comic Sans;
-	font-size: 36px;
+	font-size: 28px;
 	text-align: center;
 	padding-left: auto;
 	padding-right: auto;
