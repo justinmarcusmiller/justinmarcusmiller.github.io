@@ -1,21 +1,31 @@
 body {
 	max-width:1000px;
-	border:thin black solid;
 	margin:auto;
 	}
-
-
-.heading h1 {
-	font-family: 'Source Sans Pro', Comic Sans;
-	font-size: 72px;
-	text-align: center;
-	padding-left: auto;
-	padding-right: auto;
-	font-weight: bold;
 	
+.logo {
+	float:left
+}	
+
+.nav {
+	float:inherit;
+	text-align:right;
 }
 
-.heading p {
+.heading {
+    float:clear;
+	font-family: 'Source Sans Pro', Comic Sans;
+	font-size: 36px;
+	color:white;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: auto;
+	padding-right: auto;
+	background-color:#458A42
+
+}
+
+.subheading {
 	font-family: 'Source Sans Pro', Comic Sans;
 	font-size: 36px;
 	text-align: center;
