@@ -1,12 +1,18 @@
 .heading h1 {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Sans Pro', Comic Sans;
 	font-size: 64px;
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
+	padding-left: auto;
+	padding-right: auto;
 	font-weight: bold;
+	
 }
 
 .heading p {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Sans Pro', Comic Sans;
 	font-size: 36px;
+	text-align: center;
+	padding-left: auto;
+	padding-right: auto;
+
 }
