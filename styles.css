@@ -1,8 +1,9 @@
-
-
-body {border:thin black solid;
-
+body {
+	max-width:1000px;
+	border:thin black solid;
+	margin:auto;
 	}
+
 
 .heading h1 {
 	font-family: 'Source Sans Pro', Comic Sans;
@@ -21,5 +22,4 @@ body {border:thin black solid;
 	padding-left: auto;
 	padding-right: auto;
 
-}
 }
