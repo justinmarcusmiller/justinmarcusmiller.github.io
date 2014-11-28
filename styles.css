@@ -1,0 +1,12 @@
+. heading h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 64px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+}
+
+. heading p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 36px;
+}
