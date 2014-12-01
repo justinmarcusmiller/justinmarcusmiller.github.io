@@ -41,6 +41,7 @@ body {
 
 .app1 {
 	width:30%;
+	float:left;
 }
 
 .app2 {
@@ -49,10 +50,12 @@ body {
 
 .app3 {
 	width:30%;
+	float:right;
 }
 
 .app4 {
 	width:30%;
+	float:left;
 }
 
 .app5 {
@@ -61,4 +64,5 @@ body {
 
 .app6 {
 	width:30%;
+	float:right;
 }
