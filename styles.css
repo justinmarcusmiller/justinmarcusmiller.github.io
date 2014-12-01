@@ -46,29 +46,30 @@ body {
 
 .app2 {
 	width:30%;
-	float:right;
-	clear:right;
+	float:left;
+	clear:both;
 }
 
 .app3 {
 	width:30%;
-	float:right;
-	clear:right;
+	float:left;
+	clear:both;
 }
 
 .app4 {
 	width:30%;
 	float:left;
+	clear:both;
 }
 
 .app5 {
 	width:30%;
-	float:right;
-	clear:right;
+	float:left
+	clear:both;
 }
 
 .app6 {
 	width:30%;
-	float:right;
-	clear:right;
+	float:left;
+	clear:both;
 }
