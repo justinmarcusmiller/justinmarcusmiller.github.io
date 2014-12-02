@@ -40,20 +40,20 @@ body {
 }
 
 .app1 {
-	width:30%;
-	float:left;
+	width: 30%;
+	float: left;
 }
 
 .app2 {
-	width:30%;
-	float:left;
-	clear:both;
+	width: 30%;
+	float: left;
+	clear: right;
 }
 
 .app3 {
-	width:30%;
-	float:left;
-	clear:both;
+	width: 30%;
+	float: left;
+	clear: right;
 }
 
 .app4 {
@@ -63,13 +63,14 @@ body {
 }
 
 .app5 {
-	width:30%;
+	width: 30%;
 	float:left
 	clear:both;
+	clear: right;
+	float: left;
 }
 
 .app6 {
-	width:30%;
-	float:left;
-	clear:both;
-}
+	width: 30%;
+	float: left;
+	clear: right;
