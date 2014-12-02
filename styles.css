@@ -58,13 +58,11 @@ body {
 .app4 {
 	width: 30px;
 	float:left;
-	clear:both;
 }
 
 .app5 {
 	width: 30px;
 	float:left
-	clear:both;
 	clear: right;
 	float: left;
 }
