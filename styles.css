@@ -9,11 +9,11 @@ body {
 	text-align: center;
 	width: 150px;
 	margin-right: 15px;
+	border-right: thin black solid;
 }
 
 .name {
 	font-size: large;
-	border-right: thin black solid;
 }
 
 .main {
