@@ -14,6 +14,7 @@ body {
 
 .name {
 	font-size: large;
+	border-bottom: thin black solid;
 }
 
 .main {
@@ -27,5 +28,5 @@ body {
 
 .sitename {
 	font-size:small;
-	border-bottom: thin black solid;
+
 }
