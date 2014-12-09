@@ -1,16 +1,16 @@
 <?
 
-$nav=""
+$nav="
  <div class="nav">
  	<div class="name">
- Justin Miller
- <br>
- 	<div class="sitename">
- 	Justinmarcusmiller.com
-	</div>
- <br>
- </div>
- <br>
+ 	Justin Miller
+	 <br>
+	 </div>
+ 		<div class="sitename">
+ 		Justinmarcusmiller.com
+		</div>
+<br>
+<br>
  
 <a href="index.html">Home</a><br><br><br><br>
 
