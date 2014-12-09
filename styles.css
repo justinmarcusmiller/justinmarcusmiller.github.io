@@ -1,7 +1,6 @@
 body {
 	font-size: medium;
 	font-family: verdana;
-	background-color:#CCCCCC
 }
 	
 .nav {
@@ -9,13 +8,12 @@ body {
 	float: left;
 	text-align: center;
 	width: 150px;
-	background-color: #C0C0C0;
 	margin-right: 15px;
 }
 
 .name {
 	font-size: large;
-	border-bottom: thin black solid;
+	border-right: thin black solid;
 }
 
 .main {
