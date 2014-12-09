@@ -1,3 +1,6 @@
+<?
+
+$nav=""
  <div class="nav">
  	<div class="name">
  Justin Miller
@@ -28,3 +31,5 @@
 <a href="http://steamcommunity.com/id/RadioactiveTuna/">Steam</a><br><br>
 
 </div>
+";
+?>
