@@ -1,6 +1,4 @@
- <body>
- 
- <div class="nav">
+<div class="nav">
  	<div class="name">
  	Justin Miller
 	 
