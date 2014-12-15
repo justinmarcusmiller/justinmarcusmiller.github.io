@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE php>
 <html>
   <head>
     <meta content="en-us" http-equiv="Content-Language">
