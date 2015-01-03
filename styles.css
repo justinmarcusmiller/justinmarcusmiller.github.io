@@ -39,5 +39,8 @@ a:hover {
 
 .sitename {
 	font-size:small;
+}
 
+.navlist {
+	display:block;
 }
