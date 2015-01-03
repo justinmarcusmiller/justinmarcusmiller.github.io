@@ -14,11 +14,9 @@ a:hover {
 }
 	
 .nav {
-	padding: 15px;
 	float: left;
 	text-align: center;
 	width: 150px;
-	margin-right: 15px;
 	border-right: thin black solid;
 	background-color:#4CAF50;
 }
