@@ -1,0 +1,46 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+#logo img {
+	max-width: 50%;
+}
+
+#name {
+	text-align: right;
+	margin-right: 10px;
+}
+
+#title {
+	text-align: right;
+	margin-right: 10px;
+}
+
+#worktitle {
+	text-align: center;
+}
+
+#mainpic img {
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+}
+
+.workpic {
+	margin-left: auto;
+	margin-right: auto;
+	width:33.33%;
+}
+
+.workpic img {
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+}
+
+.workdesc {
+	margin-left: auto;
+	margin-right: auto;
+	width:33.33%;
+	text-align: center;
+}
