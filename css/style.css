@@ -46,11 +46,6 @@ body {
 }
 
 @media all and (max-width: 600px) {
-	.work {
-		margin-right: auto;
-		margin-left: auto;
-		width:100%;
-	}
 
 	.col-4 {
 		width: 100%;
