@@ -29,7 +29,7 @@ body {
 .workpic {
 	margin-left: auto;
 	margin-right: auto;
-	width:100%;
+	width:150px;
 }
 
 .workpic img {
@@ -49,10 +49,6 @@ body {
 	.work {
 		margin-right: auto;
 		margin-left: auto;
-		width:100%;
-	}
-
-	.workpic {
 		width:100%;
 	}
 
