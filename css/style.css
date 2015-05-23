@@ -121,3 +121,28 @@ body {
     }
 
 
+
+#contactinfo {
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+#contactinfo a {
+    color:grey;   
+    margin-left: 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    transition-property: color, background-color, border-color;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    border: 1px solid grey;
+    padding: 5px 10px;
+    max-width: 80px;
+}
+
+#contactinfo a:hover{
+    color: green;
+    border-color: green;
+    background-color: lightgray;
+}
