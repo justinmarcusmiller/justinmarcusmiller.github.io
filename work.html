@@ -6,40 +6,68 @@
 		<title>Justin Miller</title>
 		<link href="normalize-css.googlecode.com/svn/trunk/normalize.css" rel="stylesheet" type="text/css">
 		<link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/grid.css" rel="stylesheet" type="text/css">
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
-    <!--Nav-->
-        <div id="nav">
-            <div id="navcontainer">
-                <div id="links">
-                    <a href="index.html">ABOUT</a>
-                    <a href="work.html">PORTFOLIO</a>
-                    <a href="contact.html">CONTACT</a>
-                </div>
-                <div id="nametitle">
-                    <h1>
-                        <a href="index.html">Justin Miller</a>
-                        <span class="divider">|</span>
-                        <i>web design</i>
-                    </h1>
-                </div>
-            </div>
-        </div>
-	<!--Intro-->
-		<div id="content">
-            <div id="workintro">
-                <h1>My Work</h1>
-			    <h2>Here is a selection of my recent work...</h2>
-            </div>
-            <div id="work">
-			    <img src="http://placehold.it/400x300">
-                <img src="http://placehold.it/400x300">
-                <img src="http://placehold.it/400x300">
-                <img src="http://placehold.it/400x300">
-            </div>                                      
-        </div>
+        
+<!--Desktop View-->
+        <div class="grid">
+            <div class="row">
+                <div class="col-12u">
+                    <div id="navnamecontainer">
+                            <div id="nav">
+                                <a href="index.html">ABOUT</a>
+                                <a href="work.html">WORK</a>
+                                <a href="contact.html">CONTACT</a>
+                            </div>
 
+                            <div id="name">
+                                <p>Justin Miller | <i>Web Design</i></p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+                        <div class="titlecontainer">
+                            <div class="title">
+                                <h1>MY WORK</h1>
+                            </div>
+                        </div>
+                 </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <div class="work">
+                        <div class="workexample">
+                            <div id="collegebrainex">
+                                <p> project for school</p>
+                            </div>
+                        </div>
+                        
+                        <div class="workexample">
+                        
+                        </div>
+                        
+                        <div class="workexample">
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<!--Mobile View-->
+        <div class="mobilegrid">
+            <div class="row">
+                <div class="col-12">
+                
+                </div>
+            </div>
+        </div>
 	</body>
 </html>
