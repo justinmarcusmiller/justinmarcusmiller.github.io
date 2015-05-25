@@ -5,19 +5,23 @@ body {
 
 
 #nav {
-    width: 500px;
+    width: 100%;
     margin: auto;
+    text-align: center;
 }
 
 #nav a {
     color:grey;   
-    margin:30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
     text-decoration: none;
     transition-property: color, background-color, border-color;
     transition-duration: .2s;
     transition-timing-function: linear;
     border: 1px solid grey;
-    padding: 5px 10px
+    padding: 15px 10px
 }
 
 #nav a:hover {
@@ -27,11 +31,10 @@ body {
 }
 
 #name {
-    float: right;
-    text-align: right;
+    text-align: center;
     margin:auto;
-    width: 500px;
-    
+    width: 100%;
+    display: inline-block;
 }
 
 #name p {
@@ -43,19 +46,19 @@ body {
 }
 
 #navnamecontainer {
-    width:1000px;
+    max-width:1000px;
     margin: auto;
-    display: flex;
+    text-align: center
 }
 
 .titlecontainer {
-    max-width: 1000px;
+    width: 100%;
+    text-align: center;
     margin: auto;
 }
 
 .title {
     color: grey;
-    margin-top: 50px;
 }
 
 .aboutcontainer {
@@ -66,26 +69,32 @@ body {
 
 #aboutheader {
     border-bottom: 1px solid grey;
-    color:green
+    color:green;
+    width: 100%;
 }
 
 .aboutpic {
-    float: right;
-    margin-left: 50px
+  visibility: hidden;
+    width:0
+}
+
+.aboutpic img {
 }
 
 .about {
-    max-width: 70%;
+    width:100%;
 }
 
 .about p {
-    max-width: 700px;   
+    width: 100%;  
 }
 
 .workexample {
     width:300px;
     height:200px;
     float: left;
+    margin: auto;
+    text-align: center;
     border: 1px solid black;
 }
 
@@ -93,12 +102,12 @@ body {
     max-width: 1000px;
     text-align: center;
     margin: auto;
+    display: flex;
     height:300px;
 }
 
 #collegebrainex {
-    background-image:url(http://placehold.it/300x200);
-    transition-property: background-image, color;
+    transition-property: background-color, background-image, color;
     transition-duration: .2s;
     transition-timing-function: linear;
     width: 300px;
@@ -106,18 +115,25 @@ body {
     color: transparent;
 }
 
+#collegebrainex img {
+    position: static;
+    width: 300px;
+    
+}
+
 #collegebrainex p {
     position: fixed;
     text-align: center;
     width: 300px;
     margin: auto;
-    margin-top:85px;
+    font-size: 18px;
+    margin-top: 10px
     
 }
 
 #collegebrainex:hover {
-    background-image: none;
     color: black;
+    cursor: pointer;
     }
 
 
@@ -125,13 +141,13 @@ body {
 #contactinfo {
     max-width: 1000px;
     margin: auto;
+    padding-bottom: 15px
     
 }
 
 #contactinfo a {
     color:grey;   
-    margin-right: 15px;
-    margin-top: 15px;
+    margin-right: 20px;
     text-decoration: none;
     transition-property: color, background-color, border-color;
     transition-duration: .2s;
@@ -146,3 +162,50 @@ body {
     border-color: green;
     background-color: lightgray;
 }
+
+#contactlinks {
+    margin-top: 25px;
+}
+
+@media screen and (min-width: 1000px) {
+    
+    #nav {
+        width: 500px;
+        display:flex;
+        float:left;
+    }
+    
+    #aboutheader {
+        max-width: 1000px;
+        margin: auto;
+    }
+    
+    #nav a {
+        margin-top:10px;
+        padding: 5px 10px;
+    }
+    
+    .aboutpic {
+        visibility: visible;
+        float: right;
+        margin-right: 340px;
+        margin-left: 50px;
+    }
+    
+    #name {
+        float: right;
+        text-align: right;
+        width: 500px;  
+    }
+    
+    .titlecontainer {
+        max-width: 1000px;
+        text-align: left
+    }
+    
+    .title {
+        margin-top: 50px;   
+    }
+}
+
+
