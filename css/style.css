@@ -1,211 +1,135 @@
 body {
-	font-family: 'Lato', sans-serif;
-    margin: 0px;
+ margin: 0px;   
+font-family: 'lato', sans-serif;
+}
+    
+h1 {
+text-align: center   
 }
 
+header {
+    height: 92vh;
+    background-color: deepskyblue;
+    overflow: hidden;
+    position: relative;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-#nav {
-    width: 100%;
-    margin: auto;
+header h1 {
+    font-size:45px ;
+    width:100%;
     text-align: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    color: black;
 }
 
-#nav a {
-    color:grey;   
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    transition-property: color, background-color, border-color;
-    transition-duration: .2s;
-    transition-timing-function: linear;
-    border: 1px solid grey;
-    padding: 15px 10px
-}
-
-#nav a:hover {
-    color: green;
-    border-color: green;
-    background-color: lightgray;
-}
-
-#name {
-    text-align: center;
-    margin:auto;
-    width: 100%;
-    display: inline-block;
-}
-
-#name p {
+header h1 i{
     color:green;   
 }
 
-#name i {
-    color: grey;   
+article {
+    height: 100vh;
 }
 
-#navnamecontainer {
-    max-width:1000px;
-    margin: auto;
-    text-align: center
-}
-
-.titlecontainer {
-    width: 100%;
+header h2 {
     text-align: center;
-    margin: auto;
+    position: absolute;
+    width: 100%;
+    color: grey;
+    bottom: 0%;
+    font-family: 'lato', sans-serif;
 }
 
-.title {
+nav {
+    height:8vh;
+    text-align: center;
+    background-color: darkgreen;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    top: 30%;
+    position: relative;
+    margin:50px
+}
+
+nav a:hover {
+    text-decoration: none;
     color: grey;
 }
 
-.aboutcontainer {
-    max-width: 1000px;
-    margin: auto;
-    display: flex;
+#aboutme {
+   
 }
 
-#aboutheader {
-    border-bottom: 1px solid grey;
-    color:green;
-    width: 100%;
+#work {
+  
+
 }
 
-.aboutpic {
-  visibility: hidden;
-    width:0
+.m1 {
+    background-image: url('../images/m1.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: absolute;
+    left: 0%;
+    height: 496px;
+    width:1489px;
+    top: 450px;
 }
 
-.aboutpic img {
+.m2 {
+    background-image: url('../images/m2.svg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: absolute;
+    height: 496px;
+    width:1489px;
+    left: 60%;
+    margin-left: -480px;
+    bottom: -200px;
 }
 
-.about {
-    width:100%;
+.sun {
+    background-image: url('../images/sun.svg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: absolute;
+    height: 195px;
+    width: 195px;
+    left: 40%;
+    top: 5%;
+    margin-left: -480px;
 }
 
-.about p {
-    width: 100%;  
-}
-
-.workexample {
-    width:300px;
-    height:200px;
-    float: left;
-    margin: auto;
-    text-align: center;
-    border: 1px solid black;
-}
-
-.work {
-    max-width: 1000px;
-    text-align: center;
-    margin: auto;
-    display: flex;
-    height:300px;
-}
-
-#collegebrainex {
-    transition-property: background-color, background-image, color;
-    transition-duration: .2s;
-    transition-timing-function: linear;
-    width: 300px;
-    height:200px;
-    color: transparent;
-}
-
-#collegebrainex img {
-    position: static;
-    width: 300px;
+@media all and (max-width: 1024px) {
+     header h1 {
+      font-size: 30px; 
+     }
     
-}
-
-#collegebrainex p {
-    position: fixed;
-    text-align: center;
-    width: 300px;
-    margin: auto;
-    font-size: 18px;
-    margin-top: 10px
-    
-}
-
-#collegebrainex:hover {
-    color: black;
-    cursor: pointer;
-    }
-
-
-
-#contactinfo {
-    max-width: 1000px;
-    margin: auto;
-    padding-bottom: 15px
-    
-}
-
-#contactinfo a {
-    color:grey;   
-    margin-right: 20px;
-    text-decoration: none;
-    transition-property: color, background-color, border-color;
-    transition-duration: .2s;
-    transition-timing-function: linear;
-    border: 1px solid grey;
-    padding: 5px 10px;
-    max-width: 80px;
-}
-
-#contactinfo a:hover{
-    color: green;
-    border-color: green;
-    background-color: lightgray;
-}
-
-#contactlinks {
-    margin-top: 25px;
-}
-
-@media screen and (min-width: 1000px) {
-    
-    #nav {
-        width: 500px;
-        display:flex;
-        float:left;
+    .m1 {
+        width: 100%;
+        top: 50%;
     }
     
-    #aboutheader {
-        max-width: 1000px;
-        margin: auto;
+    .m2 {
+        width: 100%;
+        left:135%;
+        bottom: -35%
     }
     
-    #nav a {
-        margin-top:10px;
-        padding: 5px 10px;
+    .sun {
+        left: 110%;
     }
     
-    .aboutpic {
-        visibility: visible;
-        float: right;
-        margin-right: 340px;
-        margin-left: 50px;
-    }
-    
-    #name {
-        float: right;
-        text-align: right;
-        width: 500px;  
-    }
-    
-    .titlecontainer {
-        max-width: 1000px;
-        text-align: left
-    }
-    
-    .title {
-        margin-top: 50px;   
+    nav a {
+        margin: 20px;   
     }
 }
-
-
