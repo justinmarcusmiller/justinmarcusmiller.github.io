@@ -56,20 +56,16 @@ nav {
 nav a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
-    top: 30%;
+    font-size: 16px;
+    top: 25%;
     position: relative;
-    margin:40px;
-    padding: 25px 20px;
-    transition-property: color, background-color;
-    transition-duration: .2s;
-    transition-timing-function: linear;
+    margin:5px;
+    
 }
 
 nav a:hover {
     text-decoration: none;
-    color: white;
-    background-color: green;
+    color: green;
 }
 
 #aboutme {
@@ -86,70 +82,11 @@ nav a:hover {
 
 }
 
-.m1 {
-    background-image: url('../images/s1.png');
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    position: absolute;
-    left: 4%;
-    height: 496px;
-    width:1489px;
-    top: 450px;
-}
-
-.m2 {
-    background-image: url('../images/s2.png');
-    background-repeat: no-repeat;
-    background-position: top left;
-    position: absolute;
-    height: 496px;
-    width:1489px;
-    left: 10%;
-    margin-left: -480px;
-    bottom: -200px;
-}
-
-.sun {
-    background-image: url('../images/sun.svg');
-    background-repeat: no-repeat;
-    background-position: top left;
-    position: absolute;
-    height: 195px;
-    width: 195px;
-    left: 40%;
-    top: 5%;
-    margin-left: -480px;
-}
-
-@media screen and (max-width: 1000px) {
-     header h1 {
-      font-size: 25px; 
-     }
-    
-    .m1 {
-        top: 60%;
-    }
-    
-    .m2 {
-        left:135%;
-        bottom: -65%
-    }
-    
-    .sun {
-        left: 150%;
-        top: -5%;
-        background-size: 75%
-    }
-    
-    nav a {
-        margin: 10px; 
-        top: 15%;
-    }
-}
 #logo {
     background-image: url('../images/logo.png');
     height:150px;
-    width:100%;
+    width:90%;
+    left: 5%;
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
@@ -163,11 +100,11 @@ footer {
     height: 8vh;
     background-color: dimgrey;
     border-top: green 4px solid;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 footer p {
-    top: 5%;
+    top: -12%;
     position: relative;
 }
 
@@ -181,6 +118,38 @@ footer p {
 }
 
 #contactme h2 {
-    margin-left:50px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+@media screen and (min-width: 1000px) {
+    nav a {
+    margin:40px;
+    padding: 25px 20px;   
     font-size: 20px;
+    top:30%;
+    transition-property: color, background-color;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    }
+    
+    #logo{
+    width: 100%;
+    left: 0%;
+    }
+    
+    #contactme h2 {
+    font-size: 20px;
+    margin-left: 50px;
+    text-align: left;
+    }
+    
+    footer {
+    font-size: 18px;
+    }
+    
+    footer p {
+     top:5%   
+    }
 }
