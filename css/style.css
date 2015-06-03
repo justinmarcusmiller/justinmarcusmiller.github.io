@@ -1,8 +1,7 @@
 body {
     margin: 0px;   
     font-family: 'lato', sans-serif;
-    background-color: #212121;
-    color: white;
+    color: black;
     letter-spacing: .04em;
     font-weight: 400;
 }
@@ -10,32 +9,48 @@ body {
 h1 {
     text-align: center;
     font-weight: 300;
+    margin-bottom: 100px;
+    color: white;
+}
+
+h2 {
+    color: white;   
 }
 
 header {
-    height: 100vh;
-    background-image:url('../images/bg.jpg');
+    height: 90vh;
+    background-color: #4CAF50;
     overflow: hidden;
     position: relative;
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
-    border-bottom: #424242 4px solid;
+    margin-bottom: -34px;
 }
 
 
 article {
     height: 100vh;
+    margin-top:0px
+}
+
+article h1 {
+    height: 10vh;
+    background-color: #81C784;
+    position: relative;
+    line-height: 10vh;
+    font-size: 40px;
 }
 
 nav {
-    height:6vh;
+    height:8vh;
+    background-color: white;
     text-align: center;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: grey;
     font-size: 18px;
     height: 8vh;
     line-height: 8vh;
@@ -50,42 +65,32 @@ nav a:hover {
 }
 
 #aboutme {
-    height: 60vh;
+    min-height: 60vh;
 }
 
 #work {
-    background-image:url('../images/workbg.jpg');
     overflow: hidden;
     height: 100vh;
     position: relative;
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
-    border-top: #424242 4px solid;
-    border-bottom: #424242 4px solid;
     
 }
 
 #logo {
-    background-image: url('../images/logo.png');
-    height:150px;
-    width:90%;
-    left: 5%;
-    background-position: center;
-    background-repeat: no-repeat;
+    color: black;
     position: absolute;
-    top: 50%;
-    background-size: contain;
-    margin-top: -50px;
+    left: 1%;
+    height: 8vh;
 }
 
 footer {
     text-align: center;
     height: 8vh;
-    background-color: #212121;
-    border-top: #424242 4px solid;
+    background-color: #4CAF50;
     font-size: 14px;
-    line-height: 4vh;
+    line-height: 8vh;
 }
 
 footer p {
@@ -105,26 +110,36 @@ footer p {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    color: black;
 }
 
 #abouttext {
-    margin-top: 100px;
+    
     text-align: center;
     font-size: 20px;
 }
 
 
 @media screen and (min-width: 1000px) {
+    
+    nav {
+        text-align: right   
+    }
+    
     nav a {
         margin:40px;
         padding: 2vh 20px;   
         font-size: 22px;
-        height: 6vh;
+        height: 8vh;
         font-weight: 500;
-        line-height: 6vh;
+        line-height: 8vh;
         transition-property: color, border;
         transition-duration: .3s;
         transition-timing-function: linear;
+    }
+    
+    header {
+        height: 60vh   
     }
     
     #aboutme p {
@@ -133,12 +148,10 @@ footer p {
     
     nav a:hover {
         color: #212121;
-        border-bottom: 1px solid #212121;
     }
     
     #logo{
-        width: 100%;
-        left: 0%;
+       
     }
     
     #contactme h2 {
@@ -155,3 +168,35 @@ footer p {
     }
 }
 
+
+#workgrid img {
+}
+
+#workgrid {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+#nametitle h2 {
+    text-align: center;
+    font-weight: 300;
+}
+
+#nametitle h1 {
+    margin-bottom: -15px;   
+}
+
+#nametitle img{
+        position: relative;
+        left: 50%;
+        background-color: white;
+        border: 4px solid grey;
+        transform: translate(-50%);
+        border-radius: 100%;
+        margin-bottom: -15px
+}
+
+#nametitle {
+    margin-top: 50px;
+}
