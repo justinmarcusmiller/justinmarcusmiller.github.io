@@ -11,10 +11,12 @@ h1 {
     font-weight: 300;
     margin-bottom: 100px;
     color: white;
+    font-size: 32px;
 }
 
 h2 {
     color: white;   
+    font-size: 24px
 }
 
 header {
@@ -36,7 +38,7 @@ article {
 
 article h1 {
     height: 10vh;
-    background-color: #81C784;
+    background-color: #1B5E20;
     position: relative;
     line-height: 10vh;
     font-size: 40px;
@@ -80,7 +82,7 @@ nav a:hover {
 }
 
 #logo {
-    color: black;
+    color: white;
     position: absolute;
     left: 1%;
     height: 8vh;
@@ -89,7 +91,7 @@ nav a:hover {
 footer {
     text-align: center;
     height: 8vh;
-    background-color: #4CAF50;
+    background-color: #1B5E20;
     font-size: 14px;
     line-height: 8vh;
 }
@@ -182,22 +184,22 @@ footer p {
 #nametitle h2 {
     text-align: center;
     font-weight: 300;
-    text-shadow: 2px 1px 2px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 #nametitle h1 {
-    text-shadow: 2px 1px 2px black;
-    margin-bottom: -15px;   
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 5px;   
 }
 
 #nametitle img{
         position: relative;
         left: 50%;
         background-color: white;
-        border: 4px solid grey;
+        border: 4px solid white;
         transform: translate(-50%);
         border-radius: 100%;
-        margin-bottom: -15px
+        margin-bottom: 15px
 }
 
 #nametitle {
