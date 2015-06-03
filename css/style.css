@@ -2,7 +2,7 @@ body {
     margin: 0px;   
     font-family: 'lato', sans-serif;
     background-color: #212121;
-    color: #607D8B;
+    color: white;
     letter-spacing: .04em;
     font-weight: 400;
 }
@@ -13,7 +13,7 @@ h1 {
 }
 
 header {
-    height: 92vh;
+    height: 100vh;
     background-image:url('../images/bg.jpg');
     overflow: hidden;
     position: relative;
@@ -26,20 +26,17 @@ header {
 
 article {
     height: 100vh;
-    color: #607D8B;
 }
 
 nav {
-    height:8vh;
+    height:6vh;
     text-align: center;
-    background-color: #212121;
-    border-bottom: #424242 4px solid;
 }
 
 nav a {
     text-decoration: none;
-    color: #607D8B;
-    font-size: 16px;
+    color: white;
+    font-size: 18px;
     height: 8vh;
     line-height: 8vh;
     position: relative;
@@ -50,22 +47,20 @@ nav a {
 
 nav a:hover {
     text-decoration: none;
-    color: #4CAF50;
 }
 
 #aboutme {
     height: 60vh;
-    color: #607D8B;
 }
 
 #work {
     background-image:url('../images/workbg.jpg');
     overflow: hidden;
+    height: 100vh;
     position: relative;
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
-    color: #607D8B;
     border-top: #424242 4px solid;
     border-bottom: #424242 4px solid;
     
@@ -94,7 +89,6 @@ footer {
 }
 
 footer p {
-    color: #607D8B;
 
 }
 
@@ -105,13 +99,11 @@ footer p {
 
 #contactme {
     height: 45vh;
-    color: #607D8B;
 }
 
 #contactme h2 {
     text-align: center;
     font-size: 16px;
-    color: #607D8B;
     font-weight: 400;
 }
 
@@ -125,12 +117,13 @@ footer p {
 @media screen and (min-width: 1000px) {
     nav a {
         margin:40px;
-        padding: 4vh 20px;   
-        font-size: 20px;
-        height: 8vh;
-        line-height: 8vh;
-        transition-property: color, background-color;
-        transition-duration: .2s;
+        padding: 2vh 20px;   
+        font-size: 22px;
+        height: 6vh;
+        font-weight: 500;
+        line-height: 6vh;
+        transition-property: color, border;
+        transition-duration: .3s;
         transition-timing-function: linear;
     }
     
@@ -139,8 +132,8 @@ footer p {
     }
     
     nav a:hover {
-        background-color: #424242;
-        color:white;
+        color: #212121;
+        border-bottom: 1px solid #212121;
     }
     
     #logo{
