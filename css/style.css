@@ -31,18 +31,17 @@ header {
 }
 
 
-article {
+section {
     height: 100vh;
-    margin-top:0px
 }
 
-article h1 {
+section h1 {
     height: 10vh;
-    background-color: #1B5E20;
+    color: green;
+    margin-top: 35px;
     position: relative;
     line-height: 10vh;
     font-size: 30px;
-    text-shadow: 1px 1px 2px black;
 }
 
 nav {
@@ -68,7 +67,8 @@ nav a:hover {
 }
 
 #aboutme {
-    min-height: 60vh;
+    height: 100vh;
+    text-align: center;
 }
 
 #work {
@@ -121,62 +121,6 @@ footer p {
     font-size: 20px;
 }
 
-
-@media screen and (min-width: 1000px) {
-    
-    nav {
-        text-align: right   
-    }
-    
-    nav a {
-        margin:40px;
-        padding: 2vh 20px;   
-        font-size: 22px;
-        height: 8vh;
-        font-weight: 500;
-        line-height: 8vh;
-        transition-property: color, border;
-        transition-duration: .3s;
-        transition-timing-function: linear;
-    }
-    
-    header {
-        height: 60vh;
-        margin-bottom: -34px;
-    }
-    
-    article h1{
-        font-size: 40px;  
-        margin-bottom: 75px;
-    }
-    
-    #aboutme {
-        height: 60vh;
-    }
-    
-    nav a:hover {
-        color: #212121;
-    }
-    
-    #logo{
-       
-    }
-    
-    #contactme h2 {
-        font-size: 20px;
-        margin-left: 50px;
-        text-align: left;
-    }
-    
-    footer {
-        font-size: 18px;
-    }
-    
-    footer p {  
-    }
-}
-
-
 #workgrid img {
 }
 
@@ -209,4 +153,81 @@ footer p {
 
 #nametitle {
     margin-top: 50px;
+}
+
+
+@media screen and (min-width: 1000px) {
+    
+    nav {
+        text-align: right   
+    }
+    
+    nav a {
+        margin:40px;
+        padding: 2vh 20px;   
+        font-size: 22px;
+        height: 8vh;
+        font-weight: 500;
+        line-height: 8vh;
+        transition-property: color, border;
+        transition-duration: .3s;
+        transition-timing-function: linear;
+    }
+    
+    header {
+        height: 60vh;
+        margin-bottom: -34px;
+    }
+    
+    section h1{
+        font-size: 40px; 
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    
+    #aboutme {
+        height: 30vh;
+    }
+    
+    nav a:hover {
+        color: darkgray;
+    }
+    
+    #logo{
+       
+    }
+    
+    #contactme h2 {
+        font-size: 20px;
+        margin-left: 50px;
+        text-align: left;
+    }
+    
+    footer {
+        font-size: 18px;
+    }
+    
+    footer p {  
+    }
+}
+
+
+
+#aboutme h2 {
+    color: dimgrey; 
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
+
+b {
+    margin: 5px;
+    border: 2px solid #467813;
+    border-radius: 5px;
+    
+    background: radial-gradient(#2E7D32, #1B5E20);
+    color: white;
+    padding: 5px;
 }
