@@ -1,0 +1,82 @@
+/* line 3, C:/Users/Justin/Desktop/np/css/styles.sass */
+body {
+  font: 100% lato, sans-serif;
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+  color: #212121;
+  line-height: 1.4;
+  letter-spacing: .05em; }
+
+/* line 12, C:/Users/Justin/Desktop/np/css/styles.sass */
+h1 {
+  font-size: 36px;
+  font-weight: 400; }
+
+/* line 16, C:/Users/Justin/Desktop/np/css/styles.sass */
+h2 {
+  font-size: 30px;
+  font-weight: 400; }
+
+/* line 20, C:/Users/Justin/Desktop/np/css/styles.sass */
+header {
+  position: relative;
+  height: 100vh;
+  text-shadow: 2px 2px 1px black;
+  color: #FAFAFA;
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  /* line 32, C:/Users/Justin/Desktop/np/css/styles.sass */
+  header img {
+    border-radius: 100%;
+    margin-top: 35px;
+    border: 4px solid white; }
+  /* line 36, C:/Users/Justin/Desktop/np/css/styles.sass */
+  header nav {
+    padding-top: 5px; }
+  /* line 38, C:/Users/Justin/Desktop/np/css/styles.sass */
+  header nav a {
+    font-size: 24px;
+    transition-property: color;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    margin: 25px;
+    color: #F5F5F5;
+    text-decoration: none; }
+    /* line 46, C:/Users/Justin/Desktop/np/css/styles.sass */
+    header nav a:hover {
+      color: #BDBDBD; }
+
+/* line 51, C:/Users/Justin/Desktop/np/css/styles.sass */
+#about {
+  height: 100vh; }
+
+/* line 54, C:/Users/Justin/Desktop/np/css/styles.sass */
+#work {
+  height: 100vh; }
+
+/* line 57, C:/Users/Justin/Desktop/np/css/styles.sass */
+#workgrid img {
+  margin: 50px;
+  transition-property: transform;
+  transition-duration: .2s;
+  transition-timing-function: linear; }
+  /* line 62, C:/Users/Justin/Desktop/np/css/styles.sass */
+  #workgrid img:hover {
+    transform: scale(1.05, 1.05); }
+
+/* line 65, C:/Users/Justin/Desktop/np/css/styles.sass */
+#contact {
+  height: 50vh; }
+
+/* line 68, C:/Users/Justin/Desktop/np/css/styles.sass */
+footer {
+  height: 8vh;
+  color: #F5F5F5;
+  background: green;
+  line-height: 8vh; }
+
+/*# sourceMappingURL=styles.css.map */
