@@ -1,4 +1,4 @@
-/* line 3, C:/Users/Justin/Desktop/np/css/styles.sass */
+/* line 1, C:/Users/Justin/Desktop/np/css/styles.sass */
 body {
   font: 100% lato, sans-serif;
   margin: 0;
@@ -8,17 +8,17 @@ body {
   line-height: 1.4;
   letter-spacing: .05em; }
 
-/* line 12, C:/Users/Justin/Desktop/np/css/styles.sass */
+/* line 10, C:/Users/Justin/Desktop/np/css/styles.sass */
 h1 {
   font-size: 36px;
   font-weight: 400; }
 
-/* line 16, C:/Users/Justin/Desktop/np/css/styles.sass */
+/* line 14, C:/Users/Justin/Desktop/np/css/styles.sass */
 h2 {
   font-size: 30px;
   font-weight: 400; }
 
-/* line 20, C:/Users/Justin/Desktop/np/css/styles.sass */
+/* line 18, C:/Users/Justin/Desktop/np/css/styles.sass */
 header {
   position: relative;
   height: 100vh;
@@ -29,50 +29,49 @@ header {
   background-position: top center;
   background-attachment: fixed;
   background-repeat: no-repeat; }
-  /* line 32, C:/Users/Justin/Desktop/np/css/styles.sass */
+  /* line 29, C:/Users/Justin/Desktop/np/css/styles.sass */
   header img {
     border-radius: 100%;
     margin-top: 35px;
     border: 4px solid white; }
-  /* line 36, C:/Users/Justin/Desktop/np/css/styles.sass */
+  /* line 33, C:/Users/Justin/Desktop/np/css/styles.sass */
   header nav {
-    padding-top: 5px; }
-  /* line 38, C:/Users/Justin/Desktop/np/css/styles.sass */
+    height: 8vh;
+    line-height: 8vh; }
+  /* line 36, C:/Users/Justin/Desktop/np/css/styles.sass */
   header nav a {
-    font-size: 24px;
+    font-size: 18px;
     transition-property: color;
     transition-duration: .2s;
     transition-timing-function: linear;
-    margin: 25px;
+    margin: 5px;
     color: #F5F5F5;
     text-decoration: none; }
-    /* line 46, C:/Users/Justin/Desktop/np/css/styles.sass */
+    /* line 44, C:/Users/Justin/Desktop/np/css/styles.sass */
     header nav a:hover {
       color: #BDBDBD; }
 
-/* line 51, C:/Users/Justin/Desktop/np/css/styles.sass */
+/* line 47, C:/Users/Justin/Desktop/np/css/styles.sass */
+section h1 {
+  margin: 50px; }
+
+/* line 50, C:/Users/Justin/Desktop/np/css/styles.sass */
 #about {
   height: 100vh; }
 
-/* line 54, C:/Users/Justin/Desktop/np/css/styles.sass */
+/* line 53, C:/Users/Justin/Desktop/np/css/styles.sass */
 #work {
-  height: 100vh; }
+  min-height: 100vh; }
 
-/* line 57, C:/Users/Justin/Desktop/np/css/styles.sass */
-#workgrid img {
-  margin: 50px;
-  transition-property: transform;
-  transition-duration: .2s;
-  transition-timing-function: linear; }
-  /* line 62, C:/Users/Justin/Desktop/np/css/styles.sass */
-  #workgrid img:hover {
-    transform: scale(1.05, 1.05); }
+/* line 56, C:/Users/Justin/Desktop/np/css/styles.sass */
+#workgrid {
+  margin-left: -40px; }
 
-/* line 65, C:/Users/Justin/Desktop/np/css/styles.sass */
+/* line 62, C:/Users/Justin/Desktop/np/css/styles.sass */
 #contact {
   height: 50vh; }
 
-/* line 68, C:/Users/Justin/Desktop/np/css/styles.sass */
+/* line 65, C:/Users/Justin/Desktop/np/css/styles.sass */
 footer {
   height: 8vh;
   color: #F5F5F5;

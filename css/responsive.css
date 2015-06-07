@@ -1,0 +1,26 @@
+@media screen and (min-width: 1000px) {
+    header{
+        height:50vh;   
+    }
+    
+    nav {
+        text-align: right;   
+    }
+    
+    nav a {
+        font-size: 24px;
+        margin: 25px;
+    }
+    
+    #workgrid img {
+        display: inline;
+        margin: 50px;
+        transition-property:transform;
+        transition-duration:.2s;
+        transition-timing-function:linear;
+    }
+    
+    #workgrid img:hover {
+        transform: scale(1.05, 1.05)   
+    }
+}
