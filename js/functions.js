@@ -1,7 +1,5 @@
-
-$(window).scroll(function(){
-/*Header Parallax*/
-  var wScroll = $(this).scrollTop();
-
-
+$(window).scroll(function() {
+    $("header").css({
+    'opacity' : 1-(($(this).scrollTop())/450)
+    });          
 });

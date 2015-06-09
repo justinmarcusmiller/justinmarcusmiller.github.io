@@ -19,6 +19,15 @@ h2 {
   font-weight: 400; }
 
 /* line 18, C:/Users/Justin/Desktop/np/css/styles.sass */
+h3 {
+  font-size: 24px;
+  font-weight: 400; }
+
+/* line 22, C:/Users/Justin/Desktop/np/css/styles.sass */
+p {
+  font-weight: 300; }
+
+/* line 25, C:/Users/Justin/Desktop/np/css/styles.sass */
 header {
   position: relative;
   height: 100vh;
@@ -29,16 +38,16 @@ header {
   background-position: top center;
   background-attachment: fixed;
   background-repeat: no-repeat; }
-  /* line 29, C:/Users/Justin/Desktop/np/css/styles.sass */
+  /* line 36, C:/Users/Justin/Desktop/np/css/styles.sass */
   header img {
     border-radius: 100%;
     margin-top: 35px;
     border: 4px solid white; }
-  /* line 33, C:/Users/Justin/Desktop/np/css/styles.sass */
+  /* line 40, C:/Users/Justin/Desktop/np/css/styles.sass */
   header nav {
     height: 8vh;
     line-height: 8vh; }
-  /* line 36, C:/Users/Justin/Desktop/np/css/styles.sass */
+  /* line 43, C:/Users/Justin/Desktop/np/css/styles.sass */
   header nav a {
     font-size: 18px;
     transition-property: color;
@@ -47,31 +56,43 @@ header {
     margin: 5px;
     color: #F5F5F5;
     text-decoration: none; }
-    /* line 44, C:/Users/Justin/Desktop/np/css/styles.sass */
+    /* line 51, C:/Users/Justin/Desktop/np/css/styles.sass */
     header nav a:hover {
       color: #BDBDBD; }
 
-/* line 47, C:/Users/Justin/Desktop/np/css/styles.sass */
+/* line 54, C:/Users/Justin/Desktop/np/css/styles.sass */
 section h1 {
   margin: 50px; }
 
-/* line 50, C:/Users/Justin/Desktop/np/css/styles.sass */
-#about {
-  height: 100vh; }
+/* line 57, C:/Users/Justin/Desktop/np/css/styles.sass */
+#skills {
+  display: inline-block; }
 
-/* line 53, C:/Users/Justin/Desktop/np/css/styles.sass */
+/* line 61, C:/Users/Justin/Desktop/np/css/styles.sass */
+section h2 {
+  margin: 25px; }
+
+/* line 64, C:/Users/Justin/Desktop/np/css/styles.sass */
+section h3 {
+  margin: 15px; }
+
+/* line 67, C:/Users/Justin/Desktop/np/css/styles.sass */
+#about {
+  height: 150vh; }
+
+/* line 70, C:/Users/Justin/Desktop/np/css/styles.sass */
 #work {
   min-height: 100vh; }
 
-/* line 56, C:/Users/Justin/Desktop/np/css/styles.sass */
+/* line 73, C:/Users/Justin/Desktop/np/css/styles.sass */
 #workgrid {
   margin-left: -40px; }
 
-/* line 62, C:/Users/Justin/Desktop/np/css/styles.sass */
+/* line 79, C:/Users/Justin/Desktop/np/css/styles.sass */
 #contact {
   height: 50vh; }
 
-/* line 65, C:/Users/Justin/Desktop/np/css/styles.sass */
+/* line 82, C:/Users/Justin/Desktop/np/css/styles.sass */
 footer {
   height: 8vh;
   color: #F5F5F5;

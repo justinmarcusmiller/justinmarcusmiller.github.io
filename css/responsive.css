@@ -3,11 +3,11 @@
         height:50vh;   
     }
     
-    nav {
+    header nav {
         text-align: right;   
     }
     
-    nav a {
+    header nav a {
         font-size: 24px;
         margin: 25px;
     }
@@ -22,5 +22,19 @@
     
     #workgrid img:hover {
         transform: scale(1.05, 1.05)   
+    }
+    
+    #skills {
+        display: inline-block;
+        min-width:30%;
+        margin:auto;
+    }
+    
+    #other {
+        float: right;
+    }
+    
+    #webdev {
+        float: left;
     }
 }
