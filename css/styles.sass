@@ -1,87 +1,82 @@
 body
-    font: 100% lato, sans-serif
+    font-family: 'Roboto', sans-serif
     margin:0
     text-align: center
     font-size: 20px
-    color:#212121
+    color:black
+    background-color: #FAFAFA
     line-height: 1.4
     letter-spacing: .05em
 
 h1
-    font-size: 36px
-    font-weight: 400
-    
-h2
-    font-size: 30px
-    font-weight: 400
-    
-h3
-    font-size: 24px
-    font-weight: 400
-    
-p
-    font-weight: 300
-       
-header 
-    position: relative
-    height: 100vh
-    text-shadow: 2px 2px 1px black
-    color:#FAFAFA
-    background:
-        image: url(../images/bg.jpg)
-        size: cover
-        position: top center
-        attachment: fixed
-        repeat: no-repeat
-    img
-        border-radius: 100%
-        margin-top: 35px
-        border: 4px solid white
-    nav
-        height: 8vh
-        line-height: 8vh
-    nav a
-        font-size:18px
-        transition-property:color
-        transition-duration:.2s
-        transition-timing-function:linear
-        margin:5px
-        color: #F5F5F5
-        text-decoration:none
-        &:hover
-            color:#BDBDBD
-        
-section h1
-    margin: 50px
-    
-#skills
-    height
-    display:inline-block
-    
-section h2
-    margin: 25px
+    font-size: 34px
+    color:green
 
-section h3
-    margin: 15px
-    
-#about
-    height:150vh
-    
-#work
-    min-height: 100vh
-    
-#workgrid
-    margin-left:-40px
-    
-#workgrid img
+.logo
+    background:
+        image:url("/images/logo.png")
+        repeat:no-repeat
+        position:center
+        size:contain
+    margin: 5px 0px 5px 0 
+    float:left
+    width:33%
+    height:100px
     
     
-#contact
-    height: 50vh
+.header
+    float:right
+    text-align:left
+    width:65%
+    color:green
+    height:100px
+    h2
+        margin-top:20px
+        font-size:30px
+    h3
+        
     
-footer
-    height: 8vh
-    color:#F5F5F5
-    background: green
-    line-height: 8vh
- 
+.nav
+    background-color:green
+    clear:both
+    margin:5px
+    padding:5px
+    margin-bottom:50px
+    a
+        color:black
+        margin:15px
+        text-decoration:none
+    a:hover
+        color:white
+    
+#worksec
+    margin:5px
+    min-height:50vh
+    h1
+        margin-bottom:25px
+    
+#aboutsec
+    margin:5px
+    min-height:50vh
+    img
+        border-radius:100%
+        margin:25px
+    h1
+        margin-top:100px
+    h2
+        margin-bottom:100px
+    
+#contactsec
+    margin:5px
+    min-height:25vh
+    
+.socialicons
+    margin:5px
+    img
+        max-width:25%
+        opacity:.8
+    :hover
+            opacity:1
+    
+.footer
+    margin:5px
