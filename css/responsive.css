@@ -1,3 +1,42 @@
 @media screen and (min-width: 1000px) {
-  
+    .logo {
+        width:150px;
+        margin-left:15px;
+        height:250px
+    }
+    
+    .header {
+        height:250px;
+        float:left;
+        line-height: 80px;
+        margin-left:15px ;
+        min-width:100px;
+        text-align:left;
+    }
+    
+    
+    .headerpic {
+        float:right;
+        background-image:url("../images/workbg.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width:75%;
+        height:250px;
+        visibility: visible;
+        margin-bottom: 100px
+    }
+    
+    .header h2 {
+        margin-top: 100px
+     
+    }
+    
+    #worksec h1 {
+        margin-top: 100px   
+    }
+    
+     #worksec img {
+        padding:25px;
+     }
 }

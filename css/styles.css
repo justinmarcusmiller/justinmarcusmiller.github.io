@@ -16,83 +16,91 @@ h1 {
 
 /* line 15, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
 .logo {
-  background-image: url("/images/logo.png");
+  background-image: url("../images/logo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   margin: 5px 0px 5px 0;
   float: left;
   width: 33%;
-  height: 100px; }
+  min-height: 100px; }
 
-/* line 27, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+/* line 26, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+.headerpic {
+  visibility: hidden; }
+
+/* line 29, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
 .header {
   float: right;
-  text-align: left;
-  width: 65%;
-  color: green;
-  height: 100px; }
-  /* line 33, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  min-width: 67%;
+  margin-bottom: 30px;
+  min-height: 110px; }
+  /* line 34, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
   .header h2 {
-    margin-top: 20px;
-    font-size: 30px; }
+    margin-top: 35px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto; }
 
-/* line 39, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+/* line 42, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
 .nav {
-  background-color: green;
   clear: both;
-  margin: 5px;
   padding: 5px;
-  margin-bottom: 50px; }
-  /* line 45, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  margin-bottom: 30px; }
+  /* line 47, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
   .nav a {
     color: black;
     margin: 15px;
+    padding: 5px;
+    border-bottom: 1px solid black;
     text-decoration: none; }
-  /* line 49, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  /* line 53, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
   .nav a:hover {
-    color: white; }
+    color: green; }
 
-/* line 52, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+/* line 56, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
 #worksec {
   margin: 5px;
   min-height: 50vh; }
-  /* line 55, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  /* line 59, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
   #worksec h1 {
     margin-bottom: 25px; }
 
-/* line 58, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+/* line 62, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
 #aboutsec {
   margin: 5px;
   min-height: 50vh; }
-  /* line 61, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  /* line 65, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
   #aboutsec img {
     border-radius: 100%;
     margin: 25px; }
-  /* line 64, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  /* line 68, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
   #aboutsec h1 {
     margin-top: 100px; }
-  /* line 66, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  /* line 70, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
   #aboutsec h2 {
     margin-bottom: 100px; }
 
-/* line 69, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+/* line 73, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
 #contactsec {
   margin: 5px;
   min-height: 25vh; }
+  /* line 76, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  #contactsec h1 {
+    margin-bottom: 25px; }
 
-/* line 73, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+/* line 79, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
 .socialicons {
   margin: 5px; }
-  /* line 75, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  /* line 81, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
   .socialicons img {
     max-width: 25%;
     opacity: .8; }
-  /* line 78, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  /* line 84, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
   .socialicons :hover {
     opacity: 1; }
 
-/* line 81, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+/* line 87, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
 .footer {
   margin: 5px; }
 

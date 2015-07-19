@@ -14,40 +14,44 @@ h1
 
 .logo
     background:
-        image:url("/images/logo.png")
+        image:url("../images/logo.png")
         repeat:no-repeat
         position:center
         size:contain
     margin: 5px 0px 5px 0 
     float:left
     width:33%
-    height:100px
+    min-height:100px
     
+.headerpic
+    visibility:hidden
     
 .header
     float:right
-    text-align:left
-    width:65%
-    color:green
-    height:100px
+    min-width:67%
+    margin-bottom:30px
+    min-height:110px
     h2
-        margin-top:20px
+        margin-top:35px
         font-size:30px
+        margin-left:auto
+        margin-right:auto
     h3
         
     
 .nav
-    background-color:green
     clear:both
-    margin:5px
     padding:5px
-    margin-bottom:50px
+    margin-bottom:30px
+
     a
         color:black
         margin:15px
+        padding:5px
+        border-bottom:1px solid black
         text-decoration:none
     a:hover
-        color:white
+        color:green
     
 #worksec
     margin:5px
@@ -69,6 +73,8 @@ h1
 #contactsec
     margin:5px
     min-height:25vh
+    h1
+        margin-bottom:25px
     
 .socialicons
     margin:5px
