@@ -2,18 +2,36 @@
     .logo {
         width:150px;
         margin-left:15px;
-        height:250px
+        height:270px
     }
     
     .header {
         height:250px;
         float:left;
-        line-height: 80px;
-        margin-left:15px ;
+        margin-left:15px;
         min-width:100px;
         text-align:left;
     }
     
+    .header h2 {
+        padding-top:25px;
+    }
+    .nav {
+        background-color: green;
+        margin:0;
+        clear:both;
+        padding: 10px
+    }
+    
+    .nav a{
+        margin:50px;
+        font-size: 24px;
+        border-bottom: 0
+    }
+    
+    .nav a:hover{
+        color: white
+    }
     
     .headerpic {
         float:right;
@@ -21,10 +39,9 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        width:75%;
-        height:250px;
+        width:78%;
+        height:280px;
         visibility: visible;
-        margin-bottom: 100px
     }
     
     .header h2 {

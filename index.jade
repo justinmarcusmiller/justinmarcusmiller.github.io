@@ -37,7 +37,26 @@ html
         
         #contactsec
             h1 Contact Me
-            p Email: Justinmiller171@gmail.com
+            form(action="//formspree.io/justinmiller171@gmail.com",method="POST")
+                
+                .contact-info-group
+                    label
+                        p Your Name
+                    input(type="text" name="name")
+
+                    label
+                        p Your E-mail
+                    input(type="email" name="_replyto")
+                    
+
+                    label
+                        p Your Message
+                    textarea(name="message")
+                    
+                .submit-wrap
+
+                    input(type="submit" value="Send")
+
         
         .socialicons
             img(src="images/github.png")
