@@ -4,129 +4,92 @@ body
     text-align: center
     font-size: 20px
     color:black
-    background-color: #FAFAFA
     line-height: 1.4
     letter-spacing: .05em
 
 h1
     font-size: 34px
     color:green
+    margin-bottom: 25px
 
-.logo
-    background:
-        image:url("../images/logo.png")
-        repeat:no-repeat
-        position:center
-        size:contain
-    margin: 5px 0px 5px 0 
-    float:left
-    width:33%
-    min-height:100px
-    
-.headerpic
-    visibility:hidden
-    
 .header
-    float:right
-    min-width:67%
-    margin-bottom:30px
-    min-height:110px
-    h2
-        margin-top:35px
-        font-size:30px
-        margin-left:auto
-        margin-right:auto
-    h3
-        
     
-.nav
-    clear:both
-    padding:5px
-    margin-bottom:30px
-
-    a
+    .header-position
+        position: fixed
+        top: 0
+        left: 0
+        bottom: 0
+        width: 12%
+        padding: 30px 0
+        display:flex
+        flex-direction: column
+        justify-content: space-between
+    
+    .logo
+        background:
+            image:url("/images/logo.png")
+            repeat:no-repeat
+            position:center
+            size:contain
+        height:100px
+        padding:0
+        margin:0
+        
+    .nav
+        li
+            list-style: none
+            color:black
+            text-decorations:none
+            margin: 22px 0
+            padding: 0 20px 0
+            text-align: center
+            a
+                color:black
+                font-size:24px
+                text-decoration:none
+    .email-link
         color:black
-        margin:15px
-        padding:5px
-        border-bottom:1px solid black
         text-decoration:none
-    a:hover
-        color:green
-    
-#worksec
-    margin:5px
-    min-height:50vh
-    h1
-        margin-bottom:25px
-    
-#aboutsec
-    margin:5px
-    min-height:50vh
-    img
-        border-radius:100%
-        margin:25px
-    h1
-        margin-top:100px
-    h2
-        margin-bottom:100px
-    
-#contactsec
-    margin:5px
-    min-height:25vh
-    max-height:100vh
-    h1
-        margin-bottom:25px
-    form
-        max-width:450px
-        margin: 0 auto 50px
-        
-        label
-            display:block
-          
-        
-        input
-            border: 3px solid green
-            width:100%
-            height:30px
-           
-            &:focus
-                border-color:lightgreen
-                outline:none
-                background-color:lightgrey
+        font-size: 24px
             
-    .submit-wrap
-        input
-            color:white
-            font-size:22px
-            margin-top:25px
-            background-color:green
-            height:50px
-            width:50%
-        input:hover
-            color:green
-            background-color:white
-        
-    .contact-info-group
-            label
-                color:grey
-                padding:10px
-            textarea
-                height:100px
-                font-size:14px
-                border: 3px solid green
-                width:99%
-                &:focus
-                    border-color:lightgreen
-                    outline:none
-                    background-color:lightgrey
-            
-.socialicons
-    margin:5px
-    img
-        max-width:25%
-        opacity:.8
-    :hover
-            opacity:1
+.content
+    width: 88%
+    margin-left:12%
     
-.footer
-    margin:5px
+    #worksec
+        img
+            margin: 25px
+        background:
+            image:url("/images/workbg.jpg")
+            size:cover
+            position:center
+        padding-bottom:25px
+        padding-top:25px
+        
+    #aboutsec
+        padding-bottom:25px
+        padding-top:25px
+        color:white
+        img
+            border-radius:100%
+            margin-bottom:25px
+        background:
+            image:url("/images/bg.jpg")
+            size:cover
+            position:center
+    #contactsec
+        padding-bottom:25px
+        padding-top:25px
+        background:
+            image:url("/images/bg1.jpg")
+            size:cover
+            position:center
+    .socialicons
+        background-color:green
+        img
+            width:8%
+        
+    .footer
+        background-color:green
+        padding-bottom:5px
+        

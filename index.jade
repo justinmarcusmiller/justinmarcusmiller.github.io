@@ -12,56 +12,59 @@ html
         script(src='/js/functions.js')
         
     body
-        .logo
-        
         .header
-            h2 JUSTIN MILLER
+            .header-position
+                .logo
+                .nav
+                    ul
+                        li 
+                            a(href="#worksec") Work
+                        li 
+                            a(href="#aboutsec") About
+                        li 
+                            a(href="#contactsec") Contact
+                            
+                a(href="mailto:justinmiller171@gmail.com").email-link E-mail Me
         
-        .headerpic
-        
-        .nav
-            a(href="#worksec") Work
-            a(href="#aboutsec") About
-            a(href="#contactsec") Contact
-        
-        #worksec
-            h1 Work Showcase
-            img(src="http://placehold.it/350x150")
-            img(src="http://placehold.it/350x150")
-            img(src="http://placehold.it/350x150")
-        
-        #aboutsec
-            h1 About Me
-            img(src="images/me.png")
-            h2 My name is Justin Miller. I am a college student who dreams of becoming a professional web developer
-        
-        #contactsec
-            h1 Contact Me
-            form(action="//formspree.io/justinmiller171@gmail.com",method="POST")
-                
-                .contact-info-group
-                    label
-                        p Your Name
-                    input(type="text" name="name")
+        .content
+            #worksec
+                h1 Work Showcase
+                img(src="http://placehold.it/300x300")
+                img(src="http://placehold.it/300x300")
+                img(src="http://placehold.it/300x300")
 
-                    label
-                        p Your E-mail
-                    input(type="email" name="_replyto")
-                    
+            #aboutsec
+                h1 About Me
+                img(src="images/me.png")
+                h2 My name is Justin Miller. I am a college student who dreams of becoming a professional web developer
 
-                    label
-                        p Your Message
-                    textarea(name="message")
-                    
-                .submit-wrap
+            #contactsec
+                h1 Contact Me
+                form(action="//formspree.io/justinmiller171@gmail.com",method="POST")
 
-                    input(type="submit" value="Send")
+                    .contact-info-group
+                        label
+                            p Your Name
+                        input(type="text" name="name")
 
+                        label
+                            p Your E-mail
+                        input(type="email" name="_replyto")
+
+
+                        label
+                            p Your Message
+                        textarea(name="message")
+
+                    .submit-wrap
+
+                        input(type="submit" value="Send")
+
+
+            .socialicons
+                img(src="images/github.png")
+                img(src="images/linkedin.png")
+                img(src="images/googleplus-square.png")
         
-        .socialicons
-            img(src="images/github.png")
-            img(src="images/linkedin.png")
-            img(src="images/googleplus-square.png")
-        
-        .footer
-            p © Justin Miller 2015
+            .footer
+                p © Justin Miller 2015
