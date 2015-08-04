@@ -1,95 +1,61 @@
 body
     font-family: 'Roboto', sans-serif
     margin:0
-    text-align: center
     font-size: 20px
-    color:black
-    line-height: 1.4
-    letter-spacing: .05em
-
-h1
-    font-size: 34px
-    color:green
-    margin-bottom: 25px
-
-.header
+    letter-spacing: 2px
     
-    .header-position
-        position: fixed
-        top: 0
-        left: 0
-        bottom: 0
-        width: 12%
-        padding: 30px 0
-        display:flex
-        flex-direction: column
-        justify-content: space-between
+
+.sideheader
+    width:10%
+    height:100vh
+    position:absolute
+    top:0
+    bottom:0
+    background-color:#E0E0E0
+    left:0
+    display:table
+
+    
+.logoalign
+    display:table-cell
+    position:relative
+    vertical-align:middle
+    text-align:center
     
     .logo
-        background:
-            image:url("/images/logo.png")
-            repeat:no-repeat
-            position:center
-            size:contain
-        height:100px
-        padding:0
-        margin:0
-        
-    .nav
-        li
-            list-style: none
-            color:black
-            text-decorations:none
-            margin: 22px 0
-            padding: 0 20px 0
-            text-align: center
-            a
-                color:black
-                font-size:24px
-                text-decoration:none
-    .email-link
-        color:black
-        text-decoration:none
-        font-size: 24px
-            
-.content
-    width: 88%
-    margin-left:12%
+        width:100px
+
+
+.navheader
+    width:90%
+    height:100vh
+    position:absolute
+    top:0
+    right:0
+    bottom:0
+    background-color:#252728
+    display:table
     
-    #worksec
-        img
-            margin: 25px
-        background:
-            image:url("/images/workbg.jpg")
-            size:cover
-            position:center
-        padding-bottom:25px
-        padding-top:25px
-        
-    #aboutsec
-        padding-bottom:25px
-        padding-top:25px
-        color:white
-        img
-            border-radius:100%
-            margin-bottom:25px
-        background:
-            image:url("/images/bg.jpg")
-            size:cover
-            position:center
-    #contactsec
-        padding-bottom:25px
-        padding-top:25px
-        background:
-            image:url("/images/bg1.jpg")
-            size:cover
-            position:center
-    .socialicons
-        background-color:green
-        img
-            width:8%
-        
-    .footer
-        background-color:green
-        padding-bottom:5px
-        
+    .nav
+        display:table-cell
+        vertical-align:middle
+        ul
+            margin-left:25px
+            
+            li
+                margin-bottom:20px
+                &:last-child
+                    margin-bottom:0px
+                
+                    
+            
+            a
+                text-decoration:none
+                color:white
+                font-size:30px
+                font-weight:700
+                transition: all 0.2s ease-in-out
+                &:hover
+                    color:green
+    
+    
