@@ -58,6 +58,7 @@ body {
         transition: all 0.2s ease-in-out; }
         /* line 58, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
         .navheader .nav ul a:hover {
+          margin-left: 10px;
           color: green; }
 
 /*# sourceMappingURL=styles.css.map */
