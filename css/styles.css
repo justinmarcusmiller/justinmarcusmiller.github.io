@@ -61,4 +61,12 @@ body {
           margin-left: 10px;
           color: green; }
 
+@media (max-width: 1110px) {
+  /* line 63, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  .navheader {
+    width: 70%; }
+  /* line 66, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  .sideheader {
+    width: 30%; } }
+
 /*# sourceMappingURL=styles.css.map */
