@@ -9,63 +9,60 @@ body {
 .sideheader {
   width: 10%;
   height: 100vh;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  background-color: #E0E0E0;
-  left: 0;
+  background-color: #424242;
   display: table; }
 
-/* line 19, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+/* line 15, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
 .logoalign {
   display: table-cell;
   position: relative;
   vertical-align: middle;
   text-align: center; }
-  /* line 25, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  /* line 21, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
   .logoalign .logo {
     width: 100px; }
 
-/* line 29, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+/* line 25, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
 .navheader {
   width: 90%;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
-  background-color: #252728;
+  background-color: #212121;
   display: table; }
-  /* line 39, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  /* line 35, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
   .navheader .nav {
     display: table-cell;
     vertical-align: middle; }
-    /* line 42, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+    /* line 38, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
     .navheader .nav ul {
       margin-left: 25px; }
-      /* line 45, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+      /* line 41, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
       .navheader .nav ul li {
-        margin-bottom: 20px; }
-        /* line 47, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+        margin-bottom: 20px;
+        list-style: none; }
+        /* line 44, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
         .navheader .nav ul li:last-child {
           margin-bottom: 0px; }
-      /* line 52, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+      /* line 49, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
       .navheader .nav ul a {
         text-decoration: none;
         color: white;
         font-size: 30px;
         font-weight: 700;
         transition: all 0.2s ease-in-out; }
-        /* line 58, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+        /* line 55, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
         .navheader .nav ul a:hover {
           margin-left: 10px;
           color: green; }
 
 @media (max-width: 1110px) {
-  /* line 63, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  /* line 60, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
   .navheader {
     width: 70%; }
-  /* line 66, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+  /* line 65, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
   .sideheader {
     width: 30%; } }
 
