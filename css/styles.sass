@@ -3,14 +3,18 @@ body
     margin:0
     font-size: 20px
     letter-spacing: 2px
+    background-color:#212121
     
 
 .sideheader
-    width:10%
+    width:125px
     height:100vh
     background-color:#424242
     display:table
-
+    position:absolute
+    top:0
+    bottom:0
+    left:0
     
 .logoalign
     display:table-cell
@@ -23,14 +27,16 @@ body
 
 
 .navheader
-    width:90%
-    height:100%
-    position:absolute
-    top:0
-    right:0
-    bottom:0
+    width:100px
+    height:100vh
     background-color:#212121
     display:table
+    positon:absolute
+    bottom:0
+    margin-left:125px
+    top:0
+    left:0
+
     
     .nav
         display:table-cell
@@ -55,14 +61,25 @@ body
                 &:hover
                     margin-left:10px
                     color:green
-                    
-@media (max-width: 1110px)
-    .navheader
-        width: 70%
+.topbar
+    width:100vw
+    height:10vh
+    background-color:#424242
+    text-align:center
+    display:table
     
+    .logo
+        width:8vh
         
+.content
+    text-align:center
+    h1
+        font-size: 48px
+        margin-top:10vh
+        color:green
+.mypic
+    border-radius:100%
+    margin-top:50px
         
-    .sideheader
-        width:30%
- 
+
     
