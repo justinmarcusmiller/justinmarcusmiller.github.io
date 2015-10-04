@@ -1,52 +1,134 @@
-/* line 1, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+/* line 3, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Oswald', sans-serif;
   margin: 0;
-  font-size: 1em;
+  font-size: 1rem;
   letter-spacing: 2px;
-  background-color: #FAFAFA;
+  background-color: #E0E0E0;
   color: #212121; }
 
-/* line 9, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
-.content {
-  height: 100vh;
-  background-image: url(../images/hero.jpg);
-  background-repeat: no-repeat;
-  background-position: center; }
-
-/* line 17, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+/*.header
+    color:#333333
+    background-color:#FAFAFA
+    margin:auto
+    min-width:25vw
+    font-weight:bold
+    text-align:center
+    padding:15px
+    font-size:1.4rem*/
+/* line 21, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
 .nav {
   width: 100vw;
   height: 6vh;
-  background-color: rgba(33, 33, 33, 0.5); }
-  /* line 21, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+  background-color: #333333;
+  font-weight: 600;
+  box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.75); }
+  /* line 27, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
   .nav .navitems {
     max-width: 1000px;
     display: flex;
     margin: auto;
     justify-content: space-around; }
-    /* line 26, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+    /* line 32, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
     .nav .navitems li {
       list-style: none;
       display: inline; }
-      /* line 29, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+      /* line 35, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+      .nav .navitems li h1 {
+        color: #333333;
+        height: 6vh;
+        line-height: 6vh;
+        padding: 0px 15px 0 15px;
+        margin: 0 -15px 0 -15px;
+        background-color: #FAFAFA; }
+      /* line 42, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
       .nav .navitems li a {
         text-decoration: none;
         color: #FAFAFA;
-        line-height: 6vh; }
+        line-height: 6vh;
+        transition: all 0.2s ease-in-out; }
+        /* line 47, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+        .nav .navitems li a:hover {
+          color: #9E9E9E; }
 
-/* line 34, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+/* line 52, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+.content {
+  height: 100vh;
+  background-image: url(../images/hero2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+
+/* line 60, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+.infobox {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: #FAFAFA;
+  max-width: 600px;
+  height: 500p;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 5vh;
+  font-weight: 600;
+  box-shadow: 0px 4px 36px 0px rgba(0, 0, 0, 0.75); }
+  /* line 72, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+  .infobox p {
+    padding: 3px; }
+  /* line 74, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+  .infobox a {
+    padding: 3px;
+    color: #333333;
+    transition: all 0.2s ease-in-out; }
+    /* line 78, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+    .infobox a:hover {
+      color: #9E9E9E; }
+
+/* line 81, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
 .footer {
   position: fixed;
   bottom: 0;
+  box-shadow: 0px -4px 36px 0px rgba(0, 0, 0, 0.75);
+  color: #FAFAFA;
+  background-color: #333333;
   width: 100vw;
-  margin-bottom: 5px;
+  font-size: .9rem;
+  padding: 5px;
   display: flex;
   justify-content: center; }
-  /* line 41, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+  /* line 92, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
   .footer a {
     text-decoration: none;
-    color: #212121;
+    color: #FAFAFA;
     margin-left: 6px; }
+
+/* line 98, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+.mediacontent {
+  display: flex;
+  margin-top: 5vh;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+  /* line 104, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+  .mediacontent h1 {
+    display: block;
+    text-align: center;
+    font-size: 2.4rem;
+    width: 100vw;
+    margin-bottom: 25px; }
+  /* line 110, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+  .mediacontent .mediabox {
+    max-width: 35vw;
+    max-height: 100vh;
+    border-bottom: 1px solid black; }
+    /* line 114, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+    .mediacontent .mediabox p {
+      text-align: center;
+      margin-top: .5rem;
+      margin-bottom: .5rem; }
+    /* line 118, C:/Users/Justi/Desktop/bradsite/css/styles.sass */
+    .mediacontent .mediabox img {
+      max-width: 100%;
+      margin-top: 1rem; }
 
 /*# sourceMappingURL=styles.css.map */
