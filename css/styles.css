@@ -1,200 +1,126 @@
-/* line 1, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
+/* line 10, C:/Users/Justi/portfolio2/css/styles.sass */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
   font-size: 1em;
   letter-spacing: 2px;
-  background-color: #212121;
-  color: #FFF; }
+  background-color: #E0E0E0;
+  color: #424242; }
 
-/* line 10, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-.sideheader {
-  width: 125px;
-  height: 100vh;
-  background-color: #424242;
-  display: table;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0; }
+/* line 18, C:/Users/Justi/portfolio2/css/styles.sass */
+.pagewrap {
+  background-color: #F5F5F5;
+  min-height: 100vh;
+  width: 1400px;
+  margin: auto;
+  box-shadow: 0px 0px 38px -5px rgba(0, 0, 0, 0.75);
+  transition: all 0.15s ease-in-out; }
 
-/* line 20, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-.logoalign {
-  display: table-cell;
-  position: relative;
-  vertical-align: middle;
-  text-align: center; }
-  /* line 26, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-  .logoalign .logo {
-    width: 95px; }
-
-/* line 30, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-.navheader {
-  width: 100px;
-  height: 100vh;
-  background-color: #212121;
-  display: table;
-  positon: absolute;
-  bottom: 0;
-  margin-left: 125px;
-  top: 0;
-  left: 0; }
-  /* line 42, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-  .navheader .nav {
-    display: table-cell;
-    vertical-align: middle; }
-    /* line 45, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-    .navheader .nav ul {
-      margin-left: 25px; }
-      /* line 48, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-      .navheader .nav ul li {
-        margin-bottom: 20px;
-        list-style: none; }
-        /* line 51, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-        .navheader .nav ul li:last-child {
-          margin-bottom: 0px; }
-      /* line 56, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-      .navheader .nav ul a {
-        text-decoration: none;
-        color: #FFF;
-        font-size: 2em;
-        font-weight: 700;
-        transition: all 0.2s ease-in-out; }
-        /* line 62, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-        .navheader .nav ul a:hover {
-          margin-left: 10px;
-          color: green; }
-
-/* line 65, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-.topbar {
-  width: 100vw;
-  height: 10vh;
-  background-color: #424242;
-  text-align: center;
-  display: table;
-  font-size: 1.5em; }
-  /* line 73, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-  .topbar .logo {
-    width: 8vh; }
-
-/* line 76, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-.content {
-  text-align: center; }
-  /* line 78, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-  .content h1 {
-    font-size: 3em;
-    margin-top: 10vh;
-    color: green; }
-  /* line 82, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-  .content h2 {
-    margin-top: 10vh; }
-
-/* line 85, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-.mypic {
-  border-radius: 100%;
-  margin-top: 50px; }
-
-/* line 89, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-#contactsec {
-  margin: 5px;
-  min-height: 25vh;
-  max-height: 100vh;
-  text-align: center; }
-  /* line 94, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-  #contactsec h1 {
-    margin-bottom: 25px;
-    color: #FFF;
-    margin-top: 25px;
-    font-size: 3em; }
-  /* line 99, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-  #contactsec form {
-    max-width: 450px;
-    margin: 0 auto 50px; }
-    /* line 103, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-    #contactsec form label {
-      display: block; }
-    /* line 106, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-    #contactsec form input {
-      border: 3px solid green;
-      width: 100%;
-      color: #FFF;
-      height: 30px;
-      font-size: .9em;
-      background-color: #424242;
-      font-family: 'Roboto';
-      font-weight: 500; }
-      /* line 115, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-      #contactsec form input:focus {
-        border-color: lightgreen;
-        outline: none;
-        background-color: #424242; }
-  /* line 121, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-  #contactsec .submit-wrap input {
-    color: #424242;
-    font-size: 1.2em;
-    margin-top: 25px;
-    background-color: green;
-    height: 50px;
-    width: 50%;
-    input: hover;
-    color: green;
-    background-color: #424242; }
-  /* line 133, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-  #contactsec .contact-info-group label {
-    color: #FFF;
-    padding: 10px; }
-  /* line 136, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-  #contactsec .contact-info-group textarea {
-    height: 100px;
-    font-size: .9em;
-    border: 3px solid green;
-    width: 99%;
-    font-family: 'Roboto';
-    font-weight: 500;
-    color: #FFF;
-    background-color: #424242; }
-    /* line 146, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-    #contactsec .contact-info-group textarea:focus {
-      border-color: lightgreen;
-      outline: none;
-      background-color: #424242; }
-
-/* line 151, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-.socialicons {
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  height: 10vh;
-  width: 100vw;
-  background-color: #424242;
-  transition: all 0.2s ease-in-out; }
-  /* line 159, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-  .socialicons img {
-    max-width: 5%;
-    opacity: .5; }
-  /* line 162, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-  .socialicons :hover {
-    opacity: 1; }
-
-/* line 165, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-.topnav {
+/* line 28, C:/Users/Justi/portfolio2/css/styles.sass */
+.nav {
+  height: 50px;
+  border-bottom: 2px solid #424242;
+  background-color: #F5F5F5;
   display: flex;
-  flex-direction: row;
-  justify-content: center; }
-  /* line 170, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-  .topnav a {
+  box-shadow: 0px -10px 38px -15px rgba(0, 0, 0, 0.75); }
+
+/* line 36, C:/Users/Justi/portfolio2/css/styles.sass */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 25%; }
+  /* line 42, C:/Users/Justi/portfolio2/css/styles.sass */
+  .logo h1 {
+    font-size: 2rem;
+    color: #2E7D32; }
+
+/* line 46, C:/Users/Justi/portfolio2/css/styles.sass */
+.navlinks {
+  height: 50px;
+  display: flex;
+  width: 30%;
+  align-items: center;
+  margin-left: 45%;
+  justify-content: space-around; }
+  /* line 55, C:/Users/Justi/portfolio2/css/styles.sass */
+  .navlinks a {
+    color: #424242;
     text-decoration: none;
-    color: #FFF;
-    margin: 15px;
-    align-self: center;
-    align-content: space-between;
-    transition: all 0.2s ease-in-out; }
-    /* line 177, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-    .topnav a:hover {
-      color: green; }
-  /* line 180, C:/Users/Justi/Desktop/portfolio/css/styles.sass */
-  .topnav img {
-    align-self: center;
-    margin: 10px; }
+    font-size: 1.2rem;
+    transition: all 0.15s ease-in-out; }
+    /* line 60, C:/Users/Justi/portfolio2/css/styles.sass */
+    .navlinks a:hover {
+      color: #9E9E9E; }
+
+/* line 65, C:/Users/Justi/portfolio2/css/styles.sass */
+.heroimg {
+  height: 400px;
+  background-color: #9E9E9E;
+  background-image: url("../images/bg3.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  /* line 77, C:/Users/Justi/portfolio2/css/styles.sass */
+  .heroimg .about {
+    text-align: center;
+    color: #F5F5F5;
+    line-height: 2em; }
+    /* line 82, C:/Users/Justi/portfolio2/css/styles.sass */
+    .heroimg .about h2 {
+      font-size: 2em;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); }
+    /* line 86, C:/Users/Justi/portfolio2/css/styles.sass */
+    .heroimg .about h3 {
+      font-size: 1.4em;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); }
+    /* line 90, C:/Users/Justi/portfolio2/css/styles.sass */
+    .heroimg .about img {
+      width: 125px;
+      box-shadow: 0px 1px 38px 0px rgba(0, 0, 0, 0.75);
+      height: 125px;
+      border-radius: 50%;
+      border: 5px solid #F5F5F5;
+      margin-bottom: 25px; }
+
+/* line 100, C:/Users/Justi/portfolio2/css/styles.sass */
+.sections {
+  box-shadow: 0px -15px 38px -15px rgba(0, 0, 0, 0.75);
+  border-top: 2px solid #424242;
+  color: #424242; }
+  /* line 104, C:/Users/Justi/portfolio2/css/styles.sass */
+  .sections h1 {
+    font-size: 2.5em;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #2E7D32; }
+  /* line 110, C:/Users/Justi/portfolio2/css/styles.sass */
+  .sections #work {
+    text-align: center;
+    min-height: 50vh; }
+    /* line 113, C:/Users/Justi/portfolio2/css/styles.sass */
+    .sections #work img {
+      padding: 0 50px; }
+  /* line 116, C:/Users/Justi/portfolio2/css/styles.sass */
+  .sections #contact {
+    text-align: center;
+    min-height: 50vh; }
+    /* line 119, C:/Users/Justi/portfolio2/css/styles.sass */
+    .sections #contact a {
+      color: #212121;
+      display: block;
+      width: fit-content;
+      margin: auto;
+      transition: all 0.15s ease-in-out;
+      line-height: 2em;
+      font-size: 1.2em; }
+      /* line 127, C:/Users/Justi/portfolio2/css/styles.sass */
+      .sections #contact a:hover {
+        color: #9E9E9E; }
 
 /*# sourceMappingURL=styles.css.map */
