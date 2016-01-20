@@ -15,8 +15,12 @@ body {
   margin: auto;
   box-shadow: 0px 0px 38px -5px rgba(0, 0, 0, 0.75);
   transition: all 0.15s ease-in-out; }
+  @media screen and (max-width: 1080px) {
+    /* line 18, C:/Users/Justi/portfolio2/css/styles.sass */
+    .pagewrap {
+      width: 100vw; } }
 
-/* line 28, C:/Users/Justi/portfolio2/css/styles.sass */
+/* line 32, C:/Users/Justi/portfolio2/css/styles.sass */
 .nav {
   height: 50px;
   border-bottom: 2px solid #424242;
@@ -24,19 +28,25 @@ body {
   display: flex;
   box-shadow: 0px -10px 38px -15px rgba(0, 0, 0, 0.75); }
 
-/* line 36, C:/Users/Justi/portfolio2/css/styles.sass */
+/* line 40, C:/Users/Justi/portfolio2/css/styles.sass */
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 50px;
   width: 25%; }
-  /* line 42, C:/Users/Justi/portfolio2/css/styles.sass */
+  /* line 46, C:/Users/Justi/portfolio2/css/styles.sass */
   .logo h1 {
     font-size: 2rem;
     color: #2E7D32; }
+  @media screen and (max-width: 1080px) {
+    /* line 40, C:/Users/Justi/portfolio2/css/styles.sass */
+    .logo {
+      width: 50%;
+      justify-content: flex-start;
+      margin-left: 2.5%; } }
 
-/* line 46, C:/Users/Justi/portfolio2/css/styles.sass */
+/* line 54, C:/Users/Justi/portfolio2/css/styles.sass */
 .navlinks {
   height: 50px;
   display: flex;
@@ -44,17 +54,23 @@ body {
   align-items: center;
   margin-left: 45%;
   justify-content: space-around; }
-  /* line 55, C:/Users/Justi/portfolio2/css/styles.sass */
+  /* line 63, C:/Users/Justi/portfolio2/css/styles.sass */
   .navlinks a {
     color: #424242;
     text-decoration: none;
     font-size: 1.2rem;
     transition: all 0.15s ease-in-out; }
-    /* line 60, C:/Users/Justi/portfolio2/css/styles.sass */
+    /* line 68, C:/Users/Justi/portfolio2/css/styles.sass */
     .navlinks a:hover {
       color: #9E9E9E; }
+  @media screen and (max-width: 1080px) {
+    /* line 54, C:/Users/Justi/portfolio2/css/styles.sass */
+    .navlinks {
+      width: 50%;
+      margin-left: 0;
+      margin-right: 2.5%; } }
 
-/* line 65, C:/Users/Justi/portfolio2/css/styles.sass */
+/* line 78, C:/Users/Justi/portfolio2/css/styles.sass */
 .heroimg {
   height: 400px;
   background-color: #9E9E9E;
@@ -66,20 +82,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; }
-  /* line 77, C:/Users/Justi/portfolio2/css/styles.sass */
+  /* line 90, C:/Users/Justi/portfolio2/css/styles.sass */
   .heroimg .about {
     text-align: center;
     color: #F5F5F5;
     line-height: 2em; }
-    /* line 82, C:/Users/Justi/portfolio2/css/styles.sass */
+    /* line 95, C:/Users/Justi/portfolio2/css/styles.sass */
     .heroimg .about h2 {
       font-size: 2em;
       text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); }
-    /* line 86, C:/Users/Justi/portfolio2/css/styles.sass */
+    /* line 99, C:/Users/Justi/portfolio2/css/styles.sass */
     .heroimg .about h3 {
       font-size: 1.4em;
       text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); }
-    /* line 90, C:/Users/Justi/portfolio2/css/styles.sass */
+    /* line 103, C:/Users/Justi/portfolio2/css/styles.sass */
     .heroimg .about img {
       width: 125px;
       box-shadow: 0px 1px 38px 0px rgba(0, 0, 0, 0.75);
@@ -88,29 +104,38 @@ body {
       border: 5px solid #F5F5F5;
       margin-bottom: 25px; }
 
-/* line 100, C:/Users/Justi/portfolio2/css/styles.sass */
+/* line 113, C:/Users/Justi/portfolio2/css/styles.sass */
 .sections {
   box-shadow: 0px -15px 38px -15px rgba(0, 0, 0, 0.75);
   border-top: 2px solid #424242;
   color: #424242; }
-  /* line 104, C:/Users/Justi/portfolio2/css/styles.sass */
+  /* line 117, C:/Users/Justi/portfolio2/css/styles.sass */
   .sections h1 {
     font-size: 2.5em;
     padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
     color: #2E7D32; }
-  /* line 110, C:/Users/Justi/portfolio2/css/styles.sass */
+  /* line 123, C:/Users/Justi/portfolio2/css/styles.sass */
   .sections #work {
     text-align: center;
     min-height: 50vh; }
-    /* line 113, C:/Users/Justi/portfolio2/css/styles.sass */
+    /* line 126, C:/Users/Justi/portfolio2/css/styles.sass */
     .sections #work img {
-      padding: 0 50px; }
-  /* line 116, C:/Users/Justi/portfolio2/css/styles.sass */
+      margin: 0 25px;
+      max-height: 200px;
+      transition: all 0.15s ease-in-out; }
+      /* line 130, C:/Users/Justi/portfolio2/css/styles.sass */
+      .sections #work img:hover {
+        box-shadow: 0px 0px 38px -15px rgba(0, 0, 0, 0.75); }
+      @media screen and (max-width: 1080px) {
+        /* line 126, C:/Users/Justi/portfolio2/css/styles.sass */
+        .sections #work img {
+          margin: 25px 0; } }
+  /* line 136, C:/Users/Justi/portfolio2/css/styles.sass */
   .sections #contact {
     text-align: center;
     min-height: 50vh; }
-    /* line 119, C:/Users/Justi/portfolio2/css/styles.sass */
+    /* line 139, C:/Users/Justi/portfolio2/css/styles.sass */
     .sections #contact a {
       color: #212121;
       display: block;
@@ -119,7 +144,7 @@ body {
       transition: all 0.15s ease-in-out;
       line-height: 2em;
       font-size: 1.2em; }
-      /* line 127, C:/Users/Justi/portfolio2/css/styles.sass */
+      /* line 147, C:/Users/Justi/portfolio2/css/styles.sass */
       .sections #contact a:hover {
         color: #9E9E9E; }
 
