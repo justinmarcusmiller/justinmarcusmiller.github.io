@@ -1,0 +1,30 @@
+/* CSS Document */
+
+body {
+	max-width:1000px;
+	background-color:grey;
+	color:white;	
+	margin:auto;
+}
+
+.msp-header{
+	text-align:center;
+	margin:auto;	
+}
+
+.msp-links {
+	text-align:center;
+	margin:auto;	
+}
+
+.msp-links a {
+	margin:auto;
+	text-align:center;
+	font-size:24px;	
+}
+
+.msp-content p {
+	line-height:20px;
+	font-size:16px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif	
+}
