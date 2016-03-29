@@ -6,6 +6,8 @@ body {
   letter-spacing: 2px;
   background-color: #E0E0E0;
   color: #424242;
+  max-width:1000px;
+  margin:auto;
   display: flex;
   flex-wrap: wrap; }
   /* line 18, C:/Users/Justi/mysite/msp74/styles.sass */
