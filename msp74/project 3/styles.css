@@ -1,0 +1,53 @@
+/* CSS Document */
+
+body {
+	margin:0;
+	display:flex	;
+	flex-wrap:wrap;
+	flex-direction:row;
+	font-family: 'Roboto', sans-serif;
+}
+
+.Sidebar {
+	width: 50vw;
+	height:90vh;
+	background-color:#000;
+	color:#fff;
+	display:flex;
+	justify-content:center;
+	justify-self:flex-start;
+}
+
+.Sidebar h1 {
+	text-align:center;
+}
+
+.content {
+	width:50vw;
+	height:90vh;
+	background-color:#fff;
+	color:#000;
+	display:flex;
+	align-self:flex-end;	
+	justify-content:center;
+}
+
+
+
+footer {
+	width:100vw;
+	height:10vh;
+	background-color:#000;
+	color:#999;
+	text-align:center;
+}
+
+footer p {
+	display:inline;	
+}
+
+footer a {
+	display:inline;
+	color:#999;
+		
+}
