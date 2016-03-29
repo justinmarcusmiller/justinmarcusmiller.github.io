@@ -1,0 +1,72 @@
+/* line 9, C:/Users/Justi/mysite/msp74/styles.sass */
+body {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  font-size: 1em;
+  letter-spacing: 2px;
+  background-color: #E0E0E0;
+  color: #424242;
+  display: flex;
+  flex-wrap: wrap; }
+  /* line 18, C:/Users/Justi/mysite/msp74/styles.sass */
+  body a {
+    color: #424242;
+    font-size: 1.2rem;
+    transition: all 0.15s ease-in-out; }
+    /* line 23, C:/Users/Justi/mysite/msp74/styles.sass */
+    body a:hover {
+      color: #BDBDBD; }
+  /* line 26, C:/Users/Justi/mysite/msp74/styles.sass */
+  body h1 {
+    font-size: 3rem;
+    margin: 5px;
+    text-align: center; }
+  /* line 30, C:/Users/Justi/mysite/msp74/styles.sass */
+  body h2 {
+    font-size: 2rem;
+    margin: 5px;
+    text-align: center; }
+  /* line 34, C:/Users/Justi/mysite/msp74/styles.sass */
+  body p {
+    font-size: 1.2rem; }
+
+/* line 37, C:/Users/Justi/mysite/msp74/styles.sass */
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100vw;
+  height: 15vh;
+  text-align: center; }
+
+/* line 45, C:/Users/Justi/mysite/msp74/styles.sass */
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100vw;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  height: 85vh;
+  justify-content: center; }
+  /* line 55, C:/Users/Justi/mysite/msp74/styles.sass */
+  .links a {
+    margin: 15px; }
+
+/* line 58, C:/Users/Justi/mysite/msp74/styles.sass */
+.content {
+  width: 100vw;
+  margin: 15px;
+  line-height: 2rem;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap; }
+  /* line 65, C:/Users/Justi/mysite/msp74/styles.sass */
+  .content p {
+    width: 100vw; }
+  /* line 67, C:/Users/Justi/mysite/msp74/styles.sass */
+  .content img {
+    margin: auto; }
+
+/*# sourceMappingURL=styles.css.map */
