@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://justinmarcusmiller.com/msp74/lab7/assets/test-movie.mp4.mp4</loc>
+    <lastmod>2016-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://justinmarcusmiller.com/msp74/lab7/assets/test-movie.oggtheora.ogv</loc>
+    <lastmod>2016-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://justinmarcusmiller.com/msp74/lab7/assets/test-movie.webmsd.webm</loc>
+    <lastmod>2016-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://justinmarcusmiller.com/msp74/lab7/images/back-bird.png</loc>
+    <lastmod>2016-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://justinmarcusmiller.com/msp74/lab7/images/fore-bird.png</loc>
+    <lastmod>2016-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://justinmarcusmiller.com/msp74/lab7/index.html</loc>
+    <lastmod>2016-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://justinmarcusmiller.com/msp74/lab7/video.html</loc>
+    <lastmod>2016-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
