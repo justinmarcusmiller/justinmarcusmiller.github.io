@@ -1,0 +1,88 @@
+body {
+    background-color: #FFF;
+    color: #000;
+    height:200vh;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    transition: all 0.15s ease-in-out;
+}
+
+h1 {
+    font-size:48px;
+    font-weight:600;
+}
+
+a {
+ color:lightblue;
+}
+
+.header {
+    min-width:100vw;
+    height:100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:5px 0;
+    background-color:palegoldenrod;
+}
+
+.header img {
+    margin-right: 15px   
+}
+
+.float-menu p {
+    position: fixed;
+    top:25px;
+    left:5px;
+    padding:20px;
+    background-color:palegoldenrod;
+    border-radius: 10px;
+    transition: all 0.15s ease-in-out;
+}
+
+.float-menu :hover {
+    background-color: black;
+    color:palegoldenrod;
+}
+
+.main-slideshow {
+    width:528px;
+    display:flex;
+    flex-flow:wrap column;
+    margin: auto;
+    height:250px;
+    background-image: url(/images/promoBG-winter.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.main-slideshow h2 {
+    color:#FFF;
+    font-size:28px;
+    font-weight:600;
+    padding:15px;
+}
+
+.slideshow-box {
+    background-color:#000;
+    color:#FFF;
+    width:275px;
+    line-height: 22px;
+    padding:10px;
+    margin:5px;
+    border-radius:10px;
+}
+
+.slideshow-link {
+    background-color:grey;
+    width:150px;
+    text-align:center;
+    margin:5px;
+    padding:5px;
+    border:1px solid black;
+    border-radius:10px;
+}
+
+
+
+
+
