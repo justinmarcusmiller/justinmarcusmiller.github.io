@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    font-size:48px;
+    font-size:36px;
     font-weight:600;
 }
 
@@ -16,36 +16,48 @@ a {
 }
 
 .header {
-    min-width:100vw;
-    height:100px;
+    
+    height:100vh;
+    width:200px;
+    position: fixed;
+    left:0;
+    top:0;
+    text-align:center;
     display:flex;
-    align-items: center;
-    justify-content: center;
+    flex-flow: wrap column;
+    align-items:center;
     padding:5px 0;
     background-color:palegoldenrod;
 }
 
 .header img {
-    margin-right: 15px   
 }
 
-.float-menu p {
-    position: fixed;
-    top:25px;
-    left:5px;
-    padding:20px;
-    background-color:palegoldenrod;
-    border-radius: 10px;
-    transition: all 0.15s ease-in-out;
+.logo {
+    height:15vh   
+}
+.header-nav {
+    display:flex;
+    justify-content: space-around;
+    flex-flow: wrap column;
+    height:80vh;
 }
 
-.float-menu :hover {
-    background-color: black;
-    color:palegoldenrod;
+.header-nav a {
+    color:#000;
+    font-size:16px;
+    
+}
+
+.page-content {
+    border:1px solid black;
+    margin-left: 200px;
+    min-height:100vh
 }
 
 .main-slideshow {
-    width:528px;
+    width:1000px;
+    padding-left: 15vw;
     display:flex;
     flex-flow:wrap column;
     margin: auto;
