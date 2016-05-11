@@ -1,2 +1,69 @@
+@media (max-width: 1000px) {
+  /* line 5, C:/Users/Justi/project4/css/responsive.sass */
+  .main-cta-nav a {
+    width: 200px; } }
+
+@media (max-width: 720px) {
+  /* line 9, C:/Users/Justi/project4/css/responsive.sass */
+  .main-nav-wrapper {
+    max-height: 100vh;
+    flex-flow: column;
+    justify-content: space-around;
+    background-color: #f6bb42; }
+  /* line 15, C:/Users/Justi/project4/css/responsive.sass */
+  .top-bar-wrapper {
+    width: 100vw;
+    height: 150px;
+    padding: 0;
+    flex-flow: column wrap; }
+  /* line 22, C:/Users/Justi/project4/css/responsive.sass */
+  .title {
+    width: 100vw;
+    justify-content: center; }
+  /* line 26, C:/Users/Justi/project4/css/responsive.sass */
+  .top-bar {
+    flex-flow: column wrap;
+    height: 150px;
+    background-color: white; }
+  /* line 33, C:/Users/Justi/project4/css/responsive.sass */
+  .top-bar-links {
+    width: 100vw;
+    height: 70px;
+    align-items: center; }
+    /* line 38, C:/Users/Justi/project4/css/responsive.sass */
+    .top-bar-links a {
+      border: 1px solid black;
+      border-radius: 6px;
+      padding: 15px;
+      margin: 5px; }
+  /* line 44, C:/Users/Justi/project4/css/responsive.sass */
+  .video-bg {
+    display: none; }
+  /* line 47, C:/Users/Justi/project4/css/responsive.sass */
+  .main-cta {
+    display: none; }
+  /* line 50, C:/Users/Justi/project4/css/responsive.sass */
+  .main-bottom-sections {
+    min-height: 100vh; }
+  /* line 53, C:/Users/Justi/project4/css/responsive.sass */
+  .main-nav {
+    height: 50vh;
+    background-color: #f6bb42;
+    flex-flow: column; } }
+
+@media (max-width: 480px) {
+  /* line 63, C:/Users/Justi/project4/css/responsive.sass */
+  .top-bar-links {
+    width: 100vw; }
+    /* line 66, C:/Users/Justi/project4/css/responsive.sass */
+    .top-bar-links a {
+      padding: 10px;
+      margin: 0; }
+  /* line 70, C:/Users/Justi/project4/css/responsive.sass */
+  .top-bar-wrapper {
+    width: 100vw; }
+  /* line 75, C:/Users/Justi/project4/css/responsive.sass */
+  .main-bottom-sections {
+    min-height: 100vh; } }
 
 /*# sourceMappingURL=responsive.css.map */

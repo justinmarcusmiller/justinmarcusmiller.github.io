@@ -1,1 +1,1 @@
-Project 4 in MSP74/75
+Site-Starter is a simple website starter package for use with SASS and PUG.
