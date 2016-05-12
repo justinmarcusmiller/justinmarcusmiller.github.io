@@ -5,15 +5,17 @@ $(document).ready(function () {
         
         var wScroll = $(this).scrollTop();
         
-        if (wScroll > $('.main-bottom-sections').offset().top) {
+        // Past CTA
+        if (wScroll + 60 > $('.main-bottom-sections').offset().top) {
             
-            $('.main-cta-nav').addClass('is-fixed');
+            $('.main-cta-nav').addClass('is-fixed').fadeIn();
             
         };
         
-        if (wScroll < $('.main-bottom-sections').offset().top) {
+        // Above CTA
+        if (wScroll + 60 < $('.main-bottom-sections').offset().top) {
             
-            $('.main-cta-nav').removeClass('is-fixed');
+            $('.main-cta-nav').removeClass('is-fixed').fadeIn();
             
         };
 
