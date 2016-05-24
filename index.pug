@@ -1,40 +1,173 @@
 doctype html
 html
     head
-        title Justin Miller | Web Developer
+        title Project 4
         meta(charset="utf-8")
         meta(name="viewport", content="width=device-width, initial-scale=1")
-        meta(name="description", content="Justin Miller is a web developer living in Northern California")
-        link(rel="stylesheet", href="css/normalize.css")
-        link(rel="stylesheet", href="css/main.css")
-        link(rel="stylesheet", href="css/responsive.css")
+        link(rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css")
+        link(rel="stylesheet" href="css/main.css")
+        link(rel="stylesheet" href="css/responsive.css")
         script(src="js/jquery-2.2.3.min.js")
         script(src="js/functions.js")
-        link(href='http://fonts.googleapis.com/css?family=Candal:500,700', rel='stylesheet', type='text/css')
+        link(rel="stylesheet" href='css/MicrogrammaDBolExtRegular.ttf' type="text/css")
+
+        
         
     body
-        .page-wrap
+    
+        .video-bg
+            video(autoplay="true" loop muted="true")
+                source(src="images/BCvid.mp4", type="video/mp4")
+                |Your browser does not support the video tag.
+            
         
-            .header
-                h1 Justin Miller
-            
-            .nav-area
-            
-                .about-card
-                    h2 Hi, My name is Justin
-                    a(href="github.com") About Me
+        header
+        
+            .top-bar
+                .top-bar-wrapper
+                    .title
+                        img(src="images/butte-logo.png")
+                        .title-text
+                            h1 Butte College
+                            h2 Start Here... Go Anywhere!
+                        
+                    .top-bar-links
+                        a(href="http://www.butte.edu/mybc") MyBC
+                        a(href="http://butte.edu/maps") Campus Map
+                        a(href="http://butte.edu/sustainability") Sustainability
+                        a(href="http://butte.edu/foundation") Make a Gift
+                        
                 
-                .webdev-card
-                    h2 I build websites
-                    a(href="github.com") My Work
+            .main-nav
+                .main-nav-wrapper
+                    a(href="http://butte.edu/highschool/") Getting Started
+                    a(href="http://butte.edu/newandreturning/") New Students
+                    a(href="currentstudents.html") Current Students
+                    a(href="http://butte.edu/business/") Business
+                    a(href="http://butte.edu/community/") Community
+                    
+        .main-cta
+            .main-cta-text
+                h1 Butte Community College
+                h2 Summer Session - June 13-July 21
+                h2 Fall Semester - August 22
+                .main-cta-btn
+                    a(href="http://butte.edu/apply/") Apply Now
+            .main-cta-nav
+                a(href="#about") About
+                a(href="#events") Events
+                a(href="#news") News
+
+        .main-bottom-sections
+            #about
+                h1 About Butte College
+
+                p Butte College is located an hour and ten minutes north of Sacramento, nestled in the Sierra Nevada foothills. The Main Campus is a designated wildlife refuge, and rests on 928 acres making it one of the largest community college campuses in California. 
+
+                p With its exceptional instructional programs and impressive technology, the College has earned an excellent reputation for high quality general and transfer education and career and technical skills preparation. 
+
+                p The Main Campus features training centers, ranging from fire, law enforcement, and fish and game warden academies to agriculture, welding, automotive technology, and fully-equipped science and nursing academic laboratories. Campus landmarks include the Everett Brott Campus Center, housing admissions and records, career and counseling centers, a cafeteria and bookstore; and the Frederick S. Montgomery Library.
+
+            #events
+                h1 Upcoming Events
+
+                .event-link
+                    a(href="http://calendar.butte.edu/EventList.aspx?view=EventDetails&eventidn=3290&information_id=7907&type=&syndicate=syndicate") Film + Discussion: Vincent Who?
+
+                    p Wednesday, May 11
+
+                .event-link
+                    a(href="http://calendar.butte.edu/EventList.aspx?view=EventDetails&eventidn=3289&information_id=7905&type=&syndicate=syndicate") The Criminal Justice System: Fireside Debate Forum
+
+                    p Thursday, May 12
+
+                .event-link
+                    a(href="http://calendar.butte.edu/EventList.aspx?view=EventDetails&eventidn=3140&information_id=7541&type=&syndicate=syndicate") Track & Field
+
+                    p Saturday, May 14
+
+                .event-link
+                    a(href="http://calendar.butte.edu/EventList.aspx?view=EventDetails&eventidn=3141&information_id=7543&type=&syndicate=syndicate") Track & Field
+
+                    p Friday, May 20
+
+                .event-link
+                    a(href="http://calendar.butte.edu/EventList.aspx?view=EventDetails&eventidn=3213&information_id=7694&type=&syndicate=syndicate") 65th Fire Fighter I Academy Graduation Ceremony
+
+                    p Friday, May 20
+
+            #news
+                h1 News
+
+                .news-link
+                    a(href="http://www.butte.edu/feeds/2016/NewSuperintendent-PresidentNamed.html") Butte College Names New Superintendent/President: Dr. Samia Yaqub
+
+                .news-link
+                    a(href="http://www.butte.edu/feeds/2016/BusinessConceptCompetition.html") Students Excel at Business Concept Competition
+
+                .news-link
+                    a(href="http://www.butte.edu/feeds/2016/BookInCommon.html") Book In Common 2016-17
+
+                .news-link
+                    a(href="http://www.butte.edu/feeds/2016/NFCA_Tournament.html") Oral Interpretation Student Win at NFCA Tournament
+
+                .news-link
+                    a(href="http://www.butte.edu/feeds/2016/ProstheticHand_InTheNews.html") Prosthetic Hand Made by Phi Theta Kappa Honor Students
+                    
+        footer
+            .sitemap-link
+                h2 Can't find what you're looking for?
+                a(href="sitemap.html") Browse our sitemap
                 
-                .programming-card
-                    h2 I write programs
-                    a(href="github.com") My Github Page
-                
-                .contact-card
-                    h2 Let's get in touch
-                    a(href="github.com") Contact Form
+            .footer-logo
+                img(src="images/butte-logo.png")
             
-            .footer
-                h2 Footer
+            .social-links
+                a(href="https://www.facebook.com/ButteCollege")
+                    img(src="images/Facebook.png")
+                a(href="https://twitter.com/buttecollege")
+                    img(src="images/Twitter.png")
+                
+            .footer-contact
+            
+                h3 Butte College | 3536 Butte Campus Drive, Oroville CA 95965 | General Information 530.895.2511
+            
+            .footer-links
+            
+                a(href="http://www.butte.edu/calendars") Calendars
+                
+                p |
+                
+                a(href="http://www.butte.edu/library/") Library
+                
+                p |
+                
+                a(href="http://bookstore.butte.edu/") Bookstore
+                
+                p |
+                
+                a(href="http://www.butte.edu/directory") Directory
+                
+                p |
+                
+                a(href="http://www.butte.edu/admissions/apply.html") Apply Now
+                
+                p |
+                
+                a(href="http://www.butte.edu/curriculum/degrees_and_programs") Programs & Degrees
+                
+                p |
+                
+                a(href="http://www.butte.edu/MyBC") Register
+                
+                p |
+                
+                a(href="http://www.butte.edu/district_info/diversity.html") Diversity
+                
+                p |
+                
+                a(href="http://www.butte.edu/distance/") Distance Learning
+                
+                p |
+                
+                a(href="http://www.butte.edu/MyBC") MyBC
