@@ -2,26 +2,22 @@
   font-family: 'ButteFont';
   src: url("MicrogrammaDBolExtRegular.ttf"); }
 
-/* line 24, C:/Users/Justi/project4/css/main.sass */
+/* line 25, C:/Users/Justi/project4/css/main.sass */
 * {
   max-width: 100% !important; }
 
-/* line 27, C:/Users/Justi/project4/css/main.sass */
+/* line 28, C:/Users/Justi/project4/css/main.sass */
 body {
   color: #212121;
   background-color: #F5F5F5;
   min-height: 100vh;
-  font-family: arial, sans-serif;
-  background-image: url("/images/ButteGlennCommunityCollegeDistrict.jpg");
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat; }
-  /* line 39, C:/Users/Justi/project4/css/main.sass */
+  font-family: arial, sans-serif; }
+  /* line 36, C:/Users/Justi/project4/css/main.sass */
   body a {
     color: #212121;
     text-decoration: none; }
 
-/* line 43, C:/Users/Justi/project4/css/main.sass */
+/* line 40, C:/Users/Justi/project4/css/main.sass */
 header {
   background-color: rgba(255, 255, 255, 0.9);
   height: 75px;
@@ -29,7 +25,7 @@ header {
   display: flex;
   flex-flow: wrap row; }
 
-/* line 50, C:/Users/Justi/project4/css/main.sass */
+/* line 47, C:/Users/Justi/project4/css/main.sass */
 .video-bg {
   min-width: 100vw;
   background-image: url("/images/ButteGlennCommunityCollegeDistrict.jpg");
@@ -37,7 +33,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat; }
 
-/* line 58, C:/Users/Justi/project4/css/main.sass */
+/* line 55, C:/Users/Justi/project4/css/main.sass */
 .video-bg video {
   position: fixed;
   top: 50%;
@@ -54,7 +50,7 @@ header {
   height: auto;
   z-index: -20; }
 
-/* line 76, C:/Users/Justi/project4/css/main.sass */
+/* line 73, C:/Users/Justi/project4/css/main.sass */
 .top-bar {
   height: 75px;
   display: flex;
@@ -63,14 +59,14 @@ header {
   flex-wrap: none;
   width: 100vw;
   text-align: left; }
-  /* line 86, C:/Users/Justi/project4/css/main.sass */
+  /* line 83, C:/Users/Justi/project4/css/main.sass */
   .top-bar h1 {
     padding-left: 10px;
     font-family: 'ButteFont', 'Orbitron', arial;
     font-size: 26px;
     justify-self: flex-start;
     font-weight: 500; }
-  /* line 92, C:/Users/Justi/project4/css/main.sass */
+  /* line 89, C:/Users/Justi/project4/css/main.sass */
   .top-bar h2 {
     flex: 1;
     padding-left: 10px;
@@ -79,36 +75,36 @@ header {
     font-family: serrif;
     font-size: 18px; }
 
-/* line 100, C:/Users/Justi/project4/css/main.sass */
+/* line 97, C:/Users/Justi/project4/css/main.sass */
 .title {
   width: 400px;
   height: 75px;
   display: flex;
   flex-flow: wrap row;
   align-items: center; }
-  /* line 107, C:/Users/Justi/project4/css/main.sass */
+  /* line 104, C:/Users/Justi/project4/css/main.sass */
   .title img {
     margin-right: 15px;
     height: 65px; }
 
-/* line 111, C:/Users/Justi/project4/css/main.sass */
+/* line 108, C:/Users/Justi/project4/css/main.sass */
 .top-bar-links {
   width: 400px;
   display: flex;
   justify-content: space-around; }
-  /* line 116, C:/Users/Justi/project4/css/main.sass */
+  /* line 113, C:/Users/Justi/project4/css/main.sass */
   .top-bar-links a {
     transition: all 0.2s ease-in-out; }
-    /* line 118, C:/Users/Justi/project4/css/main.sass */
+    /* line 115, C:/Users/Justi/project4/css/main.sass */
     .top-bar-links a:hover {
       text-decoration: underline; }
 
-/* line 121, C:/Users/Justi/project4/css/main.sass */
+/* line 118, C:/Users/Justi/project4/css/main.sass */
 .top-bar-wrapper, main-nav-wrapper {
   max-width: 1000px;
   margin: auto; }
 
-/* line 125, C:/Users/Justi/project4/css/main.sass */
+/* line 122, C:/Users/Justi/project4/css/main.sass */
 .top-bar-wrapper {
   display: flex;
   padding: 0 15px;
@@ -116,7 +112,7 @@ header {
   align-items: center;
   width: 1000px; }
 
-/* line 134, C:/Users/Justi/project4/css/main.sass */
+/* line 131, C:/Users/Justi/project4/css/main.sass */
 .main-nav {
   width: 100vw;
   display: flex;
@@ -124,7 +120,7 @@ header {
   background-color: rgba(246, 187, 66, 0.9);
   justify-content: center; }
 
-/* line 141, C:/Users/Justi/project4/css/main.sass */
+/* line 138, C:/Users/Justi/project4/css/main.sass */
 .main-nav-wrapper {
   display: flex;
   width: 1000px;
@@ -132,25 +128,25 @@ header {
   padding: 0 15px;
   align-items: center;
   justify-content: space-between; }
-  /* line 149, C:/Users/Justi/project4/css/main.sass */
+  /* line 146, C:/Users/Justi/project4/css/main.sass */
   .main-nav-wrapper img {
     background-color: #f6bb42;
     padding: 10px;
     border: 1px solid #212121; }
-  /* line 161, C:/Users/Justi/project4/css/main.sass */
+  /* line 158, C:/Users/Justi/project4/css/main.sass */
   .main-nav-wrapper a {
-    color: #F5F5F5;
+    color: #212121;
     height: 100%;
     line-height: 70px;
     font-size: 16px;
     font-weight: 600;
     text-align: center;
     transition: all 0.3s ease-in-out; }
-    /* line 177, C:/Users/Justi/project4/css/main.sass */
+    /* line 174, C:/Users/Justi/project4/css/main.sass */
     .main-nav-wrapper a:hover {
-      color: #212121; }
+      color: #F5F5F5; }
 
-/* line 180, C:/Users/Justi/project4/css/main.sass */
+/* line 177, C:/Users/Justi/project4/css/main.sass */
 .main-cta {
   display: flex;
   align-items: center;
@@ -159,29 +155,29 @@ header {
   min-height: calc(100vh - 145px);
   width: 100vw;
   color: #F5F5F5;
-  background: linear-gradient(top, rgba(246, 187, 66, 0.2) 0%, transparent 40%, black 100%);
-  background: -webkit-linear-gradient(top, rgba(246, 187, 66, 0.2) 0%, transparent 40%, black 100%);
-  background: -moz-linear-gradient(top, rgba(246, 187, 66, 0.2) 0%, transparent 40%, black 100%);
+  background: linear-gradient(top, rgba(246, 187, 66, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: -webkit-linear-gradient(top, rgba(246, 187, 66, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: -moz-linear-gradient(top, rgba(246, 187, 66, 0.5) 0%, transparent 40%, black 100%);
   background: -ms-linear-gradient(top, rgba(246, 187, 66, 0.2) 0%, transparent 40%, black 100%);
   line-height: 50px;
   font-size: 32px; }
-  /* line 195, C:/Users/Justi/project4/css/main.sass */
+  /* line 193, C:/Users/Justi/project4/css/main.sass */
   .main-cta h1 {
     text-transform: uppercase;
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
     font-size: 42px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
-  /* line 200, C:/Users/Justi/project4/css/main.sass */
+  /* line 198, C:/Users/Justi/project4/css/main.sass */
   .main-cta h2 {
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3); }
 
-/* line 203, C:/Users/Justi/project4/css/main.sass */
+/* line 201, C:/Users/Justi/project4/css/main.sass */
 .main-cta-btn {
   width: 167px;
   margin-top: 15px;
   align-self: center;
   transition: all 0.3s ease-in-out; }
-  /* line 208, C:/Users/Justi/project4/css/main.sass */
+  /* line 206, C:/Users/Justi/project4/css/main.sass */
   .main-cta-btn a {
     background-color: #F5F5F5;
     border-radius: 5px;
@@ -189,18 +185,18 @@ header {
     padding: 15px 25px;
     font-size: 22px;
     text-shadow: 0 0; }
-  /* line 216, C:/Users/Justi/project4/css/main.sass */
+  /* line 214, C:/Users/Justi/project4/css/main.sass */
   .main-cta-btn:hover a {
     color: #f6bb42; }
 
-/* line 219, C:/Users/Justi/project4/css/main.sass */
+/* line 217, C:/Users/Justi/project4/css/main.sass */
 .is-fixed {
   position: fixed;
   top: 0;
   width: 100vw !important;
   margin: auto; }
 
-/* line 225, C:/Users/Justi/project4/css/main.sass */
+/* line 223, C:/Users/Justi/project4/css/main.sass */
 .main-cta-text {
   text-align: center;
   flex: 1;
@@ -209,7 +205,7 @@ header {
   justify-content: flex-end;
   padding-bottom: 100px; }
 
-/* line 233, C:/Users/Justi/project4/css/main.sass */
+/* line 231, C:/Users/Justi/project4/css/main.sass */
 .main-cta-nav {
   display: flex;
   height: 60px;
@@ -217,7 +213,7 @@ header {
   width: 1000px;
   justify-content: center;
   flex-flow: wrap row; }
-  /* line 243, C:/Users/Justi/project4/css/main.sass */
+  /* line 241, C:/Users/Justi/project4/css/main.sass */
   .main-cta-nav a {
     width: 320px;
     font-size: 22px;
@@ -230,19 +226,19 @@ header {
     text-align: center;
     transition: all 0.2s ease-in-out;
     background-color: #f6bb42; }
-    /* line 255, C:/Users/Justi/project4/css/main.sass */
+    /* line 253, C:/Users/Justi/project4/css/main.sass */
     .main-cta-nav a:hover {
       color: #F5F5F5; }
 
-/* line 258, C:/Users/Justi/project4/css/main.sass */
+/* line 256, C:/Users/Justi/project4/css/main.sass */
 #about, #events, #news {
-  margin-bottom: 75px;
+  padding-top: 100px;
   width: 1000px;
   display: flex;
   flex-flow: wrap column;
   text-align: center; }
 
-/* line 265, C:/Users/Justi/project4/css/main.sass */
+/* line 263, C:/Users/Justi/project4/css/main.sass */
 .main-bottom-sections {
   background-color: #212121;
   padding: 50px 0;
@@ -254,25 +250,265 @@ header {
   min-height: 150vh;
   width: 100vw;
   border-top: 1px solid #f6bb42; }
-  /* line 276, C:/Users/Justi/project4/css/main.sass */
+  /* line 274, C:/Users/Justi/project4/css/main.sass */
   .main-bottom-sections h1 {
     font-family: 'Buttefont';
     font-size: 32px;
     text-align: center;
     letter-spacing: 1px;
     margin-bottom: 25px; }
-  /* line 283, C:/Users/Justi/project4/css/main.sass */
+  /* line 281, C:/Users/Justi/project4/css/main.sass */
   .main-bottom-sections p {
     line-height: 25px;
     margin: 15px 0; }
 
-/* line 287, C:/Users/Justi/project4/css/main.sass */
+/* line 285, C:/Users/Justi/project4/css/main.sass */
 .event-link, .news-link {
   margin: 15px 0; }
-  /* line 289, C:/Users/Justi/project4/css/main.sass */
+  /* line 287, C:/Users/Justi/project4/css/main.sass */
   .event-link a, .news-link a {
     color: #F5F5F5;
     font-weight: bold;
     text-decoration: underline; }
+
+/* line 292, C:/Users/Justi/project4/css/main.sass */
+footer {
+  background-color: #F5F5F5; }
+
+/* line 295, C:/Users/Justi/project4/css/main.sass */
+.sitemap-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  width: 100%;
+  background-color: #e4e4e4;
+  height: 150px;
+  flex-flow: wrap column; }
+  /* line 305, C:/Users/Justi/project4/css/main.sass */
+  .sitemap-link h2 {
+    font-size: 20px; }
+  /* line 308, C:/Users/Justi/project4/css/main.sass */
+  .sitemap-link a {
+    font-size: 18px;
+    border: 1px solid #F5F5F5;
+    padding: 15px;
+    border-radius: 10px;
+    letter-spacing: 1.2px;
+    background-color: #212121;
+    color: #F5F5F5;
+    transition: all 0.2s ease-in-out; }
+    /* line 317, C:/Users/Justi/project4/css/main.sass */
+    .sitemap-link a:hover {
+      color: #212121;
+      background-color: #F5F5F5;
+      border-color: #212121; }
+
+/* line 322, C:/Users/Justi/project4/css/main.sass */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 125px; }
+
+/* line 329, C:/Users/Justi/project4/css/main.sass */
+.social-links {
+  height: 80px;
+  display: flex;
+  width: 199%;
+  align-items: center;
+  justify-content: center; }
+  /* line 335, C:/Users/Justi/project4/css/main.sass */
+  .social-links a, .social-links img {
+    height: 50px;
+    margin: 0 15px; }
+
+/* line 339, C:/Users/Justi/project4/css/main.sass */
+.footer-contact {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/* line 345, C:/Users/Justi/project4/css/main.sass */
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px; }
+  /* line 350, C:/Users/Justi/project4/css/main.sass */
+  .footer-links a {
+    font-size: 14px; }
+    /* line 353, C:/Users/Justi/project4/css/main.sass */
+    .footer-links a:hover {
+      text-decoration: underline; }
+  /* line 355, C:/Users/Justi/project4/css/main.sass */
+  .footer-links p {
+    font-size: 14px;
+    margin: 5px; }
+
+/* line 359, C:/Users/Justi/project4/css/main.sass */
+.cs-header {
+  width: 100%;
+  height: 100px;
+  background-color: #F5F5F5; }
+
+/* line 364, C:/Users/Justi/project4/css/main.sass */
+.cs-header-wrapper {
+  max-width: 1000px;
+  display: flex;
+  height: 100px;
+  flex-flow: wrap column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px; }
+  /* line 372, C:/Users/Justi/project4/css/main.sass */
+  .cs-header-wrapper h1 {
+    font-family: ButteFont;
+    font-size: 32px; }
+
+/* line 376, C:/Users/Justi/project4/css/main.sass */
+.cs-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: #D3B850; }
+
+/* line 386, C:/Users/Justi/project4/css/main.sass */
+.cs-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 1000px; }
+  /* line 395, C:/Users/Justi/project4/css/main.sass */
+  .cs-content-wrapper .cs-content-cta {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 500px; }
+    /* line 403, C:/Users/Justi/project4/css/main.sass */
+    .cs-content-wrapper .cs-content-cta a {
+      background-color: #006BCC;
+      color: white;
+      margin: 15px;
+      font-size: 20px;
+      padding: 10px 25px;
+      transition: all 0.2s ease-in-out;
+      border-radius: 10px; }
+      /* line 412, C:/Users/Justi/project4/css/main.sass */
+      .cs-content-wrapper .cs-content-cta a:hover {
+        background-color: white;
+        color: #006BCC; }
+    /* line 416, C:/Users/Justi/project4/css/main.sass */
+    .cs-content-wrapper .cs-content-cta h2 {
+      font-size: 36px;
+      margin: 15px;
+      font-family: 'ButteFont'; }
+  /* line 421, C:/Users/Justi/project4/css/main.sass */
+  .cs-content-wrapper .cs-content-cta-helpbox {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 150px;
+    width: 500px;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: #F5F5F5; }
+    /* line 432, C:/Users/Justi/project4/css/main.sass */
+    .cs-content-wrapper .cs-content-cta-helpbox h3, .cs-content-wrapper .cs-content-cta-helpbox a {
+      font-size: 18px;
+      font-weight: 700; }
+    /* line 436, C:/Users/Justi/project4/css/main.sass */
+    .cs-content-wrapper .cs-content-cta-helpbox p, .cs-content-wrapper .cs-content-cta-helpbox h3, .cs-content-wrapper .cs-content-cta-helpbox a {
+      margin-left: 25px; }
+    /* line 439, C:/Users/Justi/project4/css/main.sass */
+    .cs-content-wrapper .cs-content-cta-helpbox a {
+      color: #006BCC; }
+      /* line 441, C:/Users/Justi/project4/css/main.sass */
+      .cs-content-wrapper .cs-content-cta-helpbox a:hover {
+        text-decoration: underline; }
+
+/* line 444, C:/Users/Justi/project4/css/main.sass */
+.cs-bottom-content {
+  width: 100vw;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center; }
+  /* line 451, C:/Users/Justi/project4/css/main.sass */
+  .cs-bottom-content .cs-bottom-content-wrapper {
+    width: 1000px;
+    display: flex; }
+
+/* line 456, C:/Users/Justi/project4/css/main.sass */
+.cs-bottom-content-links {
+  display: flex;
+  flex-flow: wrap column;
+  height: 300px;
+  justify-content: space-around; }
+  /* line 463, C:/Users/Justi/project4/css/main.sass */
+  .cs-bottom-content-links a {
+    background-color: #D3B850;
+    border: 1px solid black;
+    width: 250px;
+    transition: all 0.2s ease-in-out;
+    padding: 5px;
+    text-align: center;
+    margin: 5px; }
+    /* line 471, C:/Users/Justi/project4/css/main.sass */
+    .cs-bottom-content-links a:hover {
+      background-color: #f6bb42; }
+
+/* line 474, C:/Users/Justi/project4/css/main.sass */
+.cs-bottom-content-events {
+  display: flex;
+  flex-flow: wrap column;
+  height: 300px;
+  justify-content: center; }
+  /* line 479, C:/Users/Justi/project4/css/main.sass */
+  .cs-bottom-content-events h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px; }
+  /* line 483, C:/Users/Justi/project4/css/main.sass */
+  .cs-bottom-content-events p {
+    margin: 5px;
+    font-size: 14px; }
+
+/* line 487, C:/Users/Justi/project4/css/main.sass */
+.site-map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap column;
+  width: 100%;
+  max-height: 100vh; }
+
+/* line 495, C:/Users/Justi/project4/css/main.sass */
+.site-map-header {
+  margin: 15px; }
+  /* line 497, C:/Users/Justi/project4/css/main.sass */
+  .site-map-header h1 {
+    font-size: 32px; }
+
+/* line 500, C:/Users/Justi/project4/css/main.sass */
+.site-map-content {
+  display: flex;
+  flex-flow: wrap row;
+  width: 80vw; }
+  /* line 504, C:/Users/Justi/project4/css/main.sass */
+  .site-map-content a {
+    margin: 15px;
+    width: 200px;
+    height: 35px; }
+    /* line 508, C:/Users/Justi/project4/css/main.sass */
+    .site-map-content a:hover {
+      text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */
