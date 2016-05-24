@@ -89,7 +89,7 @@ header {
 
 /* line 108, C:/Users/Justi/project4/css/main.sass */
 .top-bar-links {
-  width: 400px;
+  min-width: 500px;
   display: flex;
   justify-content: space-around; }
   /* line 113, C:/Users/Justi/project4/css/main.sass */
@@ -510,5 +510,122 @@ footer {
     /* line 508, C:/Users/Justi/project4/css/main.sass */
     .site-map-content a:hover {
       text-decoration: underline; }
+
+/* line 511, C:/Users/Justi/project4/css/main.sass */
+.contact-content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px; }
+  /* line 517, C:/Users/Justi/project4/css/main.sass */
+  .contact-content .contact-content-wrapper {
+    max-width: 1000px;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center; }
+    /* line 527, C:/Users/Justi/project4/css/main.sass */
+    .contact-content .contact-content-wrapper .contact-content-header h1 {
+      font-size: 36px; }
+    /* line 530, C:/Users/Justi/project4/css/main.sass */
+    .contact-content .contact-content-wrapper .contact-form {
+      display: flex;
+      margin-top: 25px;
+      flex-flow: wrap column;
+      align-items: center; }
+      /* line 535, C:/Users/Justi/project4/css/main.sass */
+      .contact-content .contact-content-wrapper .contact-form p {
+        font-size: 22px;
+        margin: 5px; }
+      /* line 539, C:/Users/Justi/project4/css/main.sass */
+      .contact-content .contact-content-wrapper .contact-form input[type="text"] {
+        margin: 5px;
+        width: 100%; }
+      /* line 543, C:/Users/Justi/project4/css/main.sass */
+      .contact-content .contact-content-wrapper .contact-form input[type="Submit"] {
+        margin: 5px; }
+      /* line 546, C:/Users/Justi/project4/css/main.sass */
+      .contact-content .contact-content-wrapper .contact-form input[name="letter"] {
+        height: 100px; }
+
+/* line 549, C:/Users/Justi/project4/css/main.sass */
+.b_c-content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px; }
+  /* line 555, C:/Users/Justi/project4/css/main.sass */
+  .b_c-content .b_c-content-wrapper {
+    width: 1000px;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center; }
+    /* line 562, C:/Users/Justi/project4/css/main.sass */
+    .b_c-content .b_c-content-wrapper .b_c-content-header h1 {
+      font-size: 36px; }
+    /* line 564, C:/Users/Justi/project4/css/main.sass */
+    .b_c-content .b_c-content-wrapper .b_c-content-main {
+      display: flex;
+      flex-flow: wrap column;
+      margin-top: 25px;
+      width: 1000px; }
+      /* line 571, C:/Users/Justi/project4/css/main.sass */
+      .b_c-content .b_c-content-wrapper .b_c-content-main p {
+        line-height: 18px; }
+      /* line 574, C:/Users/Justi/project4/css/main.sass */
+      .b_c-content .b_c-content-wrapper .b_c-content-main h2 {
+        font-size: 22px;
+        margin-bottom: 5px;
+        font-weight: bold; }
+      /* line 579, C:/Users/Justi/project4/css/main.sass */
+      .b_c-content .b_c-content-wrapper .b_c-content-main h3 {
+        font-size: 20px;
+        margin: 5px 0;
+        font-weight: bold; }
+      /* line 584, C:/Users/Justi/project4/css/main.sass */
+      .b_c-content .b_c-content-wrapper .b_c-content-main h4 {
+        font-weight: bold;
+        margin: 5px 0; }
+      /* line 588, C:/Users/Justi/project4/css/main.sass */
+      .b_c-content .b_c-content-wrapper .b_c-content-main a {
+        color: #006BCC;
+        text-align: center;
+        margin: 5px; }
+        /* line 593, C:/Users/Justi/project4/css/main.sass */
+        .b_c-content .b_c-content-wrapper .b_c-content-main a:hover {
+          text-decoration: underline; }
+
+/* line 596, C:/Users/Justi/project4/css/main.sass */
+.catalog-content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px; }
+  /* line 602, C:/Users/Justi/project4/css/main.sass */
+  .catalog-content .catalog-content-wrapper {
+    width: 1000px;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center; }
+    /* line 609, C:/Users/Justi/project4/css/main.sass */
+    .catalog-content .catalog-content-wrapper .catalog-header h1 {
+      font-size: 36px; }
+    /* line 611, C:/Users/Justi/project4/css/main.sass */
+    .catalog-content .catalog-content-wrapper .catalog-content-main {
+      display: flex;
+      flex-flow: wrap column;
+      margin-top: 25px;
+      align-items: center;
+      width: 1000px; }
+      /* line 617, C:/Users/Justi/project4/css/main.sass */
+      .catalog-content .catalog-content-wrapper .catalog-content-main a {
+        color: #006BCC;
+        text-align: center;
+        margin: 15px; }
+        /* line 622, C:/Users/Justi/project4/css/main.sass */
+        .catalog-content .catalog-content-wrapper .catalog-content-main a:hover {
+          text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */
