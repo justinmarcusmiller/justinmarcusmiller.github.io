@@ -1,40 +1,56 @@
 doctype html
 html
     head
-        title Justin Miller | Web Developer
+        title Website
         meta(charset="utf-8")
         meta(name="viewport", content="width=device-width, initial-scale=1")
         meta(name="description", content="Justin Miller is a web developer living in Northern California")
-        link(rel="stylesheet", href="css/normalize.css")
+        link(rel="stylesheet", href="http://meyerweb.com/eric/tools/css/reset/reset.css")
         link(rel="stylesheet", href="css/main.css")
-        link(rel="stylesheet", href="css/responsive.css")
+        //link(rel="stylesheet", href="css/responsive.css")
         script(src="js/jquery-2.2.3.min.js")
         script(src="js/functions.js")
-        link(href='http://fonts.googleapis.com/css?family=Candal:500,700', rel='stylesheet', type='text/css')
+        script(src="js/parallax.js")
+        link(href='http://fonts.googleapis.com/css?family=Raleway', rel='stylesheet', type='text/css')
         
     body
-        .page-wrap
+        #mainsection
+            #navbar
+                #logo
+                    p JUSTINMILLER.TECH
+
+                #navigation
+
+                    a(href="#aboutsection") ABOUT ME
+
+                    a(href="#worksection") MY WORK
+
+                    a(href="#contactsection") CONTACT
+                    
+            #maintitle
+                h1 JUSTIN MILLER
+                h2 WEB DEVELOPER
+            
+            #socialicons
+                
+        #aboutsection
+            
+            #abouttitle
+                h1 ABOUT ME
+                h2 HI! I"M JUSTIN MILLER. 
+                h2 PLEASED TO MEET YOU
+                
+            #aboutcontent
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id quam sit amet sapien lobortis blandit. Curabitur semper ullamcorper libero at consequat. Morbi euismod, neque id tempor placerat, ex orci aliquet ante, eu auctor mauris arcu non diam. Integer vel tortor varius, porttitor purus porta, lobortis libero. Pellentesque at justo urna. Nam varius eu erat sed dapibus. 
+
+                p Vestibulum lorem sem, consequat eu nisi et, porttitor venenatis urna. Sed sagittis mauris tellus, quis imperdiet nisl mattis ut. In facilisis accumsan mauris non euismod. Suspendisse ac magna sed justo sagittis tempus. Cras elementum nisl non maximus feugiat. Vestibulum convallis molestie ligula ac fringilla. Maecenas et lacinia nibh, at posuere erat. 
+                
+        #resumesection
+            a(href="resume.pdf") VIEW RESUME
+            
+            
+        #worksection
         
-            .header
-                h1 Justin Miller
-            
-            .nav-area
-            
-                .about-card
-                    h2 Hi, My name is Justin
-                    a(href="github.com") About Me
-                
-                .webdev-card
-                    h2 I build websites
-                    a(href="github.com") My Work
-                
-                .programming-card
-                    h2 I write programs
-                    a(href="github.com") My Github Page
-                
-                .contact-card
-                    h2 Let's get in touch
-                    a(href="github.com") Contact Form
-            
-            .footer
-                h2 Footer
+        #contactsection
+        
+        #footersection
