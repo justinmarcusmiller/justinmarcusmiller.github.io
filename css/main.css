@@ -47,19 +47,20 @@ body {
     flex-direction: row; }
     #mainsection #navbar a {
       color: #F5F5F5;
+      font-size: 12px;
       text-decoration: none; }
     #mainsection #navbar #logo {
-      width: 50%;
+      width: 40%;
       display: flex;
       align-items: center;
       height: 50px;
-      margin-left: 15px; }
+      margin-left: 5px; }
       #mainsection #navbar #logo p {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 600;
         letter-spacing: 1px; }
     #mainsection #navbar #navigation {
-      width: 50%;
+      width: 60%;
       height: 50px;
       display: flex;
       align-items: center;
@@ -67,6 +68,7 @@ body {
   #mainsection #maintitle {
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: space-between;
     width: 100%; }
