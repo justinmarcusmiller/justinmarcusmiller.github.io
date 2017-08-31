@@ -1,0 +1,106 @@
+// Deault css is for mobile devices. see responsive.css for tablet/desktop css
+
+// Colors
+
+//Main
+$grey:#E6E2E8
+$red:#C31632
+
+//accents
+$pink:#E6907F
+$darkolive:#979663
+$lightolive:#DAD39D
+$white:#F5F5F5
+$darkblue:#00303F
+$lightblue:#007FAB
+$blue1:#007FAB
+
+@font-face 
+    font-family: fontAwesome
+    src: url('../css/FontAwesome.otf')
+
+@media only screen and (min-width:800px)
+    #mainsection
+        #navbar
+            justify-content: space-between
+            #navigation
+                max-width: 10%
+                a
+                    padding-bottom: 0px
+                    margin-right: 20px
+                    
+            #logo
+                margin-left: 20px
+                p
+                    font-size: 36px
+                    
+        #socialicons
+            width: 15%
+            
+    #aboutsection
+        min-height: 35vh
+        flex-direction: row
+        //flex-wrap: no-wrap
+        width: 100%
+        padding-top: 0px
+        
+        #abouttitle
+            width: 10%
+            text-align: right
+            border-bottom: 0px
+            margin-right: 10px
+            padding-bottom: 0px
+            
+        #aboutcontent
+            width: 15%
+            margin-left: 10px
+            padding-top: 0px
+            
+    #resumesection
+        height: 10vh
+        
+    #footersection
+        height: 20vh
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: space-around
+        #footersocialicons
+            display: flex
+            padding-top: 24px
+            width: 15%
+            justify-content: space-around
+            align-items: center
+            a
+                font-family: fontAwesome
+                font-size: 32px
+                opacity: .6
+                transition: all 0.2s ease
+
+            a:hover
+                opacity: 1
+                
+        #footertext
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            width: 35%
+            p
+                font-size: 13px
+                color: #FFF
+                opacity: .6
+                font-weight: 400
+                
+        #footerbutton
+            a
+                border: 2px solid $white
+                padding: 10px 25px
+                font-size: 12px
+                font-weight: 600
+                opacity: .6
+                transition: all 0.3s ease
+        
+            a:hover
+                color: #27627D
+                opacity: 1
+                background-color: $white

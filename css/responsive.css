@@ -1,2 +1,79 @@
+@font-face {
+  font-family: fontAwesome;
+  src: url("../css/FontAwesome.otf"); }
+@media only screen and (min-width: 800px) {
+  #mainsection #navbar {
+    justify-content: space-between; }
+    #mainsection #navbar #navigation {
+      max-width: 10%; }
+      #mainsection #navbar #navigation a {
+        padding-bottom: 0px;
+        margin-right: 20px; }
+    #mainsection #navbar #logo {
+      margin-left: 20px; }
+      #mainsection #navbar #logo p {
+        font-size: 36px; }
+  #mainsection #socialicons {
+    width: 15%; }
+
+  #aboutsection {
+    min-height: 35vh;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 0px; }
+    #aboutsection #abouttitle {
+      width: 10%;
+      text-align: right;
+      border-bottom: 0px;
+      margin-right: 10px;
+      padding-bottom: 0px; }
+    #aboutsection #aboutcontent {
+      width: 15%;
+      margin-left: 10px;
+      padding-top: 0px; }
+
+  #resumesection {
+    height: 10vh; }
+
+  #footersection {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; }
+    #footersection #footersocialicons {
+      display: flex;
+      padding-top: 24px;
+      width: 15%;
+      justify-content: space-around;
+      align-items: center; }
+      #footersection #footersocialicons a {
+        font-family: fontAwesome;
+        font-size: 32px;
+        opacity: 0.6;
+        transition: all 0.2s ease; }
+      #footersection #footersocialicons a:hover {
+        opacity: 1; }
+    #footersection #footertext {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 35%; }
+      #footersection #footertext p {
+        font-size: 13px;
+        color: #FFF;
+        opacity: 0.6;
+        font-weight: 400; }
+    #footersection #footerbutton a {
+      border: 2px solid #F5F5F5;
+      padding: 10px 25px;
+      font-size: 12px;
+      font-weight: 600;
+      opacity: 0.6;
+      transition: all 0.3s ease; }
+    #footersection #footerbutton a:hover {
+      color: #27627D;
+      opacity: 1;
+      background-color: #F5F5F5; } }
 
 /*# sourceMappingURL=responsive.css.map */
