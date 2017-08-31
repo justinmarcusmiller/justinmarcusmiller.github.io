@@ -11,6 +11,10 @@ $lightolive:#DAD39D
 $white:#F5F5F5
 $darkblue:#14222B
 $lightblue:#27627D
+
+@font-face 
+    font-family: fontAwesome
+    src: url('../css/FontAwesome.otf')
     
 body
     color: $white
@@ -18,7 +22,6 @@ body
     font-weight: 400
     max-width: 100%
     width: 100% -1px
-    
     
     p 
         color: $white
@@ -54,7 +57,7 @@ body
     justify-content: space-between
     align-items: center
     flex-direction: column
-    background: url('../bg.jpg') no-repeat bottom
+    background: url('../img/bg.jpg') no-repeat bottom
     background-size: cover
     background-attachment: fixed
     transition: initial
@@ -74,6 +77,12 @@ body
             color: $white
             font-size: 12px
             text-decoration: none
+            //transition: all 0.3s ease
+            padding-bottom: 5px
+            
+        a:hover
+            border-bottom: 1px solid white
+            margin-bottom: -2px
         
         #logo
             width: 40%
@@ -82,9 +91,10 @@ body
             height: 50px
             margin-left: 5px
             p
-                font-size: 14px
+                font-size: 24px
                 font-weight: 600
                 letter-spacing: 1px
+                
             
         #navigation
             width: 60%
@@ -102,6 +112,20 @@ body
         width: 100%
         h1, h2
             margin: 10px
+            
+    #socialicons
+        display: flex
+        width: 50%
+        height: 10vh
+        flex-direction: row
+        justify-content: space-around
+        align-items: center
+        a
+            font-family: fontAwesome
+            font-size: 24px
+            transition: all 0.2s ease
+        a:hover
+            opacity: .5
             
 #aboutsection
     min-height: 40vh

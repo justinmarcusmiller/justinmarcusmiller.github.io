@@ -1,3 +1,6 @@
+@font-face {
+  font-family: fontAwesome;
+  src: url("../css/FontAwesome.otf"); }
 body {
   color: #F5F5F5;
   font-family: "Raleway", arial, serif;
@@ -32,7 +35,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  background: url("../bg.jpg") no-repeat bottom;
+  background: url("../img/bg.jpg") no-repeat bottom;
   background-size: cover;
   background-attachment: fixed;
   transition: initial; }
@@ -48,7 +51,11 @@ body {
     #mainsection #navbar a {
       color: #F5F5F5;
       font-size: 12px;
-      text-decoration: none; }
+      text-decoration: none;
+      padding-bottom: 5px; }
+    #mainsection #navbar a:hover {
+      border-bottom: 1px solid white;
+      margin-bottom: -2px; }
     #mainsection #navbar #logo {
       width: 40%;
       display: flex;
@@ -56,7 +63,7 @@ body {
       height: 50px;
       margin-left: 5px; }
       #mainsection #navbar #logo p {
-        font-size: 14px;
+        font-size: 24px;
         font-weight: 600;
         letter-spacing: 1px; }
     #mainsection #navbar #navigation {
@@ -74,6 +81,19 @@ body {
     width: 100%; }
     #mainsection #maintitle h1, #mainsection #maintitle h2 {
       margin: 10px; }
+  #mainsection #socialicons {
+    display: flex;
+    width: 50%;
+    height: 10vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    #mainsection #socialicons a {
+      font-family: fontAwesome;
+      font-size: 24px;
+      transition: all 0.2s ease; }
+    #mainsection #socialicons a:hover {
+      opacity: 0.5; }
 
 #aboutsection {
   min-height: 40vh;
