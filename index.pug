@@ -56,7 +56,40 @@ html
             
         #worksection
         
+            #vin1000section
+                .worktext
+                    h3 VIN1000.COM
+                    p Website built for the 1000th Tesla Roadster built.
+                
+                    a(href="/VIN1000.html") READ MORE
+                    
+                .workthumb
+                    img(src="./img/placeit.png")
+        
         #contactsection
+        
+            #contacttitle
+                h2 GET IN TOUCH
+                p EMAIL
+                a(href="mailto:justinmiller171@gmail.com") justinmiller171@gmail.com
+        
+            form(action="//formspree.io/justinmiller171@gmail.com",method="POST")
+                
+                .contact-info-group
+                    label
+                        p YOUR NAME
+                    input(type="text" name="name")
+
+                    label
+                        p YOUR EMAIL ADDRESS
+                    input(type="email" name="_replyto")
+                    
+                    label
+                        p YOUR MESSAGE
+                    textarea(name="message")
+                    
+                .submit-wrap
+                    input(type="submit" value="Send")
         
         #footersection
         
@@ -64,9 +97,11 @@ html
                 a(href="https://github.com/justinmarcusmiller") 
                 a(href="mailto:justinmiller171@gmail.com") 
                 a(href="www.linkedin.com/in/justinmarcusmiller") 
+                
             #footertext
                 p © Copyright 2017 Justin Miller
                 p Web Design Student
                 p justinmiller171@gmail.com
+                
             #footerbutton
                 a(href="#mainsection") TOP

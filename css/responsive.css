@@ -2,19 +2,29 @@
   font-family: fontAwesome;
   src: url("../css/FontAwesome.otf"); }
 @media only screen and (min-width: 800px) {
-  #mainsection #navbar {
-    justify-content: space-between; }
-    #mainsection #navbar #navigation {
-      max-width: 10%; }
-      #mainsection #navbar #navigation a {
-        padding-bottom: 0px;
-        margin-right: 20px; }
-    #mainsection #navbar #logo {
-      margin-left: 20px; }
-      #mainsection #navbar #logo p {
-        font-size: 36px; }
-  #mainsection #socialicons {
-    width: 15%; }
+  #mainsection {
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0s ease;
+    -webkit-transition: 0s ease;
+    -moz-transition: 0s ease;
+    transition-property: background-position;
+    -webkit-transition-property: background-position;
+    -moz-transition-property: background-position; }
+    #mainsection #navbar {
+      justify-content: space-between; }
+      #mainsection #navbar #navigation {
+        max-width: 10%; }
+        #mainsection #navbar #navigation a {
+          padding-bottom: 0px;
+          margin-right: 20px; }
+      #mainsection #navbar #logo {
+        margin-left: 20px; }
+        #mainsection #navbar #logo p {
+          font-size: 36px; }
+    #mainsection #socialicons {
+      width: 15%; }
 
   #aboutsection {
     min-height: 35vh;
@@ -34,6 +44,9 @@
 
   #resumesection {
     height: 10vh; }
+
+  #worksection {
+    height: 30vh; }
 
   #footersection {
     height: 20vh;

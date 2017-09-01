@@ -11,9 +11,9 @@ $pink:#E6907F
 $darkolive:#979663
 $lightolive:#DAD39D
 $white:#F5F5F5
-$darkblue:#00303F
+$darkblue:#27627D
 $lightblue:#007FAB
-$blue1:#007FAB
+
 
 @font-face 
     font-family: fontAwesome
@@ -60,15 +60,8 @@ body
     justify-content: space-between
     align-items: center
     flex-direction: column
-    background: url('../img/bg.jpg')
-    background-position: 50% 0
-    background-attachment:fixed
-    transition: 0s ease
-        -webkit-transition: 0s ease
-        -moz-transition: 0s ease
-    transition-property: background-position
-        -webkit-transition-property: background-position
-        -moz-transition-property: background-position
+    background: url('../img/bg.jpg') no-repeat bottom
+    
     
     #navbar
         border-bottom: 1px solid grey
@@ -169,8 +162,8 @@ body
             line-height: 24px
             
 #resumesection
-    background-color: #27627D
-    max-height: 15vh
+    background-color: $lightblue
+    height: 15vh
     display: flex
     align-items: center
     justify-content: center
@@ -183,17 +176,184 @@ body
         transition: all 0.3s ease
         
     a:hover
-        color: #27627D
+        color: $darkblue
         background-color: $white
 
+.worktext
+    display: flex
+    margin-top: 80px
+    width: 25%
+    //border: 1px solid black
+    flex-direction: column
+    align-items: flex-start
+    
+    h3
+        color: black
+        margin-bottom: 24px
+        font-size: 18px
+        font-weight: 600
+        
+    p
+        color: black
+        font-size: 24px
+        
+    a
+        border: 2px solid $darkblue
+        padding: 15px
+        margin-top: 80px
+        color: $darkblue
+        font-size: 12px
+        font-weight: 600
+        transition: all 0.3s ease
+        
+    a:hover
+        color: $white
+        background-color: $darkblue
+    
+.workthumb
+    margin-top: 80px
+    img
+
 #worksection
-    min-height: 100vh
+    min-height: 10vh
+    display: flex
+    justify-content: center
     background-color: $white
+    
+    #vin1000section
+        height: 30vh
+        width: 60%
+        display: flex
+        //border-bottom: 1px solid #27627D
+        //align-items: center
+        justify-content: center
+        h3
+            color: black
+        p
+            color: black
+    
     
 #contactsection
-    min-height: 50vh
-    background-color: $white
+    margin: 5px
+    display: flex
+    width: 100%
+    justify-content: center
+    min-height: 25vh
+    max-height: 100vh
+    #contacttitle
+        width: 20%
+        display:flex
+        flex-direction: column
+        h2
+            color: black
+            font-size: 28px
+            margin-bottom: 24px
+        a
+            color: $darkblue
+        p
+            color: black
+            font-weight: 600
+            margin-bottom: 12px
+        
+        
+    p
+        color: $darkblue
+    h1
+        margin-bottom: 25px
+    form
+        width: 350px
+        //margin: 0 auto 50px
+        
+        label
+            display: block
+          
+        
+        input
+            border: 3px solid $darkblue
+            width: 100%
+            height: 30px
+            padding-left: 5px
+           
+            &:focus
+                border-color: $lightblue
+                outline: none
+                background-color: $white
+            
+    .submit-wrap
+        input
+            color: white
+            font-size: 22px
+            margin-top: 25px
+            padding-left: 5px
+            background-color: $darkblue
+            height: 50px
+            width: 50%
+            transition: all 0.3s ease
+            
+        input:hover
+            color: $darkblue
+            background-color: white
+        
+    .contact-info-group
+            label
+                color: grey
+                padding: 10px
+            textarea
+                height: 100px
+                padding-left: 5px
+                font-size: 14px
+                border: 3px solid $darkblue
+                width: 99%
+                &:focus
+                    border-color: $lightblue
+                    outline: none
+                    background-color: $white
     
+
 #footersection
     background-color: $darkblue
-    max-height: 35vh
+    height: 25vh
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-around
+    
+    #footersocialicons
+        display: flex
+        padding-top: 12px
+        width: 100%
+        justify-content: space-around
+        align-items: center
+        a
+            font-family: fontAwesome
+            font-size: 32px
+            opacity: .6
+            transition: all 0.2s ease
+
+        a:hover
+            opacity: 1
+
+    #footertext
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        width: 95%
+        p
+            font-size: 11px
+            color: #FFF
+            opacity: .6
+            font-weight: 400
+
+    #footerbutton
+        a
+            border: 2px solid $white
+            padding: 5px 15px
+            font-size: 12px
+            font-weight: 600
+            opacity: .6
+            transition: all 0.3s ease
+
+        a:hover
+            color: $darkblue
+            opacity: 1
+            background-color: $white

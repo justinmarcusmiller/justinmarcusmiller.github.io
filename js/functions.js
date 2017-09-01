@@ -7,6 +7,9 @@ $(document).ready(function () {
     
 });
 
+// Parallax scrolling for #mainsection background. works on desktop only
 $(window).scroll(function () {
-    $("#mainsection").css("background-position","50% " + ($(this).scrollTop() / 2) + "px");
+    if($(window).width() > 800) {
+        $("#mainsection").css("background-position","50% " + ($(this).scrollTop() / 2) + "px");
+    }
 });
