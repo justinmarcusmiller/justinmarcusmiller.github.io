@@ -35,10 +35,11 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  background: url("../img/bg.jpg") no-repeat bottom;
-  background-size: cover;
-  background-attachment: fixed;
-  transition: initial; }
+  background: url("../img/bg.jpg");
+  background-repeat: repeat-y;
+  background-position: 50% 0;
+  transition: 0s ease;
+  transform: translate3d(0, 0, 0); }
   #mainsection #navbar {
     border-bottom: 1px solid grey;
     height: 50px;
