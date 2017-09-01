@@ -38,7 +38,11 @@ body {
   background: url("../img/bg.jpg");
   background-position: 50% 0;
   transition: 0s ease;
-  transition-property: background-position; }
+    transition--webkit-transition: 0s ease;
+    transition--moz-transition: 0s ease;
+  transition-property: background-position;
+    transition-property--webkit-transition-property: background-position;
+    transition-property--moz-transition-property: background-position; }
   #mainsection #navbar {
     border-bottom: 1px solid grey;
     height: 50px;
