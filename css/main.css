@@ -36,7 +36,6 @@ body {
   align-items: center;
   flex-direction: column;
   background: url("../img/bg.jpg");
-  background-repeat: repeat-y;
   background-position: 50% 0;
   transition: 0s ease;
   transition-property: background-position; }
