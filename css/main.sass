@@ -61,6 +61,7 @@ body
     align-items: center
     flex-direction: column
     background: url('../img/bg.jpg') no-repeat bottom
+    background-attachment: fixed
     
     
     #navbar
@@ -181,11 +182,12 @@ body
 
 .worktext
     display: flex
-    margin-top: 80px
-    width: 25%
+    margin-top: 12px
+    width: 90%
+    text-align: center
     //border: 1px solid black
     flex-direction: column
-    align-items: flex-start
+    align-items: center
     
     h3
         color: black
@@ -200,7 +202,7 @@ body
     a
         border: 2px solid $darkblue
         padding: 15px
-        margin-top: 80px
+        margin-top: 24px
         color: $darkblue
         font-size: 12px
         font-weight: 600
@@ -211,8 +213,7 @@ body
         background-color: $darkblue
     
 .workthumb
-    margin-top: 80px
-    img
+    margin-top: 12px
 
 #worksection
     min-height: 10vh
@@ -221,11 +222,13 @@ body
     background-color: $white
     
     #vin1000section
-        height: 30vh
-        width: 60%
+        min-height: 30vh
+        margin-bottom: 48px
+        width: 99%
+        flex-direction: column-reverse
         display: flex
         //border-bottom: 1px solid #27627D
-        //align-items: center
+        align-items: center
         justify-content: center
         h3
             color: black
@@ -236,14 +239,18 @@ body
 #contactsection
     margin: 5px
     display: flex
-    width: 100%
+    width: 99%
+    flex-direction: column
     justify-content: center
-    min-height: 25vh
+    //border: 1px solid black
+    min-height: 50vh
     max-height: 100vh
     #contacttitle
-        width: 20%
-        display:flex
+        width: 99%
+        display: flex
+        align-items: center
         flex-direction: column
+        margin-bottom: 24px
         h2
             color: black
             font-size: 28px
@@ -261,7 +268,9 @@ body
     h1
         margin-bottom: 25px
     form
-        width: 350px
+        width: 93vw
+        margin-bottom: 24px
+        text-align: center
         //margin: 0 auto 50px
         
         label
@@ -309,7 +318,6 @@ body
                     outline: none
                     background-color: $white
     
-
 #footersection
     background-color: $darkblue
     height: 25vh
