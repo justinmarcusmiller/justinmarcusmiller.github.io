@@ -11,131 +11,56 @@ $pink:#E6907F
 $darkolive:#979663
 $lightolive:#DAD39D
 $white:#F5F5F5
-$darkblue:#00303F
-$lightblue:#007FAB
-$blue1:#007FAB
+$white-green:#E8F5E9
+$darkgreen:#388E3C
+$lightgreen:#4CAF50
+
 
 @font-face 
     font-family: fontAwesome
     src: url('../css/FontAwesome.otf')
 
-@media only screen and (min-width:800px)
-    #mainsection
-        background-position: 50% 0
-        background-size: cover
-        background-attachment: initial
-        background-repeat: no-repeat
-        transition: 0s ease
-        -webkit-transition: 0s ease
-        -moz-transition: 0s ease
-        transition-property: background-position
-        -webkit-transition-property: background-position
-        -moz-transition-property: background-position
-    
-        #navbar
-            justify-content: space-between
-            #navigation
-                max-width: 10%
-                a
-                    padding-bottom: 0px
-                    margin-right: 20px
-                    
-            #logo
-                margin-left: 20px
-                p
-                    font-size: 36px
-                    
-        #socialicons
-            width: 15%
-            
-    #aboutsection
-        min-height: 35vh
-        flex-direction: row
-        //flex-wrap: no-wrap
-        width: 100%
-        padding-top: 0px
-        
-        #abouttitle
-            width: 10%
-            text-align: right
-            border-bottom: 0px
-            margin-right: 10px
-            padding-bottom: 0px
-            
-        #aboutcontent
-            width: 15%
-            margin-left: 10px
-            padding-top: 0px
-            
-    #resumesection
-        height: 10vh
-        
-    #worksection
-        min-height: 30vh
-        
-        #vin1000section
-            width: 30%
-            flex-direction: row
-            
-    #contactsection
-        width: 100%
-        min-height: 30vh
-        flex-direction: row
-        
-        
-        #contacttitle
-            width: 15%
-            align-items: flex-start
-            text-align: left
-            margin-bottom: 0px
-            
-        form
-            width: 15%
-            margin-bottom: 0px
-            text-align: left
-        
-    #footersection
-        height: 20vh
-        display: flex
-        flex-direction: column
-        align-items: center
-        justify-content: space-around
-        #footersocialicons
-            display: flex
-            padding-top: 24px
-            width: 15%
-            justify-content: space-around
-            align-items: center
-            a
-                font-family: fontAwesome
-                font-size: 32px
-                opacity: .6
-                transition: all 0.2s ease
+@font-face 
+    font-family: BebasNeue
+    src: url('../css/BebasNeue Regular.otf')
 
-            a:hover
-                opacity: 1
-                
-        #footertext
-            display: flex
-            flex-direction: row
-            justify-content: space-between
-            width: 35%
-            p
-                font-size: 13px
-                color: #FFF
-                opacity: .6
-                font-weight: 400
-                
-        #footerbutton
+@media only screen and (min-width:800px)
+
+    #navbar
+        min-height: 125px
+
+        #navigation
+
+            .mobile-nav-toggle
+                display: none
+
+            .full-nav
+                display: flex !important
+                min-width: 25vw
+                align-items: center
+                justify-content: space-around
+                a
+                    color: black
+                    font-size: 14px
+                    transition: color 0.1s ease
+                a:hover
+                    color: $darkgreen
+
+                a:first-of-type
+                    color: $darkgreen
+
+    .work-content
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+
+        .work-tile
+            width: 33.33%
+            height: 40vh
             a
-                border: 2px solid $white
-                padding: 10px 25px
-                font-size: 12px
-                font-weight: 600
-                opacity: .6
-                transition: all 0.3s ease
-        
-            a:hover
-                color: #27627D
-                opacity: 1
-                background-color: $white
+                opacity: 0
+                height: 100%
+                width: 100%
+                line-height: 40vh
+                
+                
