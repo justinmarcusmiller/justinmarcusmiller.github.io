@@ -1,39 +1,18 @@
-@font-face {
-  font-family: fontAwesome;
-  src: url("../css/FontAwesome.otf"); }
-@font-face {
-  font-family: BebasNeue;
-  src: url("../css/BebasNeue Regular.otf"); }
-@media only screen and (min-width: 800px) {
-  #navbar {
-    min-height: 125px; }
-    #navbar #navigation .mobile-nav-toggle {
-      display: none; }
-    #navbar #navigation .full-nav {
-      display: flex !important;
-      min-width: 25vw;
-      align-items: center;
-      justify-content: space-around; }
-      #navbar #navigation .full-nav a {
-        color: black;
-        font-size: 14px;
-        transition: color 0.1s ease; }
-      #navbar #navigation .full-nav a:hover {
-        color: #388E3C; }
-      #navbar #navigation .full-nav a:first-of-type {
-        color: #388E3C; }
+@media only screen and (max-width: 500px) {
+  .container {
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 
-  .work-content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; }
-    .work-content .work-tile {
-      width: 33.33%;
-      height: 40vh; }
-      .work-content .work-tile a {
-        opacity: 0;
-        height: 100%;
-        width: 100%;
-        line-height: 40vh; } }
+  h1 {
+    font-size: 60px;
+  }
+
+  #name {
+    width: unset;
+    top: 45%;
+  }
+}
 
 /*# sourceMappingURL=responsive.css.map */

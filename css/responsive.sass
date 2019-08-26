@@ -1,66 +1,12 @@
-// Deault css is for mobile devices. see responsive.css for tablet/desktop css
+@media only screen and (max-width: 500px)
+	.container
+		max-width: 100%
+		margin-left: 0px
+		margin-right: 0px
 
-// Colors
+	h1
+		font-size: 60px
 
-//Main
-$grey:#E6E2E8
-$red:#C31632
-
-//accents
-$pink:#E6907F
-$darkolive:#979663
-$lightolive:#DAD39D
-$white:#F5F5F5
-$white-green:#E8F5E9
-$darkgreen:#388E3C
-$lightgreen:#4CAF50
-
-
-@font-face 
-    font-family: fontAwesome
-    src: url('../css/FontAwesome.otf')
-
-@font-face 
-    font-family: BebasNeue
-    src: url('../css/BebasNeue Regular.otf')
-
-@media only screen and (min-width:800px)
-
-    #navbar
-        min-height: 125px
-
-        #navigation
-
-            .mobile-nav-toggle
-                display: none
-
-            .full-nav
-                display: flex !important
-                min-width: 25vw
-                align-items: center
-                justify-content: space-around
-                a
-                    color: black
-                    font-size: 14px
-                    transition: color 0.1s ease
-                a:hover
-                    color: $darkgreen
-
-                a:first-of-type
-                    color: $darkgreen
-
-    .work-content
-        display: flex
-        flex-direction: row
-        flex-wrap: wrap
-
-        .work-tile
-            width: 33.33%
-            height: 40vh
-            a
-                opacity: 0
-                height: 100%
-                width: 100%
-                line-height: 40vh
-                
-                
+	#name
+		width: unset
+		top: 45%
