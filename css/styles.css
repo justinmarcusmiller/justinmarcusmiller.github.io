@@ -74,6 +74,7 @@ h3 {
   height: 100vh;
   background: #4CAF50;
   width: 100%;
+  z-index: 1;
   text-align: center;
 }
 #splash .button {
@@ -86,9 +87,8 @@ h3 {
 #pattern {
   width: 100%;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   background-image: url("../assets/pattern-2.png");
-  background-size: 150px;
   background-attachment: fixed;
   opacity: 0.2;
   z-index: 0;
@@ -99,6 +99,9 @@ h3 {
   width: 100%;
   padding: 140px 0 140px 0;
   min-height: 50vh;
+  background-color: white;
+  z-index: 2;
+  position: relative;
 }
 #about h2 {
   color: #2E7D32;
@@ -110,37 +113,48 @@ h3 {
 }
 
 .container {
-  max-width: 50rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  margin-left: 258px;
-  margin-right: 258px;
+  width: 1000px;
+  min-height: 25vh;
+  margin-left: auto;
+  z-index: 3;
+  margin-right: auto;
+  border-radius: 5px;
   position: relative;
+  background-color: white;
+}
+.container h2 {
+  margin-bottom: 50px;
+}
+
+.shadow {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05), 0 15px 40px rgba(0, 0, 0, 0.2);
 }
 
 #experience {
-  background-color: #2E7D32;
-  min-height: 50vh;
-  width: 100%;
-  padding: 140px 0 140px 0;
-}
-#experience h2 {
-  color: white;
-  font-size: 2.5em;
-}
-#experience h3 {
-  color: #4CAF50;
-  font-size: 1.3em;
-}
-
-#education {
   min-height: 50vh;
   background-color: #4CAF50;
   width: 100%;
   padding: 140px 0 140px 0;
 }
+#experience h2 {
+  color: black;
+  font-size: 2.5em;
+}
+#experience h3 {
+  color: black;
+  font-size: 1.3em;
+}
+
+#education {
+  min-height: 50vh;
+  background-color: white;
+  width: 100%;
+  padding: 140px 0 140px 0;
+  z-index: 2;
+  position: relative;
+}
 #education h2 {
-  color: white;
+  color: black;
   font-size: 2.5em;
 }
 #education h3 {
@@ -151,6 +165,7 @@ h3 {
 #skills {
   min-height: 50vh;
   width: 100%;
+  background-color: #4CAF50;
   padding: 140px 0 140px 0;
 }
 #skills h2 {
@@ -161,10 +176,12 @@ h3 {
 }
 
 #contact {
-  min-height: 50vh;
+  height: 25vh;
   width: 100%;
   padding: 140px 0 140px 0;
-  background-color: #1B5E20;
+  background-color: white;
+  z-index: 2;
+  position: relative;
 }
 #contact h2 {
   font-size: 2.5em;
