@@ -1,18 +1,1 @@
-@media only screen and (max-width: 500px) {
-  .container {
-    max-width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  h1 {
-    font-size: 60px;
-  }
-
-  #name {
-    width: unset;
-    top: 45%;
-  }
-}
-
-/*# sourceMappingURL=responsive.css.map */
+/* No CSS *//*# sourceMappingURL=responsive.css.map */

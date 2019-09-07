@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["responsive.sass"],"names":[],"mappings":"AAAA;EACC;IACC;IACA;IACA;;;EAED;IACC;;;EAED;IACC;IACA","file":"responsive.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "responsive.sass"
+    ],
+    "names": [],
+    "file": "responsive.css"
+}
