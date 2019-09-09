@@ -24,8 +24,8 @@ hr {
 
 a {
   color: #212121;
-  -webkit-transition: all .2s ease-out;
-  transition: all .2s ease-out;
+  -webkit-transition: color .2s ease-out;
+  transition: color .2s ease-out;
 }
 
 a:hover {
