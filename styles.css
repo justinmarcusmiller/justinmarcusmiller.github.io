@@ -1,0 +1,105 @@
+html, body {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; 
+}
+
+header
+{
+   display: flex;
+   flex-direction: horizontal;
+   /* border: 1px solid black; */
+   height: 50px;
+   position: fixed;
+   top: 0;
+   width: 100vw;
+   padding: 0px 5px;
+   background-color: rgb(44, 44, 44);
+   z-index: 1;
+}
+
+header h2 
+{
+   line-height: 25%;
+   color: #FFF;
+}
+
+header ul {
+   display: flex;
+   justify-content: space-around;
+   align-items: space-around;
+   width: 50%;
+}
+
+header li
+{
+   list-style-type: none;
+}
+
+header li a
+{
+   text-decoration: none;
+   color: #FFF;
+}
+
+#spash-img
+{
+   /* border: 1px solid red; */
+   height: 100vh;
+   width: 100%;
+   line-height: .9;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("pattern.png");
+   color: #FFF;
+   background-attachment: fixed;
+}
+
+footer
+{
+   background-color: green;
+   color: white;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   text-align: center;
+}
+
+.no-background
+{
+   background-color: transparent;
+}
+
+.has-background
+{
+   background-color: rgb(44, 44, 44);
+}
+
+h1
+{
+   font-size: 102px;
+   margin: 0;
+   padding: 0;
+}
+
+#first-name h1
+{
+   margin-right: 100px;
+}
+
+#last-name h1
+{
+   color: transparent;
+   margin-left: 100px;
+   -webkit-text-stroke: 2px #FFF;
+}
+
+#blank
+{
+   height: 300vh;
+}
