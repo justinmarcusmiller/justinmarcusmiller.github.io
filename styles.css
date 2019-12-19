@@ -190,11 +190,99 @@ header a
 #index-body-links
 {
    display: grid;
-   grid-template-areas: 
-   "about-link project-link"
-   "school-link contact-link";
    justify-content: center;
    column-gap: 25px;
    row-gap: 25px;
    padding-bottom: 75px;
+   grid-template-areas: 
+      "index-link index-link"
+      "index-link index-link";
+}
+
+section img
+{
+   width: 250px;
+   border-radius: 50%;
+}
+
+#about-body
+{
+   text-align: center;
+}
+
+#projects-body, #schoolwork-body
+{
+   padding-top: 75px;
+   text-align: center;
+}
+
+#projects-body-links, #schoolwork-body-links
+{
+   display: grid;
+   justify-content: center;
+   column-gap: 25px;
+   row-gap: 25px;
+   padding-bottom: 75px;
+   grid-template-columns: 2;
+   grid-template-rows: 3;
+}
+
+.project-link, .schoolwork-link
+{
+   height: 250px;
+   width: 500px;
+   padding: 25px;
+   background-color: #FFF;
+   box-shadow: 0px 15px 27px -4px rgba(0,0,0,0.75);
+}
+
+h3
+{
+   color: white;
+   font-size: 32px;
+}
+
+@media only screen and (max-width: 1000px)
+{
+   #index-body-links
+   {
+      grid-template-areas: 
+      "index-link"
+      "index-link"
+      "index-link"
+      "index-link";
+   }
+
+   header a
+   {
+      font-size: 14px;
+   }
+
+   header ul
+   {
+      width: 100%;
+   }
+
+   section img
+   {
+      width: 150px;
+   }
+}
+
+@media only screen and (max-width: 600px)
+{
+   header ul
+   {
+      padding: 0;
+      margin: 0 5px;
+   }
+   header li
+   {
+      margin: 0 5px;
+   }
+   header a
+   {
+      font-size: 12px;
+      line-height: 2;
+   }
 }
