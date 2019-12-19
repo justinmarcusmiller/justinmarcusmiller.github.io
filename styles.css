@@ -135,3 +135,31 @@ h1
    font-weight: 700;
    text-decoration: none;
 }
+
+section
+{
+   margin-top: 75px;
+}
+
+#contact-body
+{
+   min-height: 80vh;
+   margin-bottom: -60px;
+   width: 90vw;
+   margin: auto;
+   text-align: center;
+}
+
+#contact-body p
+{
+   line-height: .5;
+   color: #FFF;
+}
+
+form
+{
+   background-color: rgb(44, 44, 44);
+   width: 500px;
+   margin: auto;
+   padding: 15px;
+}
