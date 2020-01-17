@@ -96,11 +96,13 @@ h1
    grid-template:
    "item1 item2 item3"
    "item4 item5 item6";
+   grid-gap: 15px;
+   justify-content: space-between;
+   margin-bottom: 25px;
 }
 
 .project-grid-item
 {
-   margin: 15px;  
 }
 
 .project-image
@@ -117,18 +119,10 @@ footer
 {
    width: 100%;
    align-items: center;
-   margin: 10px;
 }
 
-footer a
+footer p
 {
-   text-decoration: none;
-   color: black;
-}
-
-footer a, footer p
-{
-   margin: 0 5px;
    font-size: 14px;
    text-transform: uppercase;
 }
@@ -139,9 +133,9 @@ footer a:hover
    color: #0da200;
 }
 
-#intro-text
+#project-header
 {
-   margin-bottom: 50px;
+   margin-top: 50px;
 }
 
 .project-grid-item h3, .project-grid-item p
