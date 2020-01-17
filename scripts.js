@@ -1,4 +1,5 @@
 var d = new Date();
+var links = document.querySelectorAll("a");
 
 function checkTime() {
    if (d.getHours() > 5  && d.getHours() < 17) {
@@ -10,22 +11,36 @@ function checkTime() {
 
 function setDayTheme() {
    console.log("Day");
-   document.getElementsByTagName("BODY")[0].style.color = "#222222";
-   document.getElementsByTagName("BODY")[0].style.backgroundColor = "#fff";
+   document.getElementsByTagName("body")[0].style.color = "#222222";
+   document.getElementsByTagName("body")[0].style.backgroundColor = "#fff";
    document.getElementById("header-logo").getElementsByTagName("img")[0].style.filter = "invert(0)";
-   document.getElementById("top-nav").getElementsByTagName("a")[0].style.color = "#222222";
-   document.getElementById("top-nav").getElementsByTagName("a")[1].style.color = "#222222";
-   document.getElementById("top-nav").getElementsByTagName("a")[2].style.color = "#222222";
+   for (let i = 0; i < links.length; i++) {
+      links[i].style.color = "#222222";
+      links[i].onmouseover = function() { // Change to green on mouse-over
+         this.style.color = "#0da200";
+      }
+      links[i].onmouseout = function() { // Change back after mouse-off
+         this.style.color = "#222222";
+      }
+   }
+   
 };
 
 function setNightTheme() {
    console.log("Night");
-   document.getElementsByTagName("BODY")[0].style.color = "#fff";
-   document.getElementsByTagName("BODY")[0].style.backgroundColor = "#222222";
+   document.getElementsByTagName("body")[0].style.color = "#fff";
+   document.getElementsByTagName("body")[0].style.backgroundColor = "#222222";
    document.getElementById("header-logo").getElementsByTagName("img")[0].style.filter = "invert(1)";
-   document.getElementById("top-nav").getElementsByTagName("a")[0].style.color = "#fff";
-   document.getElementById("top-nav").getElementsByTagName("a")[1].style.color = "#fff";
-   document.getElementById("top-nav").getElementsByTagName("a")[2].style.color = "#fff";
+   for (let i = 0; i < links.length; i++) {
+      links[i].style.color = "#fff";
+      links[i].onmouseover = function() { // Change to green on mouse-over
+         this.style.color = "#0da200";
+      }
+      links[i].onmouseout = function() { // Change back after mouse-off
+         this.style.color = "#fff";
+      }
+   }
 };
 
 checkTime();
+

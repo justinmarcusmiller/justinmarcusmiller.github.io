@@ -8,6 +8,11 @@ body
    color: #fff;
 }
 
+a
+{
+   text-decoration: none;
+}
+
 #body-wrapper
 {
    width: 1000px;
@@ -101,10 +106,6 @@ h1
    margin-bottom: 25px;
 }
 
-.project-grid-item
-{
-}
-
 .project-image
 {
    width: 300px;
@@ -170,18 +171,6 @@ p
    background-color: darkgrey;
 }
 
-#item1 .project-image
-{
-}
-
-#item2 .project-image
-{
-}
-
-#item3 .project-image
-{
-}
-
 @media screen and (max-width: 1000px)
 {
 
@@ -215,7 +204,7 @@ p
       justify-content: center;
    }
 
-   #project-grid-item
+   .project-grid-item
    {
       display: flex;
       flex-direction: column;
@@ -224,7 +213,7 @@ p
       text-align: center;
    }
 
-   #project-grid-item p
+   .project-grid-item p
    {
       text-align: center;
    }
