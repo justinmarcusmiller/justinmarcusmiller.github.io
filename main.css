@@ -224,6 +224,11 @@ p
       text-align: center;
    }
 
+   #project-grid-item p
+   {
+      text-align: center;
+   }
+
    h1
    {
       font-size: 24px;
@@ -233,7 +238,6 @@ p
    h2
    {
       font-size: 16px;
-      text-align: center;
    }
 
    h3
