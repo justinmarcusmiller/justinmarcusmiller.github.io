@@ -34,6 +34,7 @@ body
 .project-grid-item
 {
    display: grid;
+   width: 300px;
    grid-template-areas: 
       "project-img project-img"
       "project-title btn"
@@ -237,7 +238,11 @@ p
    {
       justify-content: center;
    }
-     
+
+   #project-header
+   {
+      text-align: center;
+   }
 }
 
 @media screen and (max-width: 700px)
@@ -259,11 +264,6 @@ p
       margin: auto
    }
 
-   .project-grid-item
-   {
-      width: 300px;
-   }
-
    h1
    {
       font-size: 24px;
@@ -272,11 +272,6 @@ p
    h2
    {
       font-size: 16px;
-   }
-
-   #project-header
-   {
-      text-align: center;
    }
 
    #header-logo img
