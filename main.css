@@ -16,7 +16,8 @@ body
 .lang-btn
 {
    grid-area: btn;
-   grid-column-end: none;
+   justify-self: start;
+   margin-bottom: 10px;
 }
 
 .lang-btn h4
@@ -38,7 +39,35 @@ body
    grid-template-areas: 
       "project-img project-img"
       "project-title btn"
-      "project-desc project-desc";
+      "view-page view-code";
+}
+
+.project-grid-item a
+{
+   color: white;
+   border: 1px solid white;
+   text-align: center;
+   border-radius: 5px;
+   width: fit-content;
+   justify-self: center;
+   padding: 5px 10px;
+   margin-top: 10px;
+}
+
+.project-grid-item a:hover
+{
+   color: black !important;
+   background-color: white;
+}
+
+.view-page
+{
+   grid-area: view-page;
+}
+
+.view-code
+{
+   grid-area: view-code;
 }
 
 h1, h2, h3, p, a
@@ -175,22 +204,14 @@ footer p
    margin-top: 50px;
 }
 
-.project-grid-item h3, .project-grid-item p
+.project-grid-item h3
 {
    margin: 0;
    padding: 0;
    line-height: 1.5;
-}
-
-.project-grid-item h3
-{
+   justify-self: end;
    grid-area: project-title;
-}
-
-.project-grid-item p
-{
-   grid-area: project-desc;
-   margin-top: 5px;
+   margin-bottom: 10px;
 }
 
 h3 
@@ -203,17 +224,10 @@ p
    font-size: 12px;
 }
 
-.project-grid-item:hover
-{
-   
-   color: #0da200 !important;
-   cursor: pointer;
-}
-
 .project-grid-item .project-image
 {
    border-radius: 15px;
-   margin-bottom: 5px;
+   margin-bottom: 15px;
    background-color: darkgrey;
 }
 
