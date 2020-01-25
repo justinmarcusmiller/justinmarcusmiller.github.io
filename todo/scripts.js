@@ -8,8 +8,7 @@ const CHECK = "circle-checked";
 const UNCHECK = "circle-empty";
 const LINE_THROUGH = "lineThrough";
 
-let LIST = [];
-let id = 0;
+let LIST, id;
 
 // get item from localstorage
 let data = localStorage.getItem("TODO");
@@ -70,6 +69,7 @@ add.addEventListener("click", function(event){
             done : false,
             trash : false
         });
+        localStorage.setItem("TODO", JSON.stringify(LIST));
 
         id++;
     }
@@ -91,6 +91,7 @@ input.addEventListener('keyup',function(event){
                 done : false,
                 trash : false
             });
+            localStorage.setItem("TODO", JSON.stringify(LIST));
 
             id++;
         }

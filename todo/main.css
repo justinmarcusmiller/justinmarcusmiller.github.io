@@ -17,7 +17,6 @@ body
 
 header
 {
-    background-color: green;
     height: 200px;
     border-radius: 20px 20px 0 0;
     display: flex;
@@ -27,15 +26,14 @@ header
     background-size: cover;
     align-items: space-around;
     justify-content: space-around;
-    filter: blur(0.8);
-    -webkit-filter: blur(0.8);
 }
 
 #date
 {
     color: white;
-    font-size: 24px;
+    font-size: 32px;
     flex-grow: 1;
+    filter: drop-shadow(2px 2px 8px black);
     padding-left: 15px;
     padding-bottom: 5px;
 }
@@ -62,6 +60,8 @@ header
 {
     background-image: url("circle-regular.svg");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     width: 32px;
     height: 32px;
     margin-left: 15px;
@@ -71,6 +71,8 @@ header
 {
     background-image: url("check-circle-solid.svg");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     width: 32px;
     height: 32px;
     margin-left: 15px;
@@ -85,6 +87,8 @@ header
     background-color: white;
 }
 
+
+
 #input
 {
     border-bottom: 1px solid black;
@@ -94,6 +98,7 @@ input
 {
     padding: 5px;
     margin: 5px;
+    width: 275px;
 }
 
 input, input:hover, input:focus, input:active
@@ -107,9 +112,10 @@ input, input:hover, input:focus, input:active
 
 input::placeholder, input
 {
-    color: blue;
-    font-size: 16px;
+    color: gray;
+    font-size: 20px;
     line-height: 1.5;
+    opacity: .9;
 }
 
 .add-circle
@@ -118,17 +124,29 @@ input::placeholder, input
     background-repeat: no-repeat;
     margin-right: 10px;
     width: 32px;
+    background-position: center;
+    background-size: contain;
     height: 32px;
+    transition: opacity .2s;
+}
+
+.add-circle:hover
+{
+    opacity: .7;
 }
 
 .button-trash
 {
     background-image: url("trash-alt-regular.svg");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     width: 32px;
     height: 32px;
-    margin-left: 15px;
+    margin-right: 15px;
 }
+
+
 
 .lineThrough
 {
@@ -143,6 +161,7 @@ input::placeholder, input
     width: 100%;
     align-items: center;
     justify-content: space-around;
+    transition: all .2s;
 }
 
 .text
@@ -167,8 +186,15 @@ input::placeholder, input
 {
     background-image: url("sync-alt-solid.svg");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     width: 32px;
     height: 32px;
-    margin-left: 15px;
-    
+    filter: drop-shadow(2px 2px 8px black);
+    transition: opacity .2s;
+}
+
+.button-refresh:hover
+{
+    opacity: .4;
 }

@@ -182,9 +182,11 @@ h1
    height: 210px;
    border: none;
    grid-area: project-img;
+   background-color: dimgray;
    background-position: center;
-   background-size: cover;
+   background-size: contain;
    background-repeat: no-repeat;
+   background-image: url("/website/app_iphone8spacegrey_portrait.png")
 }
 
 footer
@@ -228,7 +230,6 @@ p
 {
    border-radius: 15px;
    margin-bottom: 15px;
-   background-color: darkgrey;
 }
 
 @media screen and (max-width: 1000px)
