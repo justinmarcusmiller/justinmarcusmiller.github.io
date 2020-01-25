@@ -8,7 +8,8 @@ const CHECK = "circle-checked";
 const UNCHECK = "circle-empty";
 const LINE_THROUGH = "lineThrough";
 
-let LIST, id;
+let LIST = []
+let id = 0;
 
 // get item from localstorage
 let data = localStorage.getItem("TODO");

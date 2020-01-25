@@ -18,7 +18,6 @@ body
 header
 {
     height: 200px;
-    border-radius: 20px 20px 0 0;
     display: flex;
     flex-direction: column;
     background-image: url("thomas-tixtaaz-rdwkamJlpiU-unsplash.jpg");
@@ -91,12 +90,13 @@ header
 
 #input
 {
-    border-bottom: 1px solid black;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 input
 {
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
     width: 275px;
 }
@@ -104,10 +104,11 @@ input
 input, input:hover, input:focus, input:active
 {
     background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
     border: 0;
     outline: none;
     outline-offset: 0;
-    box-shadow: none;
 }
 
 input::placeholder, input
@@ -127,12 +128,14 @@ input::placeholder, input
     background-position: center;
     background-size: contain;
     height: 32px;
+    opacity: .7;
     transition: opacity .2s;
+    border-radius: 100%;
 }
 
 .add-circle:hover
 {
-    opacity: .7;
+    opacity: 1;
 }
 
 .button-trash
@@ -192,9 +195,10 @@ input::placeholder, input
     height: 32px;
     filter: drop-shadow(2px 2px 8px black);
     transition: opacity .2s;
+    opacity: .5;
 }
 
 .button-refresh:hover
 {
-    opacity: .4;
+    opacity: 1;
 }
