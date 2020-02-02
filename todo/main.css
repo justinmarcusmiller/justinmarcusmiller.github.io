@@ -204,3 +204,47 @@ input::placeholder, input
 {
     opacity: 1;
 }
+
+@media screen and (min-width: 700px)
+{
+    .container
+    {
+        width: 100vw;
+    }
+
+    header
+    {
+        height: 200px;
+        padding: 0 50px;
+    }
+
+    .add-item
+    {
+        width: 100vw;
+    }
+
+    #input
+    {
+        width: 475px;
+    }
+
+    #list
+    {
+        max-height: unset;
+        height: 70vh;
+    }
+    .item
+    {
+        margin: auto;
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 1000px)
+{
+    .container
+    {
+        min-height: 100vh;
+        overflow-y: hidden;
+    }
+}
