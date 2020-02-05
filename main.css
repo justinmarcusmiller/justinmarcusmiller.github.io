@@ -186,7 +186,7 @@ h1
    background-position: center;
    background-size: contain;
    background-repeat: no-repeat;
-   background-image: url("/website/app_iphone8spacegrey_portrait.png")
+   background-image: url("app_iphone8spacegrey_portrait.png")
 }
 
 footer
