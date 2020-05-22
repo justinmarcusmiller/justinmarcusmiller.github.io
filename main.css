@@ -1,302 +1,261 @@
-body
-{
+/* Color Variables */
+:root {
+   --black: #2D3748;
+   --white: #F7FAFC;
+   --green: #48BB78;
+   --blue: #4299E1;
+   --darkGray: #5F646D;
+   --gray: #EDF2F7;
+   --darkGreen: #22543D;
+}
+
+/* Box Sizing */
+html {
+   box-sizing: border-box;
+}
+ *, *:before, *:after {
+   box-sizing: inherit;
+}
+
+html {
+   font-size: 16px;
+}
+
+p {
+   font-size: 1rem;
+}
+
+h1 {
+   font-size: 2.5rem;
+   font-weight: 700;
+}
+
+h2 {
+   font-size: 2rem;
+   font-weight: 700;
+}
+
+body {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: var(--black);
+   border-top: 5px solid var(--green);
+   background-color: var(--gray);
+}
+
+#body__wrapper {
    display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: auto;
    justify-content: center;
-   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-   overflow-x: hidden;
-   background-color: #222222;
-   color: #fff;
+   max-width: 900px;
+   
 }
 
-.cpp
-{
-   background-color: #3131d4;
+#nav {
+   text-align: right;
+   line-height: 2.5rem;
+   width: 100%;
+   height: 3rem;
 }
 
-.lang-btn
-{
-   grid-area: btn;
-   justify-self: start;
-   margin-bottom: 10px;
-}
-
-.lang-btn h4
-{
-   margin: 0 5px;
-   display: inline-block;
-   border-radius: 5px;
-   padding: 0 5px;
-   margin-left: 8px;
-   font-size: 14px;
-   line-height: 1.5;
-   color: #fff !important
-}
-
-.project-grid-item
-{
-   display: grid;
-   width: 300px;
-   grid-template-areas: 
-      "project-img project-img"
-      "project-title btn"
-      "view-page view-code";
-}
-
-.project-grid-item a
-{
-   color: white;
-   border: 1px solid white;
-   text-align: center;
-   border-radius: 5px;
-   width: fit-content;
-   justify-self: center;
-   padding: 5px 10px;
-   margin-top: 10px;
-}
-
-.project-grid-item a:hover
-{
-   color: black !important;
-   background-color: white;
-}
-
-.view-page
-{
-   grid-area: view-page;
-}
-
-.view-code
-{
-   grid-area: view-code;
-}
-
-h1, h2, h3, p, a
-{
-   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-   -webkit-text-stroke: .025em rgba(51,51,51,0.50);
-   font-kerning: none;
-   letter-spacing: .5px;
-}
-
-a
-{
+.nav__item {
    text-decoration: none;
+   color: var(--black);
+   transition: color 100ms ease-in-out;
 }
 
-#body-wrapper
-{
-   width: 1000px;
+.nav__item:hover {
+   color: var(--green);
 }
 
-#top-nav
-{
-   display: flex;
-   justify-content: flex-end;  
+.list {
+   display: inline;
+   list-style: none;
 }
 
-.flex-left-h
-{
-   display: flex;
-   justify-content: flex-start;
+.list__item {
+   display: inline;
+   font-size: 1rem;
+   margin: 10px;
+   font-weight: 600;
 }
 
-.flex-right-h
-{
-   display: flex;
-   justify-content: flex-end;
-}
-
-#top-nav a
-{
-   margin: 0 15px;
-   text-decoration: none;
-   color: #fff;
-   font-size: 14px;
-   letter-spacing: 1px;
-   text-transform: uppercase;
-}
-
-#top-nav a:last-of-type
-{
-   margin-right: 0;
-}
-
-#top-nav a:hover
-{
-   text-decoration: underline !important;
-   color: #0da200 !important;
-}
-
-#header-wrapper
-{
+#header__wrapper {
    width: 100%;
    display: flex;
-   justify-content: space-around;
-   margin: 25px 0;
+   padding: 25px 0;
+   justify-content: space-between;
+   align-items: flex-end;
 }
 
-#header-name
-{
-   flex-grow: 1;
+#projects__wrapper {
+   min-height: 500px;
+   margin-top: 10px;
+   width: 100%;
+   text-align: center;
 }
 
-h2
-{
-   font-size: 24px;
-   line-height: .25;
-}
-
-h1
-{
-   font-size: 34px;
-}
-
-#header-logo
-{
-   flex-grow: 1;
+#projects__body {
+   width: 100%;
+   margin-top: 25px;
+   height: 100%;
    display: flex;
+   flex-wrap: wrap;
    align-items: center;
-   justify-content: flex-end;
-}
-
-#header-logo img
-{
-   height: 60px;
-   filter: invert(1);
-}
-
-#project-grid 
-{
-   display: grid;
-   grid-template:
-   "item1 item2 item3"
-   "item4 item5 item6";
-   grid-gap: 15px;
    justify-content: space-between;
    margin-bottom: 25px;
 }
 
-.project-image
-{
-   width: 300px;
-   height: 210px;
-   border: none;
-   grid-area: project-img;
-   background-color: dimgray;
-   background-position: center;
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-image: url("app_iphone8spacegrey_portrait.png")
+.project__card {
+   height: 400px;
+   width: 350px;
+   margin: 25px 0;
+   background-color: var(--white);
+   border-radius: 15px;
+   box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
 
-footer
-{
+
+
+.project__card--img {
+   background-color: var(--darkGray);
    width: 100%;
+   height: 50%;
+   background-position: center;
+   background-size: cover;
+   border-radius: 15px 15px 0 0;
+}
+
+.project__card--desc {
+   height: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
    align-items: center;
 }
 
-footer p
-{
-   font-size: 14px;
-   text-transform: uppercase;
+.project__card--desc--btns--wrapper {
+   flex: 1.5
 }
 
-#project-header
-{
-   margin-top: 50px;
+.project__card--desc h3 {
+   font-size: 1.2rem;
+   margin: .4rem;
+   flex: 1;
 }
 
-.project-grid-item h3
-{
-   margin: 0;
-   padding: 0;
-   line-height: 1.5;
-   justify-self: end;
-   grid-area: project-title;
-   margin-bottom: 10px;
-}
-
-h3 
-{
-   font-size: 16px;
-}
-
-p
-{
-   font-size: 12px;
-}
-
-.project-grid-item .project-image
-{
-   border-radius: 15px;
+.project__card--desc p {
+   padding: .5rem;
+   flex: 2;
+   text-align: left;
+   text-indent: 1rem;
+   word-break: normal;
    margin-bottom: 15px;
+   color: var(--darkGray);
 }
 
-@media screen and (max-width: 1000px)
-{
-
-   #project-grid
-   {
-      grid-template:
-      "item1 item2"
-      "item3 item4"
-      "item5 item6";
-      justify-content: space-around;
-   }
-
-   #body-wrapper
-   {
-      width: 95%;
-   }
-
-   .flex-left-h
-   {
-      justify-content: center;
-   }
-
-   #project-header
-   {
-      text-align: center;
-   }
+.project__card__btn {
+   background-color: var(--green);
+   border-radius: 10px;
+   margin-top: 10px;
+   padding: 8px 12px;
+   font-weight: 600;
+   transition: opacity 100ms ease-in-out;
+   color: var(--darkGreen);
+   text-decoration: none;
+   box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
 
-@media screen and (max-width: 700px)
-{
-   #project-grid
-   {
-      grid-template:
-      "item1"
-      "item2"
-      "item3"
-      "item4"
-      "item5"
-      "item6";
+.project__card__btn:hover {
+   opacity: .9;
+}
 
-   }
+.contact__form {
+   background-color: var(--white);
+   border-radius: 15px;
+   box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+   padding: 25px;
+   text-align: center;
+   justify-content: space-around;
+   border-top: 5px solid var(--green);
+}
 
-   .project-image
-   {
-      margin: auto
-   }
+.contact__form h3 {
+   font-size: 1.5rem;
+   font-weight: 700;
+}
 
-   h1
-   {
-      font-size: 24px;
-   }
+.contact__form label {
+   font-size: 1.2rem;
+   font-weight: 600;
+   text-align: left;
+}
 
-   h2
-   {
-      font-size: 16px;
-   }
+.contact__form input {
+   font-size: 16px;
+   line-height: 1.5;
+   background-color: #FFF;
+   border: 1px solid var(--darkGray);
+   padding: 6px;
+   border-radius: 5px;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.08);
+}
 
-   #header-logo img
-   {
-      height: 40px;
-   }
+.contact__form textarea {
+   flex: .5;
+   font-size: 16px;
+   border: 1px solid var(--darkGray);
+   line-height: 1.5;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.08);
+   padding: 6px;
+   border-radius: 5px;
+   resize: none;
+}
 
-   body
-   {
-      padding-top: 5px;
-   }
-   
+.contact__form button {
+   background-color: var(--green);
+   border: none;
+   font-size: 1.3rem;
+   border-radius: 10px;
+   margin-top: 10px;
+   padding: 10px 20px;
+   font-weight: 600;
+   transition: opacity 100ms ease-in-out;
+   color: var(--black);
+   text-decoration: none;
+   width: 100px;
+   margin: 0 auto;
+   box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.contact__form button:hover {
+   opacity: .9;
+   cursor: pointer;
+}
+
+footer {
+   height: 50px;
+   display: flex;
+   align-items: center;
+   margin-top: 25px;
+}
+
+footer p {
+   font-weight: 600;
+}
+
+hr {
+   width: 100%;
+   border-top: 2px solid var(--darkGray);
+   margin-bottom: 25px;
+   opacity: 0.1;
+}
+
+#jcard-maker {
+   background-image: url("cassettes.jpg");
 }

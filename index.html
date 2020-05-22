@@ -1,49 +1,111 @@
 <!doctype html>
 <html>
-   <head>
-      <title>Justin Miller</title>
-      <meta charset="UTF-8">
-      <meta name="description" content="Programming Student">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" type="text/css" href="main.css">
-   </head>
-   <body>
-      <div id="body-wrapper">
-         <div id="top-nav">
-            <a href="https://github.com/justinmarcusmiller">GitHub</a>
-            <a href="https://www.linkedin.com/in/justinmarcusmiller/">LinkedIn</a>
-            <a href="#">E-Mail</a>
+
+<head>
+   <title>Justin Miller</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="Programming Student">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+   <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+   <div id="body__wrapper">
+      <nav id="nav">
+         <ul class="list">
+            <li class="list__item">
+               <a href="https://github.com/justinmarcusmiller" class="nav__item">GITHUB</a>
+            </li>
+            <li class="list__item">
+               <a href="https://www.linkedin.com/in/justinmarcusmiller/" class="nav__item">LINKEDIN</a>
+            </li>
+            <li class="list__item">
+               <a href="justinmillerresume.pdf" class="nav__item">RESUME</a>
+            </li>
+            <li class="list__item">
+               <a href="mailto:email@justinmiller171@gmail.com" class="nav__item">E-MAIL</a>
+            </li>
+         </ul>
+      </nav>
+
+      <header id="header__wrapper">
+         <div id="header__name">
+            <h2>Justin Miller</h2>
+            <h2>Web Developer</h2>
          </div>
-         <div id="header-wrapper">
-            <div id="header-name">
-               <h2>Justin Miller</h2>
-               <h2>justinmarcusmiller.github.io</h2>
-            </div>
-            <div id="header-logo">
-               <img src="logo.svg"></img>
-            </div>
+         <div id="header__logo">
+            <img src="logo.svg"></img>
          </div>
-         <div id="project-header">
+      </header>
+
+      <div id="projects__wrapper">
+         <header id="projects__header">
             <h1>Projects</h1>
-         </div>
-         <div id="project-grid">
-            <div class="project-grid-item" id="item1">
-               <div class="project-image"></div>
-               <h3>To-Do List</h3>
-               <div class="lang-btn">
-                  <h4 class="cpp">HTML, CSS, JS</h4>
+         </header>
+         <section id="projects__body">
+            <article class="project__card">
+               <div class="project__card--img" id="jcard-maker"></div>
+               <div class="project__card--desc">
+                  <h3>J-Card Maker</h3>
+                  <p>Vivamus vitae nisl augue. Pellentesque ut blandit magna, in accumsan nibh. Vestibulum convallis
+                     consequat justo at volutpat.</p>
+                  <div class="project__card--desc--btns--wrapper">
+                     <a href="https://j-cardmaker.herokuapp.com/" class="project__card__btn">View Demo</a>
+                     <a href="#" class="project__card__btn">View Code</a>
+                  </div>
                </div>
-               <a href="todo/index.html" class="view-page">View Page</a>
-               <a href="#" class="view-code">View Code</a>
-            </div>
+            </article>
 
-         </div>
-         <footer class="flex-left-h">
-            <p>Copyright &copy 2020 Justin Miller</p>
-         </footer>
+            <article class="project__card">
+               <div class="project__card--img" ></div>
+               <div class="project__card--desc">
+                  <h3>Reddit Clone</h3>
+                  <p>Vivamus vitae nisl augue. Pellentesque ut blandit magna, in accumsan nibh. Vestibulum convallis
+                     consequat justo at volutpat.</p>
+                  <div class="project__card--desc--btns--wrapper">
+                     <a href="#" class="project__card__btn">View Demo</a>
+                     <a href="#" class="project__card__btn">View Code</a>
+                  </div>
+               </div>
+            </article>
+
+            <!-- <article class="project__card">
+               <div class="project__card--img"></div>
+               <div class="project__card--desc">
+                  <h3>Other Project</h3>
+                  <p>Vivamus vitae nisl augue. Pellentesque ut blandit magna, in accumsan nibh. Vestibulum convallis
+                     consequat justo at volutpat.</p>
+                  <div class="project__card--desc--btns--wrapper">
+                     <a href="https://j-cardmaker.herokuapp.com/" class="project__card__btn">View Demo</a>
+                     <a href="#" class="project__card__btn">View Code</a>
+                  </div>
+               </div>
+            </article> -->
+            
+         </section>
       </div>
-   </body>
+      <hr />
+      <section id="contact__form__wrapper">
+         <form class="contact__form" action="https://formspree.io/justinmiller171@gmail.com" method="POST">
+            <h3>Contact Me</h3>
+            <label for="name" class="contact__form__label">YOUR NAME</label>
+            <input type="text" id="name" name="name">
+            <br />
+            <label for="email" class="contact__form__label">YOUR EMAIL</label>
+            <input type="text" id="email" name="email">
+            <br />
+            <label for="message" class="contact__form__label">YOUR MESSAGE</label>
+            <textarea wrap="hard" id="message" name="message"></textarea>
+            <br />
+            <button type="submit">Send</button>
+         </form>
+      </section>
 
-   <script src="dark.js"></script>
-   <script src="scripts.js"></script>
+      <footer>
+         <p>Copyright &copy 2020 Justin Miller</p>
+      </footer>
+   </div>
+</body>
+
 </html>
