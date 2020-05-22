@@ -259,3 +259,61 @@ hr {
 #jcard-maker {
    background-image: url("cassettes.jpg");
 }
+
+#reddit-clone {
+   background-image: url("reddit.jpg");
+}
+
+#contact__form__wrapper {
+   display: flex;
+}
+
+@media only screen and (max-width: 930px) {
+   #body__wrapper {
+      max-width: 100vw;
+      padding: 0 25px;
+   }
+
+   #projects__body {
+      justify-content: space-around;
+   }
+
+   
+}
+
+@media only screen and (max-width: 770px) {
+   .contact__form {
+      width: 350px;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+   html {
+      font-size: 14px;
+   }
+
+   #nav {
+      width: 100vw;
+      text-align: center;
+   }
+
+   #body__wrapper {
+      padding: 0 10px;
+   }
+
+}
+
+@media only screen and (max-width: 375px) {
+   html {
+      font-size: 12px;
+   }
+
+   .project__card {
+      width: 95vw;
+   }
+
+   .contact__form {
+      width: 95vw;
+   }
+}
+
