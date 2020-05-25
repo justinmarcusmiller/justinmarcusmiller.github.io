@@ -49,7 +49,7 @@ body {
    margin: auto;
    justify-content: center;
    max-width: 900px;
-   
+   background-color: var(--gray);
 }
 
 #nav {
@@ -294,6 +294,10 @@ hr {
       font-size: 14px;
    }
 
+   body {
+      background-color: var(--green);
+   }
+
    #nav {
       width: 100vw;
       text-align: center;
@@ -323,12 +327,15 @@ hr {
    }
 
    .project__card--desc h3 {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
    }
 
    .project__card--desc li {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
+   }
 
+   .project__card__btn {
+      font-size: 1.3rem;
    }
 
    .contact__form {
