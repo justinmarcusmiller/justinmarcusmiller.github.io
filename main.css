@@ -274,6 +274,10 @@ hr {
    background-image: url("reddit.jpg");
 }
 
+#pomodoro-timer {
+   background-image: url("timer.jpg");
+}
+
 #contact__form__wrapper {
    display: flex;
 }
