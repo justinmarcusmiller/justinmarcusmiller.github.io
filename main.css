@@ -129,6 +129,7 @@ body {
    background-position: center;
    background-size: cover;
    border-radius: 15px 15px 0 0;
+   border-bottom: 1px solid var(--green);
 }
 
 .project__card--desc {
@@ -276,6 +277,11 @@ hr {
 
 #pomodoro-timer {
    background-image: url("pomodorotimer.png");
+}
+
+#stock-app {
+   background-image: url("stockapp.png");
+   background-position: top;
 }
 
 #contact__form__wrapper {
