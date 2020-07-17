@@ -284,6 +284,11 @@ hr {
    background-position: top;
 }
 
+#url-app {
+   background-image: url("urlshortener.png");
+   background-position: bottom;
+}
+
 #contact__form__wrapper {
    display: flex;
 }
