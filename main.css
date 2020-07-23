@@ -41,6 +41,43 @@ body {
    color: var(--black);
    border-top: 5px solid var(--green);
    background-color: var(--gray);
+   font-weight: 500;
+}
+
+.project-badges {
+   display: flex;
+   width: 100%;
+   justify-content: space-evenly;
+   margin-bottom: 15px;
+}
+
+.badge {
+   padding: 6px;
+   text-shadow: 0px 1px 2px #000;
+   border-radius: 5px;
+   font-weight: 500;
+   color: hsla(0, 0%, 100%, 0.86);
+   box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.badge-html {
+   background-color: #EA4335;
+}
+
+.badge-css {
+   background-color: #4285F4;
+}
+
+.badge-js {
+   background-color: #FBBC05;
+}
+
+.badge-vue {
+   background-color: #34A853;
+}
+
+.badge-react {
+   background-color: #3B5998;
 }
 
 #body__wrapper {
@@ -137,13 +174,13 @@ body {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   align-items: center;
 }
 
 .project__card--desc--btns--wrapper {
    flex: 2;
    display: flex;
    align-items: center;
+   justify-content: center;
 }
 
 .project__card--desc h3 {
@@ -152,15 +189,11 @@ body {
    flex: 1;
 }
 
-.project__card--desc li {
-   flex: 2;
-   list-style-position: outside;
-   list-style-type: disc;
+.project__card--desc p {
    text-align: left;
-   margin-left: 26px;
-   margin-bottom: 15px;
+   padding-left: 25px;
    color: var(--darkGray);
-   line-height: normal;
+   line-height: 1.5;
 }
 
 .project__card__btn {
@@ -287,6 +320,10 @@ hr {
 #url-app {
    background-image: url("urlshortener.png");
    background-position: bottom;
+}
+
+#photo-app {
+   background-image: url("photoapp.png");
 }
 
 #contact__form__wrapper {
