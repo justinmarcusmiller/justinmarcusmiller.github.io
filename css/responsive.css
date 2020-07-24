@@ -1,0 +1,69 @@
+@media only screen and (max-width: 930px) {
+  #body__wrapper {
+    max-width: 100vw;
+    padding: 0 25px;
+  }
+
+  #projects__body {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .contact__form {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    background-color: var(--green);
+  }
+
+  #nav {
+    width: 100vw;
+    text-align: center;
+  }
+
+  #body__wrapper {
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 12px;
+  }
+
+  #projects__body {
+    margin-top: unset;
+  }
+
+  .header__logo img {
+    height: 50px;
+  }
+
+  .project__card {
+    width: 95vw;
+  }
+
+  .project__card--desc h3 {
+    font-size: 1.5rem;
+  }
+
+  .project__card--desc li {
+    font-size: 1.3rem;
+  }
+
+  .project__card__btn {
+    font-size: 1.3rem;
+  }
+
+  .contact__form {
+    width: 95vw;
+  }
+}

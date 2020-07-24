@@ -1,0 +1,71 @@
+.contact__form {
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 25px;
+  text-align: center;
+  justify-content: space-around;
+  border-top: 5px solid var(--green);
+}
+
+#contact__form__wrapper {
+  display: flex;
+}
+
+.contact__form h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.contact__form label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.contact__form input {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  border: 1px solid var(--darkGray);
+  padding: 6px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.contact__form textarea {
+  flex: 0.5;
+  font-size: 16px;
+  border: 1px solid var(--darkGray);
+  line-height: 1.5;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 6px;
+  border-radius: 5px;
+  resize: none;
+}
+
+.contact__form button {
+  background-color: var(--green);
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 8px 16px;
+  transition: opacity 100ms ease-in-out;
+  color: var(--darkerGreen);
+  text-decoration: none;
+  margin: 0 auto;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  width: 200px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.contact__form button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
