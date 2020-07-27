@@ -31,6 +31,10 @@ p {
 h1 {
   font-size: 2.5rem;
   font-weight: 700;
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+  width: 90%;
+  margin: auto;
 }
 
 h2 {

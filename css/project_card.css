@@ -1,5 +1,5 @@
 .project__card {
-  height: 400px;
+  height: 420px;
   width: 350px;
   background-color: var(--white);
   border-radius: 15px;
@@ -45,7 +45,7 @@
   padding-left: 25px;
   color: var(--darkGray);
   line-height: 1.5;
-  height: 40px;
+  height: 60px;
 }
 
 .project__card__btn {
