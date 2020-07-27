@@ -1,185 +1,276 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <title>Justin Miller</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Programming Student" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://meyerweb.com/eric/tools/css/reset/reset.css"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/project_card.css" />
+    <link rel="stylesheet" type="text/css" href="/css/contact_form.css" />
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+  </head>
 
-<head>
-   <title>Justin Miller</title>
-   <meta charset="UTF-8">
-   <meta name="description" content="Programming Student">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-   <link rel="stylesheet" type="text/css" href="/css/main.css">
-   <link rel="stylesheet" type="text/css" href="/css/project_card.css">
-   <link rel="stylesheet" type="text/css" href="/css/contact_form.css">
-   <link rel="stylesheet" type="text/css" href="/css/responsive.css">
-</head>
-
-<body>
-   <div id="body__wrapper">
+  <body>
+    <div id="body__wrapper">
       <nav id="nav">
-         <a href="https://github.com/justinmarcusmiller" class="nav__item">GITHUB</a>
-         <a href="https://www.linkedin.com/in/justinmarcusmiller/" class="nav__item">LINKEDIN</a>
-         <a href="JustinMillerResume.pdf" class="nav__item">RESUME</a>
-         <a href="mailto:email@justinmiller171@gmail.com" class="nav__item">E-MAIL</a>
+        <a href="https://github.com/justinmarcusmiller" class="nav__item"
+          >GITHUB</a
+        >
+        <a
+          href="https://www.linkedin.com/in/justinmarcusmiller/"
+          class="nav__item"
+          >LINKEDIN</a
+        >
+        <a href="JustinMillerResume.pdf" class="nav__item">RESUME</a>
+        <a href="mailto:email@justinmiller171@gmail.com" class="nav__item"
+          >E-MAIL</a
+        >
       </nav>
 
       <header id="header__wrapper">
-         <div id="header__name">
-            <h2>Justin Miller</h2>
-            <h2>Web Developer</h2>
-         </div>
-         <div id="header__logo">
-            <img alt="Logo" src="logo.svg"></img>
-         </div>
+        <div id="header__name">
+          <h2>Justin Miller</h2>
+          <h2>Web Developer</h2>
+        </div>
+        <div id="header__logo">
+          <img alt="Logo" src="logo.svg" />
+        </div>
       </header>
 
       <div id="projects__wrapper">
-         <header id="projects__header">
-            <h1>Projects</h1>
-         </header>
-         <section id="projects__body">
-            <article class="project__card">
-               <div class="project__card__top">
-                  <span class="project__card--img" id="jcard-maker" role="img" aria-label="j-card maker"></span>
-               </div>
-               <div class="project__card--desc">
-                  <h3>J-Card Maker</h3>
-                  <div class="project-badges">
-                     <div class="badge badge-html">HTML</div>
-                     <div class="badge badge-css">CSS</div>
-                     <div class="badge badge-js">Javascript</div>
-                     <div class="badge badge-react">React</div>
-                  </div>
-                  <p>Users create custom J-Card covers for cassette tapes.</p>
-                  <div class="project__card--desc--btns--wrapper">
-                     <a href="https://j-cardmaker.herokuapp.com/" class="project__card__btn">VIEW DEMO</a>
-                     <a href="https://github.com/justinmarcusmiller/j-cardmaker" class="project__card__btn">VIEW CODE</a>
-                  </div>
-               </div>
-            </article>
+        <header id="projects__header">
+          <h1>Projects</h1>
+        </header>
+        <section id="projects__body">
+          <article class="project__card">
+            <div class="project__card__top">
+              <span
+                class="project__card--img"
+                id="jcard-maker"
+                role="img"
+                aria-label="j-card maker"
+              ></span>
+            </div>
+            <div class="project__card--desc">
+              <h3>J-Card Maker</h3>
+              <div class="project-badges">
+                <div class="badge badge-html">HTML</div>
+                <div class="badge badge-css">CSS</div>
+                <div class="badge badge-js">Javascript</div>
+                <div class="badge badge-react">React</div>
+              </div>
+              <p>Users create custom J-Card covers for cassette tapes.</p>
+              <div class="project__card--desc--btns--wrapper">
+                <a
+                  href="https://j-cardmaker.herokuapp.com/"
+                  class="project__card__btn"
+                  >VIEW DEMO</a
+                >
+                <a
+                  href="https://github.com/justinmarcusmiller/j-cardmaker"
+                  class="project__card__btn"
+                  >VIEW CODE</a
+                >
+              </div>
+            </div>
+          </article>
 
-            <article class="project__card">
-               <div class="project__card__top">
-                  <span class="project__card--img" id="reddit-clone" role="img" aria-label="reddit clone"></span>
-               </div>
-               <div class="project__card--desc">
-                  <h3>Reddit Clone</h3>
-                  <div class="project-badges">
-                     <div class="badge badge-html">MongoDB</div>
-                     <div class="badge badge-css">Express</div>
-                     <div class="badge badge-react">React</div>
-                     <div class="badge badge-vue">NodeJS</div>
-                  </div>
-                  <p>Users share links they find interesting.</p>
-                  <div class="project__card--desc--btns--wrapper">
-                     <a href="https://justin-reddit-clone.herokuapp.com/" class="project__card__btn">VIEW DEMO</a>
-                     <a href="https://github.com/justinmarcusmiller/reddit-clone" class="project__card__btn">VIEW CODE</a>
-                  </div>
-               </div>
-            </article>
+          <article class="project__card">
+            <div class="project__card__top">
+              <span
+                class="project__card--img"
+                id="reddit-clone"
+                role="img"
+                aria-label="reddit clone"
+              ></span>
+            </div>
+            <div class="project__card--desc">
+              <h3>Reddit Clone</h3>
+              <div class="project-badges">
+                <div class="badge badge-html">MongoDB</div>
+                <div class="badge badge-css">Express</div>
+                <div class="badge badge-react">React</div>
+                <div class="badge badge-vue">NodeJS</div>
+              </div>
+              <p>Users share links they find interesting.</p>
+              <div class="project__card--desc--btns--wrapper">
+                <a
+                  href="https://justin-reddit-clone.herokuapp.com/"
+                  class="project__card__btn"
+                  >VIEW DEMO</a
+                >
+                <a
+                  href="https://github.com/justinmarcusmiller/reddit-clone"
+                  class="project__card__btn"
+                  >VIEW CODE</a
+                >
+              </div>
+            </div>
+          </article>
 
-            <article class="project__card">
-               <div class="project__card__top">
-                  <span class="project__card--img" id="pomodoro-timer" role="img" aria-label="pomodoro timer"></span>
-               </div>
-               <div class="project__card--desc">
-                  <h3>Pomodoro Timer</h3>
-                  <div class="project-badges">
-                     <div class="badge badge-html">HTML</div>
-                     <div class="badge badge-css">CSS</div>
-                     <div class="badge badge-js">Javascript</div>
-                     <div class="badge badge-vue">Vue</div>
-                  </div>
-                  <p>Time management app with custom work and break times</p>
-                  <div class="project__card--desc--btns--wrapper">
-                     <a href="https://justin-pomodoro-timer.herokuapp.com/" class="project__card__btn">VIEW DEMO</a>
-                     <a href="https://github.com/justinmarcusmiller/pomodoro-timer" class="project__card__btn">VIEW CODE</a>
-                  </div>
-               </div>
-            </article>
+          <article class="project__card">
+            <div class="project__card__top">
+              <span
+                class="project__card--img"
+                id="pomodoro-timer"
+                role="img"
+                aria-label="pomodoro timer"
+              ></span>
+            </div>
+            <div class="project__card--desc">
+              <h3>Pomodoro Timer</h3>
+              <div class="project-badges">
+                <div class="badge badge-html">HTML</div>
+                <div class="badge badge-css">CSS</div>
+                <div class="badge badge-js">Javascript</div>
+                <div class="badge badge-vue">Vue</div>
+              </div>
+              <p>Time management app with custom work and break times</p>
+              <div class="project__card--desc--btns--wrapper">
+                <a
+                  href="https://justin-pomodoro-timer.herokuapp.com/"
+                  class="project__card__btn"
+                  >VIEW DEMO</a
+                >
+                <a
+                  href="https://github.com/justinmarcusmiller/pomodoro-timer"
+                  class="project__card__btn"
+                  >VIEW CODE</a
+                >
+              </div>
+            </div>
+          </article>
 
-            <article class="project__card">
-               <div class="project__card__top">
-                  <span class="project__card--img" id="stock-app" role="img" aria-label="stock viewer"></span>
-               </div>
-               <div class="project__card--desc">
-                  <h3>Stock Viewer</h3>
-                  <div class="project-badges">
-                     <div class="badge badge-html">HTML</div>
-                     <div class="badge badge-css">CSS</div>
-                     <div class="badge badge-js">Javascript</div>
-                     <div class="badge badge-vue">Vue</div>
-                  </div>
-                  <p>Uses API to show daily stock information.</p>
-                  <div class="project__card--desc--btns--wrapper">
-                     <a href="https://justin-stock-app.herokuapp.com/" class="project__card__btn">VIEW DEMO</a>
-                     <a href="https://github.com/justinmarcusmiller/stocks-app" class="project__card__btn">VIEW CODE</a>
-                  </div>
-               </div>
-            </article>
+          <article class="project__card">
+            <div class="project__card__top">
+              <span
+                class="project__card--img"
+                id="stock-app"
+                role="img"
+                aria-label="stock viewer"
+              ></span>
+            </div>
+            <div class="project__card--desc">
+              <h3>Stock Viewer</h3>
+              <div class="project-badges">
+                <div class="badge badge-html">HTML</div>
+                <div class="badge badge-css">CSS</div>
+                <div class="badge badge-js">Javascript</div>
+                <div class="badge badge-vue">Vue</div>
+              </div>
+              <p>Uses API to show daily stock information.</p>
+              <div class="project__card--desc--btns--wrapper">
+                <a
+                  href="https://justin-stock-app.herokuapp.com/"
+                  class="project__card__btn"
+                  >VIEW DEMO</a
+                >
+                <a
+                  href="https://github.com/justinmarcusmiller/stocks-app"
+                  class="project__card__btn"
+                  >VIEW CODE</a
+                >
+              </div>
+            </div>
+          </article>
 
-            <article class="project__card">
-               <div class="project__card__top">
-                  <span class="project__card--img" id="url-app" role="img" aria-label="url shortener"></span>
-               </div>
-               <div class="project__card--desc">
-                  <h3>Url Shortener</h3>
-                  <div class="project-badges">
-                     <div class="badge badge-html">HTML</div>
-                     <div class="badge badge-css">CSS</div>
-                     <div class="badge badge-js">Javascript</div>
-                     <div class="badge badge-vue">Vue</div>
-                  </div>
-                  <p>Uses rel.ink API to shorten url's.</p>
-                  <div class="project__card--desc--btns--wrapper">
-                     <a href="https://justin-url-shortener.herokuapp.com/" class="project__card__btn">VIEW DEMO</a>
-                     <a href="https://github.com/justinmarcusmiller/url-shortener" class="project__card__btn">VIEW CODE</a>
-                  </div>
-               </div>
-            </article>
+          <article class="project__card">
+            <div class="project__card__top">
+              <span
+                class="project__card--img"
+                id="url-app"
+                role="img"
+                aria-label="url shortener"
+              ></span>
+            </div>
+            <div class="project__card--desc">
+              <h3>Url Shortener</h3>
+              <div class="project-badges">
+                <div class="badge badge-html">HTML</div>
+                <div class="badge badge-css">CSS</div>
+                <div class="badge badge-js">Javascript</div>
+                <div class="badge badge-vue">Vue</div>
+              </div>
+              <p>Uses rel.ink API to shorten url's.</p>
+              <div class="project__card--desc--btns--wrapper">
+                <a
+                  href="https://justin-url-shortener.herokuapp.com/"
+                  class="project__card__btn"
+                  >VIEW DEMO</a
+                >
+                <a
+                  href="https://github.com/justinmarcusmiller/url-shortener"
+                  class="project__card__btn"
+                  >VIEW CODE</a
+                >
+              </div>
+            </div>
+          </article>
 
-            <article class="project__card">
-               <div class="project__card__top">
-                  <span class="project__card--img" id="photo-app" role="img" aria-label="photo viewer"></span>
-               </div>
-               <div class="project__card--desc">
-                  <h3>Photo Viewer</h3>
-                  <div class="project-badges">
-                     <div class="badge badge-html">HTML</div>
-                     <div class="badge badge-css">CSS</div>
-                     <div class="badge badge-js">Javascript</div>
-                     <div class="badge badge-react">React</div>
-                  </div>
-                  <p>Search for images using Flickr's Image Search API.</p>
-                  <div class="project__card--desc--btns--wrapper">
-                     <a href="https://justin-photo-search.herokuapp.com/" class="project__card__btn">VIEW DEMO</a>
-                     <a href="https://github.com/justinmarcusmiller/photos-app" class="project__card__btn">VIEW CODE</a>
-                  </div>
-               </div>
-            </article>
-            
-         </section>
+          <article class="project__card">
+            <div class="project__card__top">
+              <span
+                class="project__card--img"
+                id="photo-app"
+                role="img"
+                aria-label="photo viewer"
+              ></span>
+            </div>
+            <div class="project__card--desc">
+              <h3>Photo Viewer</h3>
+              <div class="project-badges">
+                <div class="badge badge-html">HTML</div>
+                <div class="badge badge-css">CSS</div>
+                <div class="badge badge-js">Javascript</div>
+                <div class="badge badge-react">React</div>
+              </div>
+              <p>Search for images using Flickr's Image Search API.</p>
+              <div class="project__card--desc--btns--wrapper">
+                <a
+                  href="https://justin-photo-search.herokuapp.com/"
+                  class="project__card__btn"
+                  >VIEW DEMO</a
+                >
+                <a
+                  href="https://github.com/justinmarcusmiller/photos-app"
+                  class="project__card__btn"
+                  >VIEW CODE</a
+                >
+              </div>
+            </div>
+          </article>
+        </section>
       </div>
       <hr />
       <section id="contact__form__wrapper">
-         <form class="contact__form" action="https://formspree.io/justinmiller171@gmail.com" method="POST">
-            <h3>Contact Me</h3>
-            <label for="name" class="contact__form__label">YOUR NAME</label>
-            <input type="text" id="name" name="name">
-            <br />
-            <label for="email" class="contact__form__label">YOUR EMAIL</label>
-            <input type="text" id="email" name="email">
-            <br />
-            <label for="message" class="contact__form__label">YOUR MESSAGE</label>
-            <textarea wrap="hard" id="message" name="message"></textarea>
-            <br />
-            <button type="submit">SEND</button>
-         </form>
+        <form
+          class="contact__form"
+          action="https://formspree.io/justinmiller171@gmail.com"
+          method="POST"
+        >
+          <h3>Contact Me</h3>
+          <label for="name" class="contact__form__label">YOUR NAME</label>
+          <input type="text" id="name" name="name" />
+          <br />
+          <label for="email" class="contact__form__label">YOUR EMAIL</label>
+          <input type="text" id="email" name="email" />
+          <br />
+          <label for="message" class="contact__form__label">YOUR MESSAGE</label>
+          <textarea wrap="hard" id="message" name="message"></textarea>
+          <br />
+          <button type="submit">SEND</button>
+        </form>
       </section>
 
       <footer>
-         <p>Copyright &copy 2020 Justin Miller</p>
+        <p>Copyright &copy 2020 Justin Miller</p>
       </footer>
-   </div>
-</body>
-
+    </div>
+  </body>
 </html>
