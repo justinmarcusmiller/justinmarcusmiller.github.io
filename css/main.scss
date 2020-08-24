@@ -101,7 +101,7 @@ p {
   &__about {
     text-align: center;
     margin-bottom: 15px;
-    max-width: 95vw;
+    max-width: 95%;
   }
 
   &__contact-links {
@@ -202,4 +202,21 @@ p {
   text-align: center;
   font-size: 1.4rem;
   margin: 10px;
+}
+
+@media (min-width: 900px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .my-info {
+    width: unset;
+    width: 500px;
+    height: 100vh;
+    position: fixed;
+  }
+
+  .projects {
+    margin-left: 500px;
+  }
 }
