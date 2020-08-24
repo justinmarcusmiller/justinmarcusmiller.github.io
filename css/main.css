@@ -47,6 +47,10 @@ p {
 .link--resume svg {
   margin-top: 5px;
 }
+.link--project {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
 
 .link:hover {
   opacity: 0.6;
@@ -115,8 +119,7 @@ p {
   width: 100%;
 }
 .projects__header {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin: 10px;
 }
 
 .projects__card {
@@ -186,7 +189,7 @@ p {
   margin: 10px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   h2 {
     font-size: 2.4rem;
   }
@@ -233,6 +236,16 @@ p {
   .icon--email svg {
     height: 48px;
     width: 48px;
+  }
+
+  .projects__card {
+    flex-direction: row;
+    width: initial;
+    align-items: center;
+  }
+  .projects__card__about {
+    max-width: 300px;
+    margin-left: 30px;
   }
 }
 
