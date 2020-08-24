@@ -133,8 +133,9 @@ p {
 .projects__card__img {
   height: 250px;
   width: 350px;
+  filter: drop-shadow(0px 0px 1px black);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .projects__card__img--jcardmaker {
@@ -231,6 +232,9 @@ p {
 
   .projects {
     margin-left: 500px;
+  }
+  .projects__header {
+    margin-bottom: 45px;
   }
 
   .icon--email svg {
