@@ -19,7 +19,7 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.6rem;
 }
 
 h2 {
@@ -54,6 +54,8 @@ p {
 
 .container {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .my-info {
@@ -64,7 +66,7 @@ p {
   align-items: center;
   justify-content: center;
   min-height: 75vh;
-  box-shadow: inset 0 0px 10px 0px black;
+  width: 100%;
 }
 .my-info__img {
   height: 100px;
@@ -106,6 +108,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 .projects__header {
   margin-top: 10px;
