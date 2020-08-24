@@ -59,6 +59,10 @@ p {
   }
 }
 
+.link:hover {
+  opacity: 0.6;
+}
+
 .bi-box-arrow-up-right {
   margin-left: 5px;
 }
@@ -205,6 +209,14 @@ p {
 }
 
 @media (min-width: 900px) {
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
   .container {
     flex-direction: row;
   }
@@ -214,9 +226,41 @@ p {
     width: 500px;
     height: 100vh;
     position: fixed;
+
+    &__img {
+      height: 150px;
+      width: 150px;
+    }
+
+    &__titles {
+      margin: 35px 0;
+    }
+
+    &__about {
+      margin-bottom: 35px;
+    }
+  
+    &__contact-links {
+      margin: 35px 0;
+      gap: 30px 40px;
+      
+      &__icon {
+        background-position: center;
+        background-size: cover;
+        width: 48px;
+        height: 48px;
+      }
+    }
   }
 
   .projects {
     margin-left: 500px;
   }
+
+  .icon--email svg{
+    height: 48px;
+    width: 48px;
+  }
+
+  
 }
