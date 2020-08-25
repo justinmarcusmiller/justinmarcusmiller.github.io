@@ -6,7 +6,7 @@ $blue: #4299e1;
 $darkGray: #5f646d;
 $gray: #CBD5E0;
 $darkGreen: #22543d;
-$darkerGreen: #0c1d15;
+$darkerGreen: hsl(143, 50%, 15%);
 
 *,
 *:before,
@@ -50,7 +50,7 @@ p {
 }
 
 .link {
-  color: $black;
+  color: inherit;
   text-decoration: none;
   font-size: 1.4rem;
 
@@ -61,6 +61,7 @@ p {
   &--project {
     font-size: 1.2rem;
     margin-top: 10px;
+    opacity: 0.8;
   }
 }
 
@@ -87,6 +88,7 @@ p {
   justify-content: center;
   min-height: 75vh;
   width: 100%;
+  color: $darkerGreen;
 
   &__img {
     height: 100px;
@@ -151,8 +153,7 @@ p {
   &__img {
     height: 250px;
     width: 350px;
-    filter: drop-shadow(0px 0px 1px black);
-    //border: 1px solid black;
+    filter: drop-shadow(0px 0px 1px gray);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -187,6 +188,7 @@ p {
       justify-content: space-between;
       &__label {
         background-color: $gray;
+        color: hsla(0 0% 0% / 60%);
         padding: 5px 10px;
         border-radius: 5px;
       }

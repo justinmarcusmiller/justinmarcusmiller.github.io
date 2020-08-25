@@ -40,7 +40,7 @@ p {
 }
 
 .link {
-  color: #000;
+  color: inherit;
   text-decoration: none;
   font-size: 1.4rem;
 }
@@ -50,6 +50,7 @@ p {
 .link--project {
   font-size: 1.2rem;
   margin-top: 10px;
+  opacity: 0.8;
 }
 
 .link:hover {
@@ -75,6 +76,7 @@ p {
   justify-content: center;
   min-height: 75vh;
   width: 100%;
+  color: #133922;
 }
 .my-info__img {
   height: 100px;
@@ -133,7 +135,7 @@ p {
 .projects__card__img {
   height: 250px;
   width: 350px;
-  filter: drop-shadow(0px 0px 1px black);
+  filter: drop-shadow(0px 0px 1px gray);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -167,6 +169,7 @@ p {
 }
 .projects__card__about__labels__label {
   background-color: #CBD5E0;
+  color: rgba(0, 0, 0, 0.6);
   padding: 5px 10px;
   border-radius: 5px;
 }
