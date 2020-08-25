@@ -1,6 +1,6 @@
 /* Color Variables */
 $black: #000; //#2d3748;
-$white: #f7fafc;
+$white: #fff;
 $green: #48bb78;
 $blue: #4299e1;
 $darkGray: #5f646d;
@@ -231,6 +231,10 @@ p {
     flex-direction: row;
   }
 
+  .link--project {
+    margin: 0;
+  }
+
   .my-info {
     width: unset;
     width: 500px;
@@ -279,10 +283,23 @@ p {
     flex-direction: row;
     width: initial;
     align-items: center;
+    padding: 25px;
 
     &__about {
       max-width: 300px;
       margin-left: 30px;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+
+      &__title {
+        margin-top: 0;
+      }
+    }
+
+    &__img {
+      width: 350px;
+      max-width: unset;
     }
   }
   
