@@ -53,7 +53,7 @@ p {
 }
 
 .link:hover {
-  opacity: 0.6;
+  text-decoration: underline;
 }
 
 .bi-box-arrow-up-right {
