@@ -121,7 +121,8 @@ p {
   width: 100%;
 }
 .projects__header {
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .projects__card {
