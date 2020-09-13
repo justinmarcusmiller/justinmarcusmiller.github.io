@@ -51,22 +51,27 @@ p {
 .label {
   &--html {
     background-color: #FEEBC8;
+    color: #7d673d;
   }
 
   &--css {
     background-color: #BEE3F8;
+    color: #366179;
   }
 
   &--js {
     background-color: #FEFCBF;
+    color: #75732e;
   }
 
   &--react {
     background-color: #C3DAFE;
+    color: #4e5e77;
   }
 
   &--vue {
     background-color: #C6F6D5;
+    color: #566F5E;
   }
 }
 
@@ -211,7 +216,6 @@ p {
       width: 100%;
       justify-content: space-between;
       &__label {
-        color: hsla(0 0% 0% / 70%);
         padding: 5px 10px;
         border-radius: 5px;
         font-weight: 500;

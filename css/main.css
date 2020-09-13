@@ -40,18 +40,23 @@ p {
 
 .label--html {
   background-color: #FEEBC8;
+  color: #7d673d;
 }
 .label--css {
   background-color: #BEE3F8;
+  color: #366179;
 }
 .label--js {
   background-color: #FEFCBF;
+  color: #75732e;
 }
 .label--react {
   background-color: #C3DAFE;
+  color: #4e5e77;
 }
 .label--vue {
   background-color: #C6F6D5;
+  color: #566F5E;
 }
 
 .link {
@@ -186,7 +191,6 @@ p {
   justify-content: space-between;
 }
 .projects__card__about__labels__label {
-  color: rgba(0, 0, 0, 0.7);
   padding: 5px 10px;
   border-radius: 5px;
   font-weight: 500;
