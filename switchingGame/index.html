@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#020617">
+    <meta name="description" content="A digital recreation of the classic Inglenook Sidings railroad switching puzzle.">
+    <title>Inglenook Switcher</title>
+    <link rel="manifest" href="./assets/manifest-dSGOpw73.json">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3253/3253220.png">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3253/3253220.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .custom-scrollbar::-webkit-scrollbar { width: 8px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: #1e293b; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #475569; border-radius: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #64748b; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        /* Prevent pull-to-refresh on mobile */
+        body { overscroll-behavior-y: contain; }
+        @keyframes bounce-short {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-10px); }
+        }
+        .animate-bounce-short {
+          animation: bounce-short 0.5s ease-in-out 2;
+        }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="./assets/index-B0bjgoen.js"></script>
+</head>
+<body class="bg-slate-950 text-slate-200 font-sans selection:bg-blue-500/30 touch-manipulation">
+    <div id="root"></div>
+</body>
+</html>
